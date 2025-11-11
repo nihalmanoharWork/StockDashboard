@@ -45,7 +45,7 @@ jobs:
           if ! git diff --quiet -- data/events.json; then
             git add data/events.json
             git commit -m "chore: update NSE events data [ci skip]"
-            git push
+            git push origin main --force
           else
             echo "No changes in events.json"
           fi
