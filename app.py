@@ -59,19 +59,23 @@ def normalize_to_df(payload):
 
     df = pd.DataFrame(records)
 
-    # map known columns
+    # 🔧 Normalize column names to lowercase for case-insensitive matching
+    df.columns = df.columns.str.lower()
+
+    # map known columns (all keys lowercase)
     col_map = {
         "company": "name",
-        "companyName": "name",
+        "companyname": "name",
         "bm_desc": "remarks",
-        "boardMeetingDate": "date",
+         "boardmeetingdate": "date",
         "date": "date",
         "symbol": "symbol",
-        "estimated_eps": "estimated_eps",  # from update_eps.py
+        "estimated_eps": "estimated_eps",
     }
 
     rename_dict = {k: v for k, v in col_map.items() if k in df.columns}
     df = df.rename(columns=rename_dict)
+
 
     # ensure required columns exist
     for c in ("symbol", "name", "date", "estimated_eps"):
