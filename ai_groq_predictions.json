@@ -8,6 +8,7 @@
       "purpose": "Other business matters",
       "bm_desc": "To consider other business matters",
       "date": "22-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
@@ -19,15 +20,14 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the past month, but recent 7-day price drop suggests caution.",
-      "action": "Hold the stock and monitor for any significant price movements before the upcoming event.",
+      "confidence": 0.5,
+      "rationale": "The stock has shown minor fluctuations in the past week and month, but no significant trend is observed. The sentiment score is neutral.",
+      "action": "Hold the stock until more information about the upcoming event is available.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -40,6 +40,7 @@
       "purpose": "Buyback/Other business matters",
       "bm_desc": "To consider buyback for equity shares and other business matters",
       "date": "22-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
@@ -52,8 +53,8 @@
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "The stock has shown a positive trend in the last 7 and 30 days, and the upcoming buyback announcement may boost its price.",
-      "action": "Buy VLSFINANCE stock before the buyback announcement on 22-Nov-2025.",
+      "rationale": "Recent price increase and upcoming buyback announcement suggest a positive trend.",
+      "action": "Buy VLSFINANCE stock before the buyback announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -72,6 +73,7 @@
       "purpose": "Other business matters",
       "bm_desc": "1. To consider the proposal for appointment of Mr. Bhavin Jayantibhai Kothiya (DIN: 11379649), as an Additional Non-Executive Independent Director; and2. To consider and transit any other business, if any, which may be placed before the Board with the permission of the Chairman.",
       "date": "24-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
@@ -84,12 +86,14 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price stability suggest holding the stock.",
-      "action": "Hold the stock until more information is available about the upcoming board meeting.",
+      "rationale": "Neutral sentiment score and recent price stability.",
+      "action": "Hold the stock until more information about the upcoming event is available.",
       "features_used": [
         "sentiment_score",
-        "price_stability",
-        "recent_price_movement"
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -102,6 +106,7 @@
       "purpose": "Other business matters",
       "bm_desc": "To consider convening the Annual General Meeting (AGM) of the Company and to approve the accompanying agenda items and the Notice of the AGM. And other business matters",
       "date": "24-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
@@ -113,15 +118,14 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement, but upcoming AGM may impact stock price.",
-      "action": "Monitor the stock price closely in the coming days as the AGM approaches.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Hold the stock until more information about the AGM is available.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -134,6 +138,7 @@
       "purpose": "Financial Results/Dividend",
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025 and dividend",
       "date": "24-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 3,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
@@ -144,14 +149,12 @@
       "vol_30": 165396.97893406663
     },
     "prediction": {
-      "recommendation": "buy",
-      "confidence": 0.7,
-      "rationale": "Dividend announcement and positive sentiment score indicate potential price increase.",
-      "action": "Buy ENRIN stock before the event date to capitalize on potential price growth.",
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in Siemens Energy India Limited.",
       "features_used": [
         "sentiment_score",
-        "sentiment_reason",
-        "last_price",
         "pct_7",
         "pct_30",
         "sma20",
@@ -168,6 +171,7 @@
       "purpose": "Fund Raising",
       "bm_desc": "To consider issuance of equity shares of the Company by way of a preferential issue",
       "date": "24-Nov-2025",
+      "estimated_EPS": 41.65,
       "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
@@ -180,14 +184,13 @@
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.8,
-      "rationale": "Negative sentiment score and upcoming equity issuance may lead to dilution and price drop.",
-      "action": "Sell Eris Lifesciences Limited shares before the preferential issue.",
+      "rationale": "Negative sentiment score and dilution-related terms indicate potential decline in stock price.",
+      "action": "Sell Eris Lifesciences Limited shares before the preferential issue announcement.",
       "features_used": [
         "sentiment_score",
+        "sentiment_reason",
         "days_to_event",
-        "pct_7",
-        "pct_30",
-        "sma20"
+        "estimated_EPS"
       ]
     }
   },
@@ -200,6 +203,7 @@
       "purpose": "Fund Raising",
       "bm_desc": "To consider Fund Raising  by issuance of Non-Convertible Debentures through private placement via Electronic Bidding Platform (EBP).",
       "date": "24-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
@@ -216,9 +220,9 @@
       "action": "Hold the stock until the event date and reassess after the announcement.",
       "features_used": [
         "sentiment_score",
-        "recent_price_decline",
-        "days_to_event",
-        "fund_raising_event"
+        "pct_7",
+        "pct_30",
+        "days_to_event"
       ]
     }
   },
@@ -231,6 +235,7 @@
       "purpose": "Other business matters",
       "bm_desc": "To consider other business matters i.e., to consider and approve name change of the Company, alteration in object clause and any other items with the permission of chairperson",
       "date": "24-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
@@ -243,10 +248,11 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price movement, but upcoming event may impact stock price.",
-      "action": "Monitor the stock for potential price fluctuations after the upcoming event.",
+      "rationale": "The company is about to consider other business matters, but there is no clear indication of the impact on the stock price.",
+      "action": "Monitor the stock price closely in the next few days as the company's business matters are discussed.",
       "features_used": [
         "sentiment_score",
+        "days_to_event",
         "pct_7",
         "pct_30",
         "sma20",
@@ -263,6 +269,7 @@
       "purpose": "Financial Results",
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
       "date": "24-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 3,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
@@ -275,8 +282,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment score and recent price drop, but still above SMA20.",
-      "action": "Hold the stock and monitor for potential recovery.",
+      "rationale": "Neutral sentiment score and recent price fluctuations suggest a stable market position.",
+      "action": "Maintain current investment in Supreme Infrastructure India Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -294,6 +301,7 @@
       "purpose": "Fund Raising/Other business matters",
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "25-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 4,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
@@ -304,16 +312,15 @@
       "vol_30": 472819.8780354751
     },
     "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
-      "action": "Hold the stock until more information about the fund raising and business matters is available.",
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
+      "action": "Sell EIEL stock before the event date to avoid potential dilution.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -326,6 +333,7 @@
       "purpose": "Other business matters",
       "bm_desc": "To consider other business matters",
       "date": "25-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 4,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
@@ -337,9 +345,9 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the past month suggest holding the stock.",
-      "action": "Hold NDLVENTURE stock until the next event date.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and stable price movement over the past month.",
+      "action": "Maintain current investment position in NDL Ventures Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -358,6 +366,7 @@
       "purpose": "Fund Raising",
       "bm_desc": "To consider and approve the public issue of secured, rated, listed, redeemable non-convertible debentures, in one or more tranches, in compliance with the provisions of the SEBI(Issue and Listing of Non-Convertible Securities) Regulations, 2021",
       "date": "26-Nov-2025",
+      "estimated_EPS": 48.17,
       "days_to_event": 5,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
@@ -390,6 +399,7 @@
       "purpose": "Fund Raising",
       "bm_desc": "To consider Fund Raising",
       "date": "26-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 5,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
@@ -400,16 +410,15 @@
       "vol_30": 2075077.2342477436
     },
     "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score and recent price decline, but the event is 5 days away and the SMA20 is above the current price.",
-      "action": "Hold the stock until the event date to assess the impact of the fund raising on the stock price.",
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
+      "action": "Sell J&KBANK before the fund raising event to avoid potential dilution.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "days_to_event"
+        "last_price"
       ]
     }
   },
@@ -422,6 +431,7 @@
       "purpose": "Financial Results",
       "bm_desc": "Intimation for the meeting of the Board of Directors of the Company which  is scheduled on November 26, 2025, inter alia, to consider and approve the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2025.",
       "date": "26-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 5,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
@@ -434,7 +444,7 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The company is about to release its financial results, which may cause market volatility. The sentiment score is slightly negative.",
+      "rationale": "The company is about to release its financial results, which may cause market volatility. The sentiment score is low, indicating a neutral market reaction.",
       "action": "Monitor the stock closely after the financial results are released.",
       "features_used": [
         "sentiment_score",
@@ -452,6 +462,7 @@
       "purpose": "Other business matters",
       "bm_desc": "To consider other business matters",
       "date": "26-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 5,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
@@ -463,9 +474,9 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the past 7 and 30 days.",
-      "action": "Maintain current investment position in Tembo Global Industries Limited.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Hold TEMBO stock until more information is available about the upcoming business matters.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -484,6 +495,7 @@
       "purpose": "Dividend",
       "bm_desc": "To consider interim dividend for the FY 2025-26",
       "date": "28-Nov-2025",
+      "estimated_EPS": 7.3,
       "days_to_event": 7,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
@@ -496,13 +508,12 @@
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "Dividend announcement with positive sentiment score and upcoming event",
+      "rationale": "Dividend announcement with 7 days to event, positive sentiment score and recent price increase",
       "action": "Buy Engineers India Limited before the dividend announcement on 28-Nov-2025",
       "features_used": [
+        "dividend_announcement",
         "sentiment_score",
-        "days_to_event",
-        "last_price",
-        "pct_7"
+        "recent_price_increase"
       ]
     }
   },
@@ -515,6 +526,7 @@
       "purpose": "Financial Results",
       "bm_desc": "To consider and approve the financial results for the quarter and half-year ended September 30, 2025",
       "date": "29-Nov-2025",
+      "estimated_EPS": null,
       "days_to_event": 8,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
@@ -527,13 +539,12 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and lack of recent price movement suggest holding the stock.",
-      "action": "Hold LENSKART stock until more information is available about the upcoming financial results.",
+      "rationale": "Neutral sentiment score and lack of recent price movement",
+      "action": "Monitor the stock for potential price movement before the financial results announcement.",
       "features_used": [
         "sentiment_score",
-        "days_to_event",
-        "last_price",
-        "pct_7"
+        "pct_7",
+        "days_to_event"
       ]
     }
   }
