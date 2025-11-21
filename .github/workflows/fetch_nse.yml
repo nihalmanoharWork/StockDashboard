@@ -5,8 +5,8 @@ permissions:
 
 on:
   schedule:
-    - cron: '30 0 * * *'   # every hour at minute 0 (adjust as desired)
-  workflow_dispatch: {}   # allows manual run
+    - cron: '30 0 * * *'   # adjust as desired
+  workflow_dispatch: {}  # allows manual run
 
 jobs:
   fetch:
@@ -27,25 +27,27 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install tqdm
-          pip install yfinance
+          pip install tqdm yfinance python-dotenv
 
       - name: Run fetch script
-        run: |
-          python fetch_and_save.py
+        run: python fetch_and_save.py
 
       - name: Update EPS data
-        run: |
-          python update_eps.py
+        run: python update_eps.py
+
+      - name: Run Groq Predictor
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}  # ensure you add this secret in your repo
+        run: python ai_groq_predict_groq.py
 
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- data/events.json; then
-            git add data/events.json
-            git commit -m "chore: update NSE events data [ci skip]"
+          CHANGED_FILES=$(git status --porcelain | grep -E 'data/events.json|ai_groq_predictions.json' || true)
+          if [ -n "$CHANGED_FILES" ]; then
+            git add data/events.json ai_groq_predictions.json
+            git commit -m "chore: update NSE events + AI predictions [ci skip]"
             git push origin main --force
           else
-            echo "No changes in events.json"
-          fi
+            echo "No changes in events.json or ai_groq_predictions.json"

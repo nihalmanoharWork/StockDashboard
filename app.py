@@ -14,6 +14,7 @@ st.title("📅 NSE Upcoming Earnings (Next 7 Days)")
 PRIMARY_PATH = Path("data/events.json")
 FALLBACK_PATH = Path("events.json")
 SEARCH_PATHS = [PRIMARY_PATH, FALLBACK_PATH]
+PREDICTIONS_PATH = Path("ai_groq_predictions.json")  # Groq predictions JSON
 
 # ---------------- Helpers ----------------
 def find_events_file():
@@ -21,7 +22,6 @@ def find_events_file():
         if p.exists():
             return p
     return None
-
 
 @st.cache_data(ttl=3600)
 def load_json_file(path: Path):
@@ -35,12 +35,7 @@ def load_json_file(path: Path):
         st.error(f"❌ Error reading {path}: {e}")
         return None
 
-
 def normalize_to_df(payload):
-    """
-    Accept payload that may be a list or a dict with 'data' key and return a DataFrame.
-    Ensures columns 'symbol', 'name', 'date', 'estimated_eps' exist and parses the date column safely.
-    """
     if payload is None:
         return pd.DataFrame(columns=["symbol", "name", "date", "estimated_eps"])
 
@@ -58,35 +53,53 @@ def normalize_to_df(payload):
             return pd.DataFrame(columns=["symbol", "name", "date", "estimated_eps"])
 
     df = pd.DataFrame(records)
-
-    # 🔧 Normalize column names to lowercase for case-insensitive matching
     df.columns = df.columns.str.lower()
 
-    # map known columns (all keys lowercase)
     col_map = {
         "company": "name",
         "companyname": "name",
         "bm_desc": "remarks",
-         "boardmeetingdate": "date",
+        "boardmeetingdate": "date",
         "date": "date",
         "symbol": "symbol",
         "estimated_eps": "estimated_eps",
     }
-
     rename_dict = {k: v for k, v in col_map.items() if k in df.columns}
     df = df.rename(columns=rename_dict)
 
-
-    # ensure required columns exist
     for c in ("symbol", "name", "date", "estimated_eps"):
         if c not in df.columns:
             df[c] = None
 
-    # parse date safely
     df["date"] = pd.to_datetime(df["date"], dayfirst=False, errors="coerce")
-
     return df[["symbol", "name", "date", "estimated_eps"]]
 
+@st.cache_data(ttl=3600)
+def normalize_predictions(payload):
+    """
+    Flatten Groq output JSON to DataFrame.
+    Renames 'company' → 'name' so it merges cleanly.
+    Columns: symbol, name, recommendation, confidence, rationale, action
+    """
+    if not payload or not isinstance(payload, list):
+        return pd.DataFrame(columns=[
+            "symbol", "name", "recommendation", "confidence", "rationale", "action"
+        ])
+    
+    rows = []
+    for rec in payload:
+        symbol = rec.get("symbol")
+        company = rec.get("company")
+        pred = rec.get("prediction", {})
+        rows.append({
+            "symbol": symbol,
+            "name": company,  # rename here
+            "recommendation": pred.get("recommendation", "hold"),
+            "confidence": pred.get("confidence", 0.5),
+            "rationale": pred.get("rationale", ""),
+            "action": pred.get("action", "")
+        })
+    return pd.DataFrame(rows)
 
 # ---------------- Sidebar Tools ----------------
 with st.sidebar:
@@ -102,8 +115,7 @@ with st.sidebar:
         st.success(f"Sample created at: {PRIMARY_PATH}")
         st.experimental_rerun()
 
-
-# ---------------- Load data ----------------
+# ---------------- Load events data ----------------
 events_file = find_events_file()
 if not events_file:
     st.error(textwrap.dedent(
@@ -126,7 +138,6 @@ if df_all.empty:
     st.warning("No usable records found in the JSON file.")
     st.stop()
 
-# ---------------- Ensure date column is datetimelike ----------------
 if not pd.api.types.is_datetime64_any_dtype(df_all["date"]):
     df_all["date"] = pd.to_datetime(df_all["date"], errors="coerce")
 
@@ -135,13 +146,13 @@ if df_all.empty:
     st.warning("No records with valid dates found after parsing.")
     st.stop()
 
-# ---------------- Filter upcoming (next 7 days) ----------------
+# Filter upcoming (next 7 days)
 today = datetime.now().date()
 next_week = today + timedelta(days=7)
 mask = (df_all["date"].dt.date >= today) & (df_all["date"].dt.date <= next_week)
 upcoming = df_all.loc[mask].copy()
 
-# ---------------- Display ----------------
+# ---------------- Display Upcoming Earnings ----------------
 st.subheader(f"📅 Upcoming Earnings — {today} to {next_week}")
 st.caption(f"Data source: {events_file} — {len(upcoming)} upcoming record(s)")
 
@@ -151,7 +162,6 @@ else:
     upcoming_sorted = upcoming.sort_values("date").reset_index(drop=True)
     upcoming_sorted["date"] = upcoming_sorted["date"].dt.strftime("%d-%b-%Y")
 
-    # format EPS nicely
     def fmt_eps(val):
         if pd.isna(val) or val == "":
             return "—"
@@ -162,7 +172,6 @@ else:
 
     upcoming_sorted["estimated_eps"] = upcoming_sorted["estimated_eps"].apply(fmt_eps)
 
-    # Display with all 4 columns
     st.dataframe(
         upcoming_sorted[["symbol", "name", "date", "estimated_eps"]],
         use_container_width=True,
@@ -177,7 +186,41 @@ else:
         mime="text/csv"
     )
 
+# ---------------- Load and display Groq predictions ----------------
+predictions_payload = None
+if PREDICTIONS_PATH.exists():
+    predictions_payload = load_json_file(PREDICTIONS_PATH)
+else:
+    st.warning(f"⚠️ Groq predictions file not found at {PREDICTIONS_PATH}")
+
+df_preds = normalize_predictions(predictions_payload)
+
+st.subheader("🤖 AI Predictions for Upcoming Earnings")
+
+if df_preds.empty:
+    st.info("No predictions available.")
+else:
+    merged = upcoming_sorted.merge(df_preds, on=["symbol", "name"], how="left")
+
+    st.dataframe(
+        merged[["symbol", "name", "date", "estimated_eps", "recommendation", "confidence", "action"]],
+        use_container_width=True,
+        hide_index=True
+    )
+
+    csv_bytes_preds = merged[["symbol", "name", "date", "estimated_eps", "recommendation", "confidence", "action"]].to_csv(index=False).encode("utf-8")
+    st.download_button(
+        "⬇️ Download Upcoming Earnings + Predictions (CSV)",
+        csv_bytes_preds,
+        "upcoming_earnings_predictions.csv",
+        mime="text/csv"
+    )
+
 # ---------------- Debug: view raw JSON ----------------
-with st.expander("🧾 View raw JSON (debug)"):
+with st.expander("🧾 View raw JSON (events)"):
     st.write(f"Loaded from: {events_file}")
     st.json(payload)
+
+with st.expander("🤖 View raw Groq predictions JSON"):
+    if predictions_payload:
+        st.json(predictions_payload)
