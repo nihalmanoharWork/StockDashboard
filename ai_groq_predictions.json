@@ -1,70 +1,5 @@
 [
   {
-    "symbol": "ATALREAL",
-    "company": "Atal Realtech Limited",
-    "input": {
-      "symbol": "ATALREAL",
-      "company": "Atal Realtech Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider other business matters",
-      "date": "22-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 23.989999771118164,
-      "pct_7": -0.03654617917081804,
-      "pct_30": -0.03148973242755959,
-      "sma20": 24.413000106811523,
-      "vol_30": 2709487.026894948
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The stock has shown minor fluctuations in the past week and month, but no significant trend is observed. The sentiment score is neutral.",
-      "action": "Hold the stock until more information about the upcoming event is available.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "VLSFINANCE",
-    "company": "VLS Finance Limited",
-    "input": {
-      "symbol": "VLSFINANCE",
-      "company": "VLS Finance Limited",
-      "purpose": "Buyback/Other business matters",
-      "bm_desc": "To consider buyback for equity shares and other business matters",
-      "date": "22-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 263.7799987792969,
-      "pct_7": 0.2771994399766533,
-      "pct_30": 0.21083310254284182,
-      "sma20": 224.94000091552735,
-      "vol_30": 175955.30642432516
-    },
-    "prediction": {
-      "recommendation": "buy",
-      "confidence": 0.8,
-      "rationale": "Recent price increase and upcoming buyback announcement suggest a positive trend.",
-      "action": "Buy VLSFINANCE stock before the buyback announcement.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
     "symbol": "AKSHAR",
     "company": "Akshar Spintex Limited",
     "input": {
@@ -74,14 +9,14 @@
       "bm_desc": "1. To consider the proposal for appointment of Mr. Bhavin Jayantibhai Kothiya (DIN: 11379649), as an Additional Non-Executive Independent Director; and2. To consider and transit any other business, if any, which may be placed before the Board with the permission of the Chairman.",
       "date": "24-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 0.550000011920929,
       "pct_7": 0.0,
       "pct_30": -0.06779654852722472,
       "sma20": 0.5734999984502792,
-      "vol_30": 1830646.4271472555
+      "vol_30": 1830645.4350147392
     },
     "prediction": {
       "recommendation": "hold",
@@ -107,14 +42,14 @@
       "bm_desc": "To consider convening the Annual General Meeting (AGM) of the Company and to approve the accompanying agenda items and the Notice of the AGM. And other business matters",
       "date": "24-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 13.0,
       "pct_7": -0.07209137847119407,
       "pct_30": -0.041297964770456,
       "sma20": 13.40150008201599,
-      "vol_30": 3293374.791771864
+      "vol_30": 3293358.4870106485
     },
     "prediction": {
       "recommendation": "hold",
@@ -139,14 +74,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025 and dividend",
       "date": "24-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
       "last_price": 3332.89990234375,
       "pct_7": 0.015013949086762679,
       "pct_30": 0.06936822747104165,
       "sma20": 3231.859997558594,
-      "vol_30": 165396.97893406663
+      "vol_30": 165396.53064006893
     },
     "prediction": {
       "recommendation": "hold",
@@ -172,7 +107,7 @@
       "bm_desc": "To consider issuance of equity shares of the Company by way of a preferential issue",
       "date": "24-Nov-2025",
       "estimated_EPS": 41.65,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 1666.0,
@@ -204,7 +139,7 @@
       "bm_desc": "To consider Fund Raising  by issuance of Non-Convertible Debentures through private placement via Electronic Bidding Platform (EBP).",
       "date": "24-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 106.52999877929688,
@@ -236,20 +171,20 @@
       "bm_desc": "To consider other business matters i.e., to consider and approve name change of the Company, alteration in object clause and any other items with the permission of chairperson",
       "date": "24-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 1251.75,
       "pct_7": 0.33962967390218046,
       "pct_30": 0.4963242104664114,
       "sma20": 903.1749969482422,
-      "vol_30": 80693.10893808158
+      "vol_30": 80693.14151246421
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "The company is about to consider other business matters, but there is no clear indication of the impact on the stock price.",
-      "action": "Monitor the stock price closely in the next few days as the company's business matters are discussed.",
+      "action": "Monitor the stock price after the event for potential changes.",
       "features_used": [
         "sentiment_score",
         "days_to_event",
@@ -270,7 +205,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
       "date": "24-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 87.55999755859375,
@@ -302,14 +237,14 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "25-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 212.8000030517578,
       "pct_7": -0.0635863452067863,
       "pct_30": -0.1328796712592465,
       "sma20": 234.71149978637695,
-      "vol_30": 472819.8780354751
+      "vol_30": 472815.18139059446
     },
     "prediction": {
       "recommendation": "sell",
@@ -334,7 +269,7 @@
       "bm_desc": "To consider other business matters",
       "date": "25-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 89.86000061035156,
@@ -367,14 +302,14 @@
       "bm_desc": "To consider and approve the public issue of secured, rated, listed, redeemable non-convertible debentures, in one or more tranches, in compliance with the provisions of the SEBI(Issue and Listing of Non-Convertible Securities) Regulations, 2021",
       "date": "26-Nov-2025",
       "estimated_EPS": 48.17,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 540.0,
       "pct_7": 0.004370827637362407,
       "pct_30": 0.08075654277276989,
       "sma20": 538.0699996948242,
-      "vol_30": 1475138.8337671193
+      "vol_30": 1475138.7975830352
     },
     "prediction": {
       "recommendation": "hold",
@@ -400,14 +335,14 @@
       "bm_desc": "To consider Fund Raising",
       "date": "26-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 105.05000305175781,
       "pct_7": -0.012037983233844307,
       "pct_30": -0.020969244510782303,
       "sma20": 106.71449966430664,
-      "vol_30": 2075077.2342477436
+      "vol_30": 2075074.9849422902
     },
     "prediction": {
       "recommendation": "sell",
@@ -432,7 +367,7 @@
       "bm_desc": "Intimation for the meeting of the Board of Directors of the Company which  is scheduled on November 26, 2025, inter alia, to consider and approve the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2025.",
       "date": "26-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 550.6500244140625,
@@ -463,20 +398,20 @@
       "bm_desc": "To consider other business matters",
       "date": "26-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 774.7000122070312,
       "pct_7": 0.039447235872261066,
       "pct_30": 0.22250275727300273,
       "sma20": 708.9050018310547,
-      "vol_30": 139984.93034298738
+      "vol_30": 139984.9054101372
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Hold TEMBO stock until more information is available about the upcoming business matters.",
+      "rationale": "Neutral sentiment and stable price movement over the past 7 and 30 days.",
+      "action": "Monitor the stock for any significant price movements before making a decision.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -496,19 +431,19 @@
       "bm_desc": "To consider interim dividend for the FY 2025-26",
       "date": "28-Nov-2025",
       "estimated_EPS": 7.3,
-      "days_to_event": 7,
+      "days_to_event": 6,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 195.77000427246094,
       "pct_7": 0.027771990043976347,
       "pct_30": -0.01761338081260866,
       "sma20": 198.4380012512207,
-      "vol_30": 2379376.2496837215
+      "vol_30": 2379375.0860451506
     },
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "Dividend announcement with 7 days to event, positive sentiment score and recent price increase",
+      "rationale": "Dividend announcement with 6 days to event, positive sentiment score and recent price increase",
       "action": "Buy Engineers India Limited before the dividend announcement on 28-Nov-2025",
       "features_used": [
         "dividend_announcement",
@@ -527,7 +462,7 @@
       "bm_desc": "To consider and approve the financial results for the quarter and half-year ended September 30, 2025",
       "date": "29-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 8,
+      "days_to_event": 7,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 417.45001220703125,
@@ -540,11 +475,43 @@
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and lack of recent price movement",
-      "action": "Monitor the stock for potential price movement before the financial results announcement.",
+      "action": "Monitor the stock for potential price fluctuations before the financial results announcement.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
-        "days_to_event"
+        "days_to_event",
+        "last_price",
+        "pct_7"
+      ]
+    }
+  },
+  {
+    "symbol": "PINELABS",
+    "company": "Pine Labs Limited",
+    "input": {
+      "symbol": "PINELABS",
+      "company": "Pine Labs Limited",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2025 and other business matters",
+      "date": "03-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 11,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 236.1300048828125,
+      "pct_7": null,
+      "pct_30": null,
+      "sma20": null,
+      "vol_30": null
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and lack of recent price movement data",
+      "action": "Monitor the stock for potential price movement before the event date.",
+      "features_used": [
+        "sentiment_score",
+        "days_to_event",
+        "last_price"
       ]
     }
   }
