@@ -1,233 +1,5 @@
 [
   {
-    "symbol": "AKSHAR",
-    "company": "Akshar Spintex Limited",
-    "input": {
-      "symbol": "AKSHAR",
-      "company": "Akshar Spintex Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "1. To consider the proposal for appointment of Mr. Bhavin Jayantibhai Kothiya (DIN: 11379649), as an Additional Non-Executive Independent Director; and2. To consider and transit any other business, if any, which may be placed before the Board with the permission of the Chairman.",
-      "date": "24-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 0.550000011920929,
-      "pct_7": 0.0,
-      "pct_30": -0.06779654852722472,
-      "sma20": 0.5734999984502792,
-      "vol_30": 1830645.4350147392
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price stability.",
-      "action": "Hold the stock until more information about the upcoming event is available.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "BCG",
-    "company": "Brightcom Group Limited",
-    "input": {
-      "symbol": "BCG",
-      "company": "Brightcom Group Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider convening the Annual General Meeting (AGM) of the Company and to approve the accompanying agenda items and the Notice of the AGM. And other business matters",
-      "date": "24-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 13.0,
-      "pct_7": -0.07209137847119407,
-      "pct_30": -0.041297964770456,
-      "sma20": 13.40150008201599,
-      "vol_30": 3293358.4870106485
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Hold the stock until more information about the AGM is available.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "ENRIN",
-    "company": "Siemens Energy India Limited",
-    "input": {
-      "symbol": "ENRIN",
-      "company": "Siemens Energy India Limited",
-      "purpose": "Financial Results/Dividend",
-      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025 and dividend",
-      "date": "24-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.25,
-      "sentiment_reason": "dividend mentioned",
-      "last_price": 3332.89990234375,
-      "pct_7": 0.015013949086762679,
-      "pct_30": 0.06936822747104165,
-      "sma20": 3231.859997558594,
-      "vol_30": 165396.53064006893
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Maintain current investment position in Siemens Energy India Limited.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "ERIS",
-    "company": "Eris Lifesciences Limited",
-    "input": {
-      "symbol": "ERIS",
-      "company": "Eris Lifesciences Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider issuance of equity shares of the Company by way of a preferential issue",
-      "date": "24-Nov-2025",
-      "estimated_EPS": 41.65,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 1666.0,
-      "pct_7": 0.09742442974282883,
-      "pct_30": 0.050772626931567366,
-      "sma20": 1599.8599975585937,
-      "vol_30": 68465.83063907755
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.8,
-      "rationale": "Negative sentiment score and dilution-related terms indicate potential decline in stock price.",
-      "action": "Sell Eris Lifesciences Limited shares before the preferential issue announcement.",
-      "features_used": [
-        "sentiment_score",
-        "sentiment_reason",
-        "days_to_event",
-        "estimated_EPS"
-      ]
-    }
-  },
-  {
-    "symbol": "FINKURVE",
-    "company": "Finkurve Financial Services Limited",
-    "input": {
-      "symbol": "FINKURVE",
-      "company": "Finkurve Financial Services Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider Fund Raising  by issuance of Non-Convertible Debentures through private placement via Electronic Bidding Platform (EBP).",
-      "date": "24-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 106.52999877929688,
-      "pct_7": -0.09666752731602068,
-      "pct_30": -0.09994932215318064,
-      "sma20": 111.18899993896484,
-      "vol_30": 36885.73360727866
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score and recent price decline, but the event is near and the company is raising funds.",
-      "action": "Hold the stock until the event date and reassess after the announcement.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "days_to_event"
-      ]
-    }
-  },
-  {
-    "symbol": "SABTNL",
-    "company": "Sri Adhikari Brothers Television Network Limited",
-    "input": {
-      "symbol": "SABTNL",
-      "company": "Sri Adhikari Brothers Television Network Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider other business matters i.e., to consider and approve name change of the Company, alteration in object clause and any other items with the permission of chairperson",
-      "date": "24-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 1251.75,
-      "pct_7": 0.33962967390218046,
-      "pct_30": 0.4963242104664114,
-      "sma20": 903.1749969482422,
-      "vol_30": 80693.14151246421
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The company is about to consider other business matters, but there is no clear indication of the impact on the stock price.",
-      "action": "Monitor the stock price after the event for potential changes.",
-      "features_used": [
-        "sentiment_score",
-        "days_to_event",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "SUPREMEINF",
-    "company": "Supreme Infrastructure India Limited",
-    "input": {
-      "symbol": "SUPREMEINF",
-      "company": "Supreme Infrastructure India Limited",
-      "purpose": "Financial Results",
-      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
-      "date": "24-Nov-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 87.55999755859375,
-      "pct_7": -0.024401141408426197,
-      "pct_30": -0.15799596733043153,
-      "sma20": 90.26199989318847,
-      "vol_30": 11381.437209813159
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment score and recent price fluctuations suggest a stable market position.",
-      "action": "Maintain current investment in Supreme Infrastructure India Limited.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
     "symbol": "EIEL",
     "company": "Enviro Infra Engineers Limited",
     "input": {
@@ -237,7 +9,7 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "25-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 212.8000030517578,
@@ -249,8 +21,8 @@
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
-      "action": "Sell EIEL stock before the event date to avoid potential dilution.",
+      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
+      "action": "Sell EIEL stock before the event date.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -268,7 +40,7 @@
       "bm_desc": "To consider other business matters",
       "date": "25-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 89.86000061035156,
@@ -280,13 +52,14 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and stable price movement over the past month.",
-      "action": "Maintain current investment position in NDL Ventures Limited.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
+      "action": "Hold the stock until more information about the upcoming event is available.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -300,7 +73,7 @@
       "bm_desc": "To consider Fund Raising",
       "date": "26-Nov-2025",
       "estimated_EPS": 2.05,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 24.030000686645508,
@@ -312,13 +85,13 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the company is raising funds, which may be a positive sign. The recent price movement is also slightly negative.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
       "action": "Hold the stock until more information about the fund raising is available.",
       "features_used": [
         "sentiment_score",
-        "purpose",
         "pct_7",
-        "pct_30"
+        "pct_30",
+        "sma20"
       ]
     }
   },
@@ -332,7 +105,7 @@
       "bm_desc": "To consider and approve the public issue of secured, rated, listed, redeemable non-convertible debentures, in one or more tranches, in compliance with the provisions of the SEBI(Issue and Listing of Non-Convertible Securities) Regulations, 2021",
       "date": "26-Nov-2025",
       "estimated_EPS": 48.17,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 540.0,
@@ -365,7 +138,7 @@
       "bm_desc": "To consider Fund Raising",
       "date": "26-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 105.05000305175781,
@@ -377,8 +150,8 @@
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
-      "action": "Sell J&KBANK before the fund raising event to avoid potential dilution.",
+      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
+      "action": "Sell J&KBANK shares before the fund raising event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -397,7 +170,7 @@
       "bm_desc": "Intimation for the meeting of the Board of Directors of the Company which  is scheduled on November 26, 2025, inter alia, to consider and approve the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2025.",
       "date": "26-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 550.6500244140625,
@@ -428,7 +201,7 @@
       "bm_desc": "To consider other business matters",
       "date": "26-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 774.7000122070312,
@@ -461,7 +234,7 @@
       "bm_desc": "To consider interim dividend for the FY 2025-26",
       "date": "28-Nov-2025",
       "estimated_EPS": 7.3,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 195.77000427246094,
@@ -473,7 +246,7 @@
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "Dividend announcement with 5 days to event, positive sentiment score and recent price increase",
+      "rationale": "Dividend announcement with 4 days to event, positive sentiment score and recent price increase",
       "action": "Buy Engineers India Limited before the dividend announcement on 28-Nov-2025",
       "features_used": [
         "dividend_announcement",
@@ -492,7 +265,7 @@
       "bm_desc": "SUPREMEINF : 28-Nov-2025 :  The Company has informed the Exchange that a Board meeting to be held on November 24, 2025 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on November 28, 2025,  To consider and approve the financial results for the period ended September 30, 2025",
       "date": "28-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 87.55999755859375,
@@ -525,7 +298,7 @@
       "bm_desc": "To consider and approve the financial results for the quarter and half-year ended September 30, 2025",
       "date": "29-Nov-2025",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 417.45001220703125,
@@ -538,7 +311,7 @@
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and lack of recent price movement",
-      "action": "Monitor the stock for potential price fluctuations before the financial results announcement.",
+      "action": "Monitor the stock for potential price movement before the financial results announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -556,7 +329,7 @@
       "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2025 and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 10,
+      "days_to_event": 9,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 236.1300048828125,
