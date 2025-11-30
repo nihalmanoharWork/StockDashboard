@@ -9,7 +9,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
       "date": "01-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 217.25999450683594,
@@ -21,8 +21,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price drop, but no clear trend or significant event.",
-      "action": "Monitor the stock for potential changes in sentiment or price movement before making any investment decisions.",
+      "rationale": "Neutral sentiment score and recent price drop, but event upcoming.",
+      "action": "Monitor the stock for potential price movement after the financial results announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -40,7 +40,7 @@
       "bm_desc": "To consider Fund Raising",
       "date": "01-Dec-2025",
       "estimated_EPS": 2.05,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 23.969999313354492,
@@ -50,17 +50,15 @@
       "vol_30": 4044753.9313877802
     },
     "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
-      "action": "Hold the stock until more information about the fund raising is available.",
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
+      "action": "Sell HCC shares before the fund raising event.",
       "features_used": [
         "sentiment_score",
-        "sentiment_reason",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -74,7 +72,7 @@
       "bm_desc": "To consider and approve Fund Raising by way of issue of Securities",
       "date": "01-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 190.88999938964844,
@@ -105,7 +103,7 @@
       "bm_desc": "To consider Fund Raising",
       "date": "01-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 162.4499969482422,
@@ -117,13 +115,12 @@
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score (-0.3) and dilution-related terms indicate potential decline in stock value.",
-      "action": "Sell NXST stock before the fund raising event on 01-Dec-2025.",
+      "rationale": "Negative sentiment score (-0.3) and dilution-related terms indicate potential for price drop.",
+      "action": "Sell NXST before the fund raising event to avoid potential dilution.",
       "features_used": [
         "sentiment_score",
         "sentiment_reason",
-        "days_to_event",
-        "last_price"
+        "days_to_event"
       ]
     }
   },
@@ -137,7 +134,7 @@
       "bm_desc": "To consider dividend and other business matters",
       "date": "01-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 94.18000030517578,
@@ -149,8 +146,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but it's close to its SMA20. It's best to hold for now.",
-      "action": "Hold the stock for the next 2 days until the dividend meeting.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but it's close to its SMA20. It's best to hold the stock for now.",
+      "action": "Hold the stock for now and monitor its performance before making any decisions.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -169,7 +166,7 @@
       "bm_desc": "Intimation of Board Meeting",
       "date": "02-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 479.8999938964844,
@@ -181,7 +178,7 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and stable price movement over the past week, but recent 30-day price drop suggests caution.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
       "action": "Hold the stock until more information is available about the upcoming board meeting.",
       "features_used": [
         "sentiment_score",
@@ -202,7 +199,7 @@
       "bm_desc": "To consider dividend and other business matters",
       "date": "02-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 141.63999938964844,
@@ -215,7 +212,7 @@
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but it's close to a dividend announcement which might have a positive impact.",
-      "action": "Hold the stock until the dividend announcement and re-evaluate based on the outcome.",
+      "action": "Hold the stock until the dividend announcement and then reassess based on the outcome.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -235,7 +232,7 @@
       "bm_desc": "Pursuant to Regulation 29 of the SEBI (LODR) Regulations, 2015, we hereby inform you that a meeting of Board of Directors of the Company is scheduled to be held on Wednesday, the 03rd day of December, 2025 at 11:00 A.M. at the registered office of the Company inter- alia to consider the following matters:1. To consider the appointment of Mr. Ripan Kumar Goyal (DIN: 11397550) as Independent Director of the Company.2. Any other matter, if required with the permission of the chair.",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 14.229999542236328,
@@ -247,8 +244,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.7,
-      "rationale": "The stock price has been relatively stable with minor fluctuations, and there is no significant news or event that would suggest a strong buy or sell signal.",
-      "action": "Maintain the current investment position and monitor the stock's performance leading up to the Board of Directors meeting.",
+      "rationale": "The stock price is relatively stable with a slight decline in the last 7 and 30 days. The upcoming board meeting may bring some volatility, but no significant EPS estimate is available.",
+      "action": "Hold the stock until the board meeting outcome is clear.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -268,7 +265,7 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": 6.6,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 66.41000366210938,
@@ -302,7 +299,7 @@
       "bm_desc": "To consider stock split of equity shares",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 401.45001220703125,
@@ -332,7 +329,7 @@
       "bm_desc": "To consider proposal for issuance of Bonus Issue of Equity shares",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 401.45001220703125,
@@ -344,13 +341,45 @@
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.7,
-      "rationale": "The stock has shown a positive trend in the last 7 and 30 days, and the days to event for the bonus issue are few, indicating a potential increase in price.",
+      "rationale": "The stock has shown a positive trend in the last 7 and 30 days, and the days to event for the bonus issue are limited, indicating a potential short-term gain.",
       "action": "Buy BESTAGRO stock before the bonus issue announcement on 03-Dec-2025.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "days_to_event"
+      ]
+    }
+  },
+  {
+    "symbol": "HILTON",
+    "company": "Hilton Metal Forging Limited",
+    "input": {
+      "symbol": "HILTON",
+      "company": "Hilton Metal Forging Limited",
+      "purpose": "Fund Raising/Other business matters",
+      "bm_desc": "Board Meeting to consider Fund Raising via Rights Issue and other business matters",
+      "date": "03-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 3,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 41.56999969482422,
+      "pct_7": -0.049176611753176225,
+      "pct_30": -0.08617282565408557,
+      "sma20": 43.52349987030029,
+      "vol_30": 194541.75173020692
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and recent price decline due to dilution-related terms",
+      "action": "Sell Hilton Metal Forging Limited shares before the upcoming board meeting.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
       ]
     }
   },
@@ -364,7 +393,7 @@
       "bm_desc": "To consider buyback for equity shares and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": 2.97,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 16.989999771118164,
@@ -375,9 +404,9 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has shown moderate growth in the last 7 and 30 days, but the sentiment score is neutral. The company is considering a buyback, which may positively impact the stock price.",
-      "action": "Monitor the stock closely for potential price movements after the buyback announcement.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and stable price movement over the past month.",
+      "action": "Monitor the stock for potential buyback announcements.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -397,7 +426,7 @@
       "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2025 and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 249.75999450683594,
@@ -418,6 +447,32 @@
     }
   },
   {
+    "symbol": "RUSHABEAR",
+    "company": "Rushabh Precision Bearings Limited",
+    "input": {
+      "symbol": "RUSHABEAR",
+      "company": "Rushabh Precision Bearings Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider and approve the appointment Mr. Robert Jonathan Moses [DIN: 07134423] and Ms. Namrata Sharma [DIN:10204473] as an Additional Non-Executive Independent Director of the Company",
+      "date": "03-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 3,
+      "sentiment_score": 0.0,
+      "sentiment_reason": ""
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Lack of financial data and no significant event impact on stock price",
+      "action": "Monitor the company's financial performance after the board meeting.",
+      "features_used": [
+        "sentiment analysis",
+        "event analysis",
+        "financial data availability"
+      ]
+    }
+  },
+  {
     "symbol": "IOC",
     "company": "Indian Oil Corporation Limited",
     "input": {
@@ -427,7 +482,7 @@
       "bm_desc": "To consider declaration of interim dividend for the financial year 2025-2026.",
       "date": "12-Dec-2025",
       "estimated_EPS": 17.18,
-      "days_to_event": 13,
+      "days_to_event": 12,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 161.75,
@@ -439,12 +494,13 @@
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "Dividend announcement with 13 days to event, positive sentiment score and stable price movement.",
+      "rationale": "Dividend announcement and recent price drop indicate potential for growth.",
       "action": "Buy IOC stock before the dividend announcement on 12-Dec-2025.",
       "features_used": [
-        "dividend_announcement",
-        "sentiment_analysis",
-        "price_movement"
+        "dividend announcement",
+        "price drop",
+        "sentiment analysis",
+        "technical indicators"
       ]
     }
   }
