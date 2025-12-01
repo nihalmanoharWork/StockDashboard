@@ -1,162 +1,5 @@
 [
   {
-    "symbol": "EMMVEE",
-    "company": "Emmvee Photovoltaic Power Limited",
-    "input": {
-      "symbol": "EMMVEE",
-      "company": "Emmvee Photovoltaic Power Limited",
-      "purpose": "Financial Results",
-      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
-      "date": "01-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 217.25999450683594,
-      "pct_7": -0.06607062740560576,
-      "pct_30": null,
-      "sma20": null,
-      "vol_30": null
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price drop, but event upcoming.",
-      "action": "Monitor the stock for potential price movement after the financial results announcement.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "days_to_event"
-      ]
-    }
-  },
-  {
-    "symbol": "HCC",
-    "company": "Hindustan Construction Company Limited",
-    "input": {
-      "symbol": "HCC",
-      "company": "Hindustan Construction Company Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider Fund Raising",
-      "date": "01-Dec-2025",
-      "estimated_EPS": 2.05,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 23.969999313354492,
-      "pct_7": -0.01802542141778285,
-      "pct_30": -0.17401795536699105,
-      "sma20": 25.413500118255616,
-      "vol_30": 4044753.9313877802
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
-      "action": "Sell HCC shares before the fund raising event.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "NACLIND",
-    "company": "NACL Industries Limited",
-    "input": {
-      "symbol": "NACLIND",
-      "company": "NACL Industries Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider and approve Fund Raising by way of issue of Securities",
-      "date": "01-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 190.88999938964844,
-      "pct_7": 0.03424170674885385,
-      "pct_30": -0.06504383062347885,
-      "sma20": 187.7025001525879,
-      "vol_30": 123607.6312852836
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price drop indicate potential decline in stock value.",
-      "action": "Sell NACLIND stock before the fund raising event to avoid potential dilution.",
-      "features_used": [
-        "sentiment_score",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "NXST",
-    "company": "Nexus Select Trust",
-    "input": {
-      "symbol": "NXST",
-      "company": "Nexus Select Trust",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider Fund Raising",
-      "date": "01-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 162.4499969482422,
-      "pct_7": 0.011897369764461985,
-      "pct_30": 0.0033535835722657836,
-      "sma20": 162.2479690551758,
-      "vol_30": 291443.2390568304
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score (-0.3) and dilution-related terms indicate potential for price drop.",
-      "action": "Sell NXST before the fund raising event to avoid potential dilution.",
-      "features_used": [
-        "sentiment_score",
-        "sentiment_reason",
-        "days_to_event"
-      ]
-    }
-  },
-  {
-    "symbol": "STEELCITY",
-    "company": "Steel City Securities Limited",
-    "input": {
-      "symbol": "STEELCITY",
-      "company": "Steel City Securities Limited",
-      "purpose": "Dividend/Other business matters",
-      "bm_desc": "To consider dividend and other business matters",
-      "date": "01-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.2,
-      "sentiment_reason": "dividend mentioned",
-      "last_price": 94.18000030517578,
-      "pct_7": -0.015368543619995734,
-      "pct_30": -0.04983860274939911,
-      "sma20": 96.38099975585938,
-      "vol_30": 4504.982600525165
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but it's close to its SMA20. It's best to hold the stock for now.",
-      "action": "Hold the stock for now and monitor its performance before making any decisions.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
     "symbol": "KRISHIVAL",
     "company": "Krishival Foods Limited",
     "input": {
@@ -166,7 +9,7 @@
       "bm_desc": "Intimation of Board Meeting",
       "date": "02-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 479.8999938964844,
@@ -199,7 +42,7 @@
       "bm_desc": "To consider dividend and other business matters",
       "date": "02-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 141.63999938964844,
@@ -232,7 +75,7 @@
       "bm_desc": "Pursuant to Regulation 29 of the SEBI (LODR) Regulations, 2015, we hereby inform you that a meeting of Board of Directors of the Company is scheduled to be held on Wednesday, the 03rd day of December, 2025 at 11:00 A.M. at the registered office of the Company inter- alia to consider the following matters:1. To consider the appointment of Mr. Ripan Kumar Goyal (DIN: 11397550) as Independent Director of the Company.2. Any other matter, if required with the permission of the chair.",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 14.229999542236328,
@@ -243,8 +86,8 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.7,
-      "rationale": "The stock price is relatively stable with a slight decline in the last 7 and 30 days. The upcoming board meeting may bring some volatility, but no significant EPS estimate is available.",
+      "confidence": 0.6,
+      "rationale": "The stock price has been relatively stable with a slight decline in the last 7 and 30 days. The upcoming board meeting may bring some volatility, but no significant EPS estimate is available.",
       "action": "Hold the stock until the board meeting outcome is clear.",
       "features_used": [
         "sentiment_score",
@@ -265,7 +108,7 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": 6.6,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 66.41000366210938,
@@ -295,11 +138,11 @@
     "input": {
       "symbol": "BESTAGRO",
       "company": "Best Agrolife Limited",
-      "purpose": "Stock Split",
-      "bm_desc": "To consider stock split of equity shares",
+      "purpose": "Bonus",
+      "bm_desc": "To consider proposal for issuance of Bonus Issue of Equity shares",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 401.45001220703125,
@@ -310,12 +153,14 @@
     },
     "prediction": {
       "recommendation": "buy",
-      "confidence": 0.7,
-      "rationale": "Upcoming stock split and positive short-term price movement",
-      "action": "Buy BESTAGRO stock before the stock split event on 03-Dec-2025",
+      "confidence": 0.8,
+      "rationale": "The stock has shown a positive trend in the last 7 and 30 days, and the event of bonus issuance is upcoming.",
+      "action": "Buy BESTAGRO stock before the bonus issuance event.",
       "features_used": [
-        "stock_split",
-        "short_term_price_movement"
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "days_to_event"
       ]
     }
   },
@@ -325,11 +170,11 @@
     "input": {
       "symbol": "BESTAGRO",
       "company": "Best Agrolife Limited",
-      "purpose": "Bonus",
-      "bm_desc": "To consider proposal for issuance of Bonus Issue of Equity shares",
+      "purpose": "Stock Split",
+      "bm_desc": "To consider stock split of equity shares",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 401.45001220703125,
@@ -340,14 +185,12 @@
     },
     "prediction": {
       "recommendation": "buy",
-      "confidence": 0.7,
-      "rationale": "The stock has shown a positive trend in the last 7 and 30 days, and the days to event for the bonus issue are limited, indicating a potential short-term gain.",
-      "action": "Buy BESTAGRO stock before the bonus issue announcement on 03-Dec-2025.",
+      "confidence": 0.8,
+      "rationale": "Upcoming stock split and positive short-term price movement",
+      "action": "Buy BESTAGRO stock before the stock split event on 03-Dec-2025",
       "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "days_to_event"
+        "stock_split",
+        "short_term_price_movement"
       ]
     }
   },
@@ -361,7 +204,7 @@
       "bm_desc": "Board Meeting to consider Fund Raising via Rights Issue and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 41.56999969482422,
@@ -393,7 +236,7 @@
       "bm_desc": "To consider buyback for equity shares and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": 2.97,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 16.989999771118164,
@@ -404,15 +247,16 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment and stable price movement over the past month.",
-      "action": "Monitor the stock for potential buyback announcements.",
+      "confidence": 0.6,
+      "rationale": "The stock has shown moderate growth in the last 7 and 30 days, but the sentiment score is neutral. The company is considering a buyback, which may positively impact the stock price.",
+      "action": "Monitor the stock closely in the next few days as the buyback announcement may have a significant impact on the stock price.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
-        "vol_30"
+        "vol_30",
+        "days_to_event"
       ]
     }
   },
@@ -426,7 +270,7 @@
       "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2025 and other business matters",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 249.75999450683594,
@@ -456,7 +300,7 @@
       "bm_desc": "To consider and approve the appointment Mr. Robert Jonathan Moses [DIN: 07134423] and Ms. Namrata Sharma [DIN:10204473] as an Additional Non-Executive Independent Director of the Company",
       "date": "03-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": ""
     },
@@ -482,7 +326,7 @@
       "bm_desc": "To consider declaration of interim dividend for the financial year 2025-2026.",
       "date": "12-Dec-2025",
       "estimated_EPS": 17.18,
-      "days_to_event": 12,
+      "days_to_event": 11,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 161.75,
