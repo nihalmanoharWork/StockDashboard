@@ -1,283 +1,5 @@
 [
   {
-    "symbol": "ANMOL",
-    "company": "Anmol India Limited",
-    "input": {
-      "symbol": "ANMOL",
-      "company": "Anmol India Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "Pursuant to Regulation 29 of the SEBI (LODR) Regulations, 2015, we hereby inform you that a meeting of Board of Directors of the Company is scheduled to be held on Wednesday, the 03rd day of December, 2025 at 11:00 A.M. at the registered office of the Company inter- alia to consider the following matters:1. To consider the appointment of Mr. Ripan Kumar Goyal (DIN: 11397550) as Independent Director of the Company.2. Any other matter, if required with the permission of the chair.",
-      "date": "03-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 14.100000381469727,
-      "pct_7": -0.027586180588294762,
-      "pct_30": -0.05874493909598799,
-      "sma20": 15.18299994468689,
-      "vol_30": 77568.23059881559
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The stock price is relatively stable with a slight decline in the last 7 and 30 days. The upcoming board meeting may bring some volatility, but no significant EPS estimate is available.",
-      "action": "Hold the stock until the board meeting outcome is clear.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "AUTOIND",
-    "company": "Autoline Industries Limited",
-    "input": {
-      "symbol": "AUTOIND",
-      "company": "Autoline Industries Limited",
-      "purpose": "Fund Raising/Other business matters",
-      "bm_desc": "To consider Fund Raising and other business matters",
-      "date": "03-Dec-2025",
-      "estimated_EPS": 6.6,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 71.62000274658203,
-      "pct_7": 0.07666876670005385,
-      "pct_30": -0.024649292538082346,
-      "sma20": 67.42449951171875,
-      "vol_30": 75576.27000289559
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The SMA20 is also close to the current price.",
-      "action": "Hold the stock until more information about the fund raising and business matters is available.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "BESTAGRO",
-    "company": "Best Agrolife Limited",
-    "input": {
-      "symbol": "BESTAGRO",
-      "company": "Best Agrolife Limited",
-      "purpose": "Stock Split",
-      "bm_desc": "To consider stock split of equity shares",
-      "date": "03-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 400.25,
-      "pct_7": 0.33483405653766707,
-      "pct_30": 0.20666260256325564,
-      "sma20": 323.29250183105466,
-      "vol_30": 1858477.6654904361
-    },
-    "prediction": {
-      "recommendation": "buy",
-      "confidence": 0.8,
-      "rationale": "Upcoming stock split and positive short-term price movement",
-      "action": "Buy BESTAGRO stock before the stock split event on 03-Dec-2025",
-      "features_used": [
-        "stock_split",
-        "short_term_price_movement"
-      ]
-    }
-  },
-  {
-    "symbol": "BESTAGRO",
-    "company": "Best Agrolife Limited",
-    "input": {
-      "symbol": "BESTAGRO",
-      "company": "Best Agrolife Limited",
-      "purpose": "Bonus",
-      "bm_desc": "To consider proposal for issuance of Bonus Issue of Equity shares",
-      "date": "03-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 400.25,
-      "pct_7": 0.33483405653766707,
-      "pct_30": 0.20666260256325564,
-      "sma20": 323.29250183105466,
-      "vol_30": 1858477.6654904361
-    },
-    "prediction": {
-      "recommendation": "buy",
-      "confidence": 0.8,
-      "rationale": "The stock has shown a significant increase in price over the last 7 days and has a low days to event, indicating a potential positive outcome for the bonus issue.",
-      "action": "Buy BESTAGRO stock before the bonus issue announcement on 03-Dec-2025.",
-      "features_used": [
-        "price_change_7_days",
-        "days_to_event",
-        "sentiment_score"
-      ]
-    }
-  },
-  {
-    "symbol": "HILTON",
-    "company": "Hilton Metal Forging Limited",
-    "input": {
-      "symbol": "HILTON",
-      "company": "Hilton Metal Forging Limited",
-      "purpose": "Fund Raising/Other business matters",
-      "bm_desc": "Board Meeting to consider Fund Raising via Rights Issue and other business matters",
-      "date": "03-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 42.099998474121094,
-      "pct_7": -0.020474664436663348,
-      "pct_30": -0.05689966286416093,
-      "sma20": 43.37299976348877,
-      "vol_30": 194544.56314378395
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline due to dilution-related terms",
-      "action": "Sell Hilton Metal Forging Limited shares before the upcoming board meeting.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "last_price"
-      ]
-    }
-  },
-  {
-    "symbol": "NECLIFE",
-    "company": "Nectar Lifesciences Limited",
-    "input": {
-      "symbol": "NECLIFE",
-      "company": "Nectar Lifesciences Limited",
-      "purpose": "Buyback/Other business matters",
-      "bm_desc": "To consider buyback for equity shares and other business matters",
-      "date": "03-Dec-2025",
-      "estimated_EPS": 2.97,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 17.420000076293945,
-      "pct_7": 0.17702701701309853,
-      "pct_30": 0.10603175087580596,
-      "sma20": 14.742500019073486,
-      "vol_30": 2946312.102298151
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The stock has shown moderate growth in the last 7 and 30 days, but the sentiment score is neutral. The company is considering a buyback, which may positively impact the stock price.",
-      "action": "Monitor the stock closely for any significant price movements before making a decision.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "PINELABS",
-    "company": "Pine Labs Limited",
-    "input": {
-      "symbol": "PINELABS",
-      "company": "Pine Labs Limited",
-      "purpose": "Financial Results/Other business matters",
-      "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2025 and other business matters",
-      "date": "03-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 245.6699981689453,
-      "pct_7": 0.04040144449608318,
-      "pct_30": null,
-      "sma20": null,
-      "vol_30": null
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and lack of recent price movement",
-      "action": "Monitor the stock for potential price movement after the financial results announcement.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7"
-      ]
-    }
-  },
-  {
-    "symbol": "RUSHABEAR",
-    "company": "Rushabh Precision Bearings Limited",
-    "input": {
-      "symbol": "RUSHABEAR",
-      "company": "Rushabh Precision Bearings Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider and approve the appointment Mr. Robert Jonathan Moses [DIN: 07134423] and Ms. Namrata Sharma [DIN:10204473] as an Additional Non-Executive Independent Director of the Company",
-      "date": "03-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": ""
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Lack of financial data and no significant event impact on stock price",
-      "action": "Monitor the company's financial performance after the board meeting.",
-      "features_used": [
-        "sentiment analysis",
-        "event analysis",
-        "financial data availability"
-      ]
-    }
-  },
-  {
-    "symbol": "SHRADHA",
-    "company": "Shradha Infraprojects Limited",
-    "input": {
-      "symbol": "SHRADHA",
-      "company": "Shradha Infraprojects Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider other business matters",
-      "date": "03-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 42.720001220703125,
-      "pct_7": -0.053191439893533365,
-      "pct_30": -0.033702734553840874,
-      "sma20": 43.935000038146974,
-      "vol_30": 70824.9669862422
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The stock has a neutral sentiment score and recent price movements are minor.",
-      "action": "Hold the stock for now and monitor the upcoming event.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
     "symbol": "AEGISVOPAK",
     "company": "Aegis Vopak Terminals Limited",
     "input": {
@@ -287,26 +9,24 @@
       "bm_desc": "To consider Fund Raising by way of issuance of Non-Convertible Debentures on private placement basis.",
       "date": "04-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 272.95001220703125,
-      "pct_7": 0.046386834657438536,
-      "pct_30": -0.004921529879747588,
-      "sma20": 265.0399971008301,
-      "vol_30": 994688.5922698841
+      "last_price": 275.6499938964844,
+      "pct_7": 0.06675696752109972,
+      "pct_30": -0.011830142198013816,
+      "sma20": 265.10749740600585,
+      "vol_30": 994919.8267158907
     },
     "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The company is considering fund raising through non-convertible debentures, which may lead to dilution of shareholder value. However, the stock has shown a slight increase in the last 7 days.",
-      "action": "Monitor the stock closely for any significant price movements before making a decision.",
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and dilution-related terms indicate potential risks for investors.",
+      "action": "Sell AEGISVOPAK shares before the fund raising event to avoid potential dilution.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "sentiment_reason",
+        "days_to_event"
       ]
     }
   },
@@ -320,7 +40,7 @@
       "bm_desc": "To consider other business matters",
       "date": "04-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 107.5,
@@ -342,6 +62,138 @@
     }
   },
   {
+    "symbol": "CEATLTD",
+    "company": "CEAT Limited",
+    "input": {
+      "symbol": "CEATLTD",
+      "company": "CEAT Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider proposed Fund Raising",
+      "date": "05-Dec-2025",
+      "estimated_EPS": 190.78,
+      "days_to_event": 2,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 3909.0,
+      "pct_7": 0.025177025963807997,
+      "pct_30": -0.0306742263668609,
+      "sma20": 3943.015002441406,
+      "vol_30": 308700.54758374783
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The SMA20 is also close to the current price.",
+      "action": "Hold the stock until more information about the fund raising is available.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "JAYNECOIND",
+    "company": "Jayaswal Neco Industries Limited",
+    "input": {
+      "symbol": "JAYNECOIND",
+      "company": "Jayaswal Neco Industries Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider and approve raising of funds upto an amount of INR 18,00,00,00,000/- (Indian Rupees Eighteen Hundred Crores only) for, inter alia, refinancing of existing debt of the Company, by way of issuance of unlisted, secured, redeemable, non-convertible debentures in one or more series/ tranches, on private placement basis.",
+      "date": "05-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 2,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 68.43000030517578,
+      "pct_7": -0.025352496831046567,
+      "pct_30": -0.1191916829094497,
+      "sma20": 73.28099975585937,
+      "vol_30": 5521709.698860457
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The company is planning to raise funds through debentures, which may lead to dilution of shareholder value. However, the stock price has been relatively stable in the short term.",
+      "action": "Hold the stock until more information about the fund raising is available.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "LAXMICOT",
+    "company": "Laxmi Cotspin Limited",
+    "input": {
+      "symbol": "LAXMICOT",
+      "company": "Laxmi Cotspin Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider other business matters1. Appointment of Mr. Ravindra Mishrilal Bangad (DIN: 00533907) as an Additional Executive Director of the company.",
+      "date": "05-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 2,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 20.420000076293945,
+      "pct_7": -0.006809309011916342,
+      "pct_30": -0.05111525827467556,
+      "sma20": 20.71049976348877,
+      "vol_30": 20478.70543201558
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in Laxmi Cotspin Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "RELTD",
+    "company": "Ravindra Energy Limited",
+    "input": {
+      "symbol": "RELTD",
+      "company": "Ravindra Energy Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "A meeting of the Board of Directors of the Company is scheduled to be held on Friday, the 5th day of December, 2025, inter alia to consider and approve:i. The re-constitution of committees pursuant to the resignation of Mr. Robert Taylor as an Independent Director of the Company; andii. The postal ballot notice for seeking the shareholders  approval for the appointment of Mr. Apurva Chandra (DIN: 02531655) as an Independent Director and other matters.",
+      "date": "05-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 2,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 153.60000610351562,
+      "pct_7": -0.02538070967695716,
+      "pct_30": 0.014732186419122772,
+      "sma20": 160.12200088500975,
+      "vol_30": 262865.91801818163
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.7,
+      "rationale": "The company is announcing a board meeting to re-constitute committees and appoint a new independent director, which may lead to market volatility.",
+      "action": "Hold the stock until the board meeting outcome is announced.",
+      "features_used": [
+        "sentiment_score",
+        "days_to_event",
+        "last_price",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
     "symbol": "TENNIND",
     "company": "Tenneco Clean Air India Limited",
     "input": {
@@ -351,11 +203,41 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
       "date": "05-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 477.1499938964844,
-      "pct_7": 0.00273192765849406,
+      "last_price": 487.75,
+      "pct_7": -0.018117765475591296,
+      "pct_30": null,
+      "sma20": null,
+      "vol_30": null
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in Tenneco Clean Air India Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7"
+      ]
+    }
+  },
+  {
+    "symbol": "PWL",
+    "company": "Physicswallah Limited",
+    "input": {
+      "symbol": "PWL",
+      "company": "Physicswallah Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
+      "date": "08-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 5,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 136.75999450683594,
+      "pct_7": 0.055898625660518064,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -383,24 +265,24 @@
       "bm_desc": "To consider declaration of interim dividend for the financial year 2025-2026.",
       "date": "12-Dec-2025",
       "estimated_EPS": 17.18,
-      "days_to_event": 10,
+      "days_to_event": 9,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 162.97000122070312,
-      "pct_7": -0.026172720185640208,
-      "pct_30": -0.003302509352785976,
-      "sma20": 168.39399948120118,
-      "vol_30": 11059408.44870325
+      "last_price": 162.33999633789062,
+      "pct_7": -0.02021851683356879,
+      "pct_30": -0.021458696139645794,
+      "sma20": 168.0484992980957,
+      "vol_30": 10926428.513153039
     },
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "Dividend announcement with 10 days to event, positive sentiment score and stable price movement.",
+      "rationale": "Dividend announcement with 9 days to event, positive sentiment score and relatively stable stock price.",
       "action": "Buy IOC stock before the dividend announcement on 12-Dec-2025.",
       "features_used": [
         "dividend_announcement",
-        "sentiment_analysis",
-        "price_movement"
+        "sentiment_score",
+        "stock_price_stability"
       ]
     }
   },
@@ -414,20 +296,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Jan-2026",
       "estimated_EPS": 6.82,
-      "days_to_event": 52,
+      "days_to_event": 51,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 386.6499938964844,
-      "pct_7": -0.04223437650480688,
-      "pct_30": -0.012009740983083161,
-      "sma20": 397.00249938964845,
-      "vol_30": 1046224.47141277
+      "last_price": 382.95001220703125,
+      "pct_7": -0.035025812480039775,
+      "pct_30": -0.04262496948242189,
+      "sma20": 396.0550003051758,
+      "vol_30": 1045816.4676541165
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movements are relatively stable.",
-      "action": "Maintain the current investment in The India Cements Limited.",
+      "rationale": "The stock has a neutral sentiment score and recent price movements are slightly negative, but the company is about to release its financial results which may impact the stock price.",
+      "action": "Monitor the stock closely after the financial results are released on January 23, 2026.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -447,25 +329,26 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "24-Jan-2026",
       "estimated_EPS": 137.04,
-      "days_to_event": 53,
+      "days_to_event": 52,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 11662.0,
-      "pct_7": -0.005712336942620855,
-      "pct_30": -0.03244005641748937,
-      "sma20": 11755.7,
-      "vol_30": 118040.60689783492
+      "last_price": 11666.0,
+      "pct_7": 0.007078729281768004,
+      "pct_30": -0.023520549091822218,
+      "sma20": 11748.05,
+      "vol_30": 113992.20567259105
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the estimated EPS is high. The sentiment score is neutral.",
-      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "rationale": "Neutral sentiment score and recent price movement suggest stability, but no clear trend.",
+      "action": "Maintain current investment position in UltraTech Cement Limited.",
       "features_used": [
-        "estimated_EPS",
+        "sentiment_score",
         "pct_7",
         "pct_30",
-        "sentiment_score"
+        "sma20",
+        "vol_30"
       ]
     }
   }
