@@ -1,67 +1,5 @@
 [
   {
-    "symbol": "AEGISVOPAK",
-    "company": "Aegis Vopak Terminals Limited",
-    "input": {
-      "symbol": "AEGISVOPAK",
-      "company": "Aegis Vopak Terminals Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider Fund Raising by way of issuance of Non-Convertible Debentures on private placement basis.",
-      "date": "04-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 275.6499938964844,
-      "pct_7": 0.06675696752109972,
-      "pct_30": -0.011830142198013816,
-      "sma20": 265.10749740600585,
-      "vol_30": 994919.8267158907
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and dilution-related terms indicate potential risks for investors.",
-      "action": "Sell AEGISVOPAK shares before the fund raising event to avoid potential dilution.",
-      "features_used": [
-        "sentiment_score",
-        "sentiment_reason",
-        "days_to_event"
-      ]
-    }
-  },
-  {
-    "symbol": "LEEL",
-    "company": "LEEL Electricals Limited",
-    "input": {
-      "symbol": "LEEL",
-      "company": "LEEL Electricals Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider other business matters",
-      "date": "04-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 107.5,
-      "pct_7": 0.0,
-      "pct_30": 0.0,
-      "sma20": 107.5,
-      "vol_30": 0.0
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment and stable price movement indicate no strong reason to buy or sell.",
-      "action": "Maintain current investment position in LEEL Electricals Limited.",
-      "features_used": [
-        "sentiment_score",
-        "price_movement",
-        "days_to_event"
-      ]
-    }
-  },
-  {
     "symbol": "CEATLTD",
     "company": "CEAT Limited",
     "input": {
@@ -71,20 +9,20 @@
       "bm_desc": "To consider proposed Fund Raising",
       "date": "05-Dec-2025",
       "estimated_EPS": 190.78,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 3909.0,
-      "pct_7": 0.025177025963807997,
-      "pct_30": -0.0306742263668609,
-      "sma20": 3943.015002441406,
-      "vol_30": 308700.54758374783
+      "last_price": 3982.699951171875,
+      "pct_7": 0.02835086152411992,
+      "pct_30": -0.011418075448041076,
+      "sma20": 3941.9800048828124,
+      "vol_30": 275811.8000379594
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The SMA20 is also close to the current price.",
-      "action": "Hold the stock until more information about the fund raising is available.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The SMA20 is close to the current price, indicating a stable trend.",
+      "action": "Hold the stock for now and monitor the sentiment and price movement before the fund raising event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -102,26 +40,24 @@
       "bm_desc": "To consider and approve raising of funds upto an amount of INR 18,00,00,00,000/- (Indian Rupees Eighteen Hundred Crores only) for, inter alia, refinancing of existing debt of the Company, by way of issuance of unlisted, secured, redeemable, non-convertible debentures in one or more series/ tranches, on private placement basis.",
       "date": "05-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 68.43000030517578,
-      "pct_7": -0.025352496831046567,
-      "pct_30": -0.1191916829094497,
-      "sma20": 73.28099975585937,
-      "vol_30": 5521709.698860457
+      "last_price": 70.0,
+      "pct_7": -0.004975102796197506,
+      "pct_30": -0.10417199197888372,
+      "sma20": 72.9939998626709,
+      "vol_30": 5552389.308065704
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The company is planning to raise funds through debentures, which may lead to dilution of shareholder value. However, the stock price has been relatively stable in the short term.",
-      "action": "Hold the stock until more information about the fund raising is available.",
+      "rationale": "The company is raising funds through debentures, which may lead to dilution of shareholder value. However, the sentiment score is slightly negative, indicating some concerns among investors.",
+      "action": "Hold the stock until more information is available about the fund raising and its impact on the company's financials.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "dilution-related_terms",
+        "fund_raising"
       ]
     }
   },
@@ -135,20 +71,20 @@
       "bm_desc": "To consider other business matters1. Appointment of Mr. Ravindra Mishrilal Bangad (DIN: 00533907) as an Additional Executive Director of the company.",
       "date": "05-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 20.420000076293945,
-      "pct_7": -0.006809309011916342,
-      "pct_30": -0.05111525827467556,
-      "sma20": 20.71049976348877,
-      "vol_30": 20478.70543201558
+      "last_price": 20.110000610351562,
+      "pct_7": 0.0019930700615635732,
+      "pct_30": -0.08173511595242844,
+      "sma20": 20.657999801635743,
+      "vol_30": 20496.821450132713
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Maintain current investment position in Laxmi Cotspin Limited.",
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Hold the stock and monitor for any significant changes in the company's business matters.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -168,28 +104,24 @@
       "bm_desc": "A meeting of the Board of Directors of the Company is scheduled to be held on Friday, the 5th day of December, 2025, inter alia to consider and approve:i. The re-constitution of committees pursuant to the resignation of Mr. Robert Taylor as an Independent Director of the Company; andii. The postal ballot notice for seeking the shareholders  approval for the appointment of Mr. Apurva Chandra (DIN: 02531655) as an Independent Director and other matters.",
       "date": "05-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 153.60000610351562,
-      "pct_7": -0.02538070967695716,
-      "pct_30": 0.014732186419122772,
-      "sma20": 160.12200088500975,
-      "vol_30": 262865.91801818163
+      "last_price": 152.52000427246094,
+      "pct_7": 0.004412236694205873,
+      "pct_30": -0.03602576731301621,
+      "sma20": 159.71450119018556,
+      "vol_30": 262055.71474056528
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.7,
-      "rationale": "The company is announcing a board meeting to re-constitute committees and appoint a new independent director, which may lead to market volatility.",
+      "rationale": "The company is announcing a board meeting to re-constitute committees and appoint a new independent director, which may have a neutral impact on the stock price.",
       "action": "Hold the stock until the board meeting outcome is announced.",
       "features_used": [
-        "sentiment_score",
-        "days_to_event",
-        "last_price",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "sentiment analysis",
+        "event analysis",
+        "technical indicators"
       ]
     }
   },
@@ -203,11 +135,11 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
       "date": "05-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 487.75,
-      "pct_7": -0.018117765475591296,
+      "last_price": 492.6000061035156,
+      "pct_7": -0.017060736101165763,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -216,10 +148,106 @@
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Maintain current investment position in Tenneco Clean Air India Limited.",
+      "action": "Hold the stock until more information is available about the upcoming financial results.",
       "features_used": [
         "sentiment_score",
         "pct_7"
+      ]
+    }
+  },
+  {
+    "symbol": "BIOCON",
+    "company": "Biocon Limited",
+    "input": {
+      "symbol": "BIOCON",
+      "company": "Biocon Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider Fund Raising",
+      "date": "06-Dec-2025",
+      "estimated_EPS": 9.92,
+      "days_to_event": 2,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 410.0,
+      "pct_7": 0.0425937698664971,
+      "pct_30": 0.08710064068708934,
+      "sma20": 400.00000152587893,
+      "vol_30": 3738627.334728935
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is near, and the estimated EPS is high.",
+      "action": "Hold the stock until the event date and reassess based on the outcome.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "days_to_event",
+        "estimated_EPS"
+      ]
+    }
+  },
+  {
+    "symbol": "NACLIND",
+    "company": "NACL Industries Limited",
+    "input": {
+      "symbol": "NACLIND",
+      "company": "NACL Industries Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "Meeting of Securities Issue Committee to be held on December 08, 2025",
+      "date": "08-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 181.1300048828125,
+      "pct_7": 0.01867165721727604,
+      "pct_30": -0.09262594272442692,
+      "sma20": 185.4385009765625,
+      "vol_30": 123881.7391673881
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score (-0.3) and recent price decline (pct_30: -0.09262594272442692) suggest a potential sell opportunity.",
+      "action": "Sell NACL Industries Limited shares before the meeting of the Securities Issue Committee on December 08, 2025.",
+      "features_used": [
+        "sentiment_score",
+        "pct_30",
+        "last_price"
+      ]
+    }
+  },
+  {
+    "symbol": "ONEPOINT",
+    "company": "One Point One Solutions Limited",
+    "input": {
+      "symbol": "ONEPOINT",
+      "company": "One Point One Solutions Limited",
+      "purpose": "Fund Raising/Other business matters",
+      "bm_desc": "To consider Fund Raising and other business matters",
+      "date": "08-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 54.2400016784668,
+      "pct_7": 0.04629632559441843,
+      "pct_30": 0.10874905373358446,
+      "sma20": 52.67249984741211,
+      "vol_30": 1582327.7753831896
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "The stock has a neutral sentiment score of -0.3 due to dilution-related terms, but recent price movement shows a slight increase.",
+      "action": "Hold the stock for now and reevaluate after the upcoming event.",
+      "features_used": [
+        "sentiment analysis",
+        "price movement analysis",
+        "event analysis"
       ]
     }
   },
@@ -233,11 +261,11 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
       "date": "08-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 136.75999450683594,
-      "pct_7": 0.055898625660518064,
+      "last_price": 134.94000244140625,
+      "pct_7": -0.004793818969244468,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -245,13 +273,44 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and lack of recent price movement suggest holding the stock.",
-      "action": "Hold the stock until more information is available about the upcoming financial results.",
+      "rationale": "The company is set to release financial results, but there is no indication of significant earnings or surprises, and the overall sentiment is neutral.",
+      "action": "Hold the stock until the financial results are announced and assess the impact.",
       "features_used": [
         "sentiment_score",
         "days_to_event",
         "last_price",
         "pct_7"
+      ]
+    }
+  },
+  {
+    "symbol": "SDBL",
+    "company": "Som Distilleries & Breweries Limited",
+    "input": {
+      "symbol": "SDBL",
+      "company": "Som Distilleries & Breweries Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider the matters to approve / accept the Rights issue offer of Equity shares worth Rs.49.99 Crores made by Woodpecker Greenagri Nutrients Pvt Ltd. (WGNPL), Wholly Owned Subsidiary of the Company",
+      "date": "11-Dec-2025",
+      "estimated_EPS": 5.85,
+      "days_to_event": 7,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 111.52999877929688,
+      "pct_7": -0.047077939961802207,
+      "pct_30": -0.15405034983876653,
+      "sma20": 119.9685001373291,
+      "vol_30": 274439.2173784005
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the company is considering a rights issue which may have a positive impact on the stock price.",
+      "action": "Hold the stock until more information about the rights issue is available.",
+      "features_used": [
+        "sentiment analysis",
+        "event analysis",
+        "technical indicators"
       ]
     }
   },
@@ -265,19 +324,19 @@
       "bm_desc": "To consider declaration of interim dividend for the financial year 2025-2026.",
       "date": "12-Dec-2025",
       "estimated_EPS": 17.18,
-      "days_to_event": 9,
+      "days_to_event": 8,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 162.33999633789062,
-      "pct_7": -0.02021851683356879,
-      "pct_30": -0.021458696139645794,
-      "sma20": 168.0484992980957,
-      "vol_30": 10926428.513153039
+      "last_price": 164.11000061035156,
+      "pct_7": -6.089755747795689e-05,
+      "pct_30": -0.021582276333374617,
+      "sma20": 167.79149932861327,
+      "vol_30": 10636820.091621848
     },
     "prediction": {
       "recommendation": "buy",
-      "confidence": 0.8,
-      "rationale": "Dividend announcement with 9 days to event, positive sentiment score and relatively stable stock price.",
+      "confidence": 0.7,
+      "rationale": "Dividend announcement with 8 days to event, positive sentiment score and relatively stable stock price.",
       "action": "Buy IOC stock before the dividend announcement on 12-Dec-2025.",
       "features_used": [
         "dividend_announcement",
@@ -296,26 +355,25 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Jan-2026",
       "estimated_EPS": 6.82,
-      "days_to_event": 51,
+      "days_to_event": 50,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 382.95001220703125,
-      "pct_7": -0.035025812480039775,
-      "pct_30": -0.04262496948242189,
-      "sma20": 396.0550003051758,
-      "vol_30": 1045816.4676541165
+      "last_price": 375.70001220703125,
+      "pct_7": -0.05969209439269374,
+      "pct_30": -0.06623584812281058,
+      "sma20": 394.9300003051758,
+      "vol_30": 1044757.6471498888
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movements are slightly negative, but the company is about to release its financial results which may impact the stock price.",
-      "action": "Monitor the stock closely after the financial results are released on January 23, 2026.",
+      "confidence": 0.65,
+      "rationale": "The stock's sentiment score is neutral, and the recent price movements are slightly negative, but the SMA20 indicates a slight uptrend.",
+      "action": "Hold the stock as there are no strong indications for a buy or sell.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -329,22 +387,25 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "24-Jan-2026",
       "estimated_EPS": 137.04,
-      "days_to_event": 52,
+      "days_to_event": 51,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 11666.0,
-      "pct_7": 0.007078729281768004,
-      "pct_30": -0.023520549091822218,
-      "sma20": 11748.05,
-      "vol_30": 113992.20567259105
+      "last_price": 11591.0,
+      "pct_7": 0.0009499136442141509,
+      "pct_30": -0.030041841004184056,
+      "sma20": 11736.65,
+      "vol_30": 107154.06815362828
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment score and recent price movement suggest stability, but no clear trend.",
-      "action": "Maintain current investment position in UltraTech Cement Limited.",
+      "confidence": 0.5,
+      "rationale": "The stock's recent performance is neutral, with a slight decline in the last 30 days. The estimated EPS is relatively high, but the sentiment score is low. The days to event are moderate.",
+      "action": "Monitor the stock's price movement and adjust the recommendation based on future financial results.",
       "features_used": [
+        "estimated_EPS",
         "sentiment_score",
+        "days_to_event",
+        "last_price",
         "pct_7",
         "pct_30",
         "sma20",
