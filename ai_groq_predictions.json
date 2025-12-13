@@ -1,104 +1,5 @@
 [
   {
-    "symbol": "AFIL",
-    "company": "Akme Fintrade (India) Limited",
-    "input": {
-      "symbol": "AFIL",
-      "company": "Akme Fintrade (India) Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "Akme Fintrade (India) Limited has informed the Exchange about Board Meeting to be held on 13th December, 2025 to consider Fund raising.",
-      "date": "13-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 6.940000057220459,
-      "pct_7": -0.01560285539551709,
-      "pct_30": -0.07835327173289774,
-      "sma20": 7.224999976158142,
-      "vol_30": 723807.7061762441
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline due to potential dilution.",
-      "action": "Sell Akme Fintrade (India) Limited shares before the fund raising announcement on 13th December, 2025.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "ASHOKAMET",
-    "company": "Ashoka Metcast Limited",
-    "input": {
-      "symbol": "ASHOKAMET",
-      "company": "Ashoka Metcast Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "Pursuant to Regulation 29 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015,   Notice is hereby given that the meeting of the Board of Directors of the Company will be held on Saturday, 13th December, 2025 at the Registered Office of the Company. The agenda for the Meeting is as mentioned below: 1. To consider and approve the appointment of Additional (Independent) Director of the Company, subject to shareholder s approval in the general meeting.2.    Any other agenda with the permission of Chair.",
-      "date": "13-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 15.5600004196167,
-      "pct_7": -0.022613043652764286,
-      "pct_30": -0.06937792711577961,
-      "sma20": 15.973999977111816,
-      "vol_30": 25719.64539102804
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.7,
-      "rationale": "The stock price is relatively stable with a slight decline in the last 7 and 30 days. The upcoming board meeting may bring some volatility, but no significant EPS estimate is available.",
-      "action": "Hold the stock until the board meeting outcome is clear.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "HILTON",
-    "company": "Hilton Metal Forging Limited",
-    "input": {
-      "symbol": "HILTON",
-      "company": "Hilton Metal Forging Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "HILTON : 13-Dec-2025 :  The Company has informed the Exchange that a Board meeting to be held on December 10, 2025 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on December 13, 2025,  To consider Fund Raising",
-      "date": "13-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 40.34000015258789,
-      "pct_7": -0.04020934275024157,
-      "pct_30": -0.03492820840001831,
-      "sma20": 42.554499816894534,
-      "vol_30": 193044.52004152918
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Fund raising meeting today, potential for stock volatility but no clear indication of outcome.",
-      "action": "Wait for market reaction before making any investment decisions.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "last_price",
-        "days_to_event"
-      ]
-    }
-  },
-  {
     "symbol": "ANSALAPI",
     "company": "Ansal Properties & Infrastructure Limited",
     "input": {
@@ -108,25 +9,26 @@
       "bm_desc": "The Company informed the stock exchanges about the prior intimation for dissemination of Un-Audited Financial results (Standalone) for the 01st quarter ended on the 30th June, 2025 of Financial year 2025-26 on the 15th December, 2025.",
       "date": "15-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 3.4000000953674316,
-      "pct_7": -0.008746347173728575,
-      "pct_30": -0.1499999761581421,
-      "sma20": 3.4825000166893005,
-      "vol_30": 209657.61313830357
+      "last_price": 3.4600000381469727,
+      "pct_7": 0.011695895017749036,
+      "pct_30": -0.11734694622298758,
+      "sma20": 3.467500019073486,
+      "vol_30": 209668.22292501392
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
-      "action": "Hold the stock until the financial results are announced on 15th December, 2025.",
+      "rationale": "The stock's recent price movement indicates relatively stable growth, however, the negative sentiment score due to uncertain financial results suggests caution.",
+      "action": "Hold the stock as of now and reassess after the financial results are announced on 15th December 2025.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "last_price"
       ]
     }
   },
@@ -140,27 +42,24 @@
       "bm_desc": "To consider dividend",
       "date": "15-Dec-2025",
       "estimated_EPS": 81.24615,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 905.0999755859375,
-      "pct_7": 0.016623596535879415,
-      "pct_30": 0.01066382437959068,
-      "sma20": 894.9249938964844,
-      "vol_30": 209781.65638915933
+      "last_price": 915.4000244140625,
+      "pct_7": 0.02537107187237475,
+      "pct_30": 0.03528614767732652,
+      "sma20": 896.4624938964844,
+      "vol_30": 211320.80722827365
     },
     "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Sentiment score is low and company is planning to consider dividend.",
-      "action": "Hold Can Fin Homes Limited with a watchlist for dividend announcement.",
+      "recommendation": "buy",
+      "confidence": 0.8,
+      "rationale": "The stock has a positive sentiment score and is due to consider dividend, indicating a potential increase in value.",
+      "action": "Buy CANFINHOME stock before the dividend announcement.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30",
-        "bm_desc"
+        "days_to_event",
+        "estimated_EPS"
       ]
     }
   },
@@ -174,24 +73,25 @@
       "bm_desc": "To consider and approve the Scheme of Merger by Absorption of Hinduja National Power Corporation Limited ( HNPCL ) into GOCL Corporation Limited ( GOCL )",
       "date": "15-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 291.95001220703125,
-      "pct_7": -0.033438093011479375,
-      "pct_30": -0.1159727109552422,
-      "sma20": 305.57250061035154,
-      "vol_30": 21508.525288236586
+      "last_price": 302.5,
+      "pct_7": 0.024208544942363686,
+      "pct_30": -0.11212213336763388,
+      "sma20": 304.375,
+      "vol_30": 26917.651720005968
     },
     "prediction": {
-      "recommendation": "sell",
+      "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Recent stock price decrease and negative historical percentage changes may be a sign of a potential market downturn.",
-      "action": "Consider reducing your position in GOCLCORP to minimize potential losses.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is minimal.",
+      "action": "Hold the stock until more information about the merger is available.",
       "features_used": [
-        "previous_stock_price_decrease",
-        "negative_sentiment_score",
-        "near_event_date"
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
       ]
     }
   },
@@ -205,27 +105,26 @@
       "bm_desc": "To consider buyback for equity shares and other business matters",
       "date": "15-Dec-2025",
       "estimated_EPS": 26.7,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 549.2000122070312,
-      "pct_7": 0.14083925876643444,
-      "pct_30": 0.06228242206389023,
-      "sma20": 500.42999877929685,
-      "vol_30": 136722.96213137778
+      "last_price": 546.0,
+      "pct_7": 0.14154299380065027,
+      "pct_30": 0.05711519845111335,
+      "sma20": 502.5874984741211,
+      "vol_30": 137189.9723154327
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has shown moderate growth in the last 7 and 30 days, but the sentiment score is neutral. The company is considering a buyback, which may positively impact the stock price.",
-      "action": "Monitor the stock closely in the next few days as the buyback announcement may have a significant impact on the stock price.",
+      "action": "Hold the stock until the buyback decision is announced and assess the impact on the stock price.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
-        "vol_30",
-        "days_to_event"
+        "vol_30"
       ]
     }
   },
@@ -239,7 +138,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
       "date": "15-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 1.850000023841858,
@@ -272,7 +171,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2025",
       "date": "15-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 1.850000023841858,
@@ -283,13 +182,11 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment and no recent price movements.",
-      "action": "Maintain current investment in Nitin Fire Protection Industries Limited.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
+      "action": "Maintain current investment position in Nitin Fire Protection Industries Limited.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
-        "days_to_event",
         "pct_7",
         "pct_30",
         "sma20",
@@ -307,24 +204,22 @@
       "bm_desc": "to inter alia consider and approve the Scheme of Arrangement underRegulation 37 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and any other matters with the permission of Chairman.",
       "date": "15-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 150.72000122070312,
-      "pct_7": -0.01811074123320444,
-      "pct_30": -0.18086955858313514,
-      "sma20": 158.78199920654296,
-      "vol_30": 4830.015996856021
+      "last_price": 148.5,
+      "pct_7": -0.007817185696926576,
+      "pct_30": -0.19729729729729728,
+      "sma20": 157.34149932861328,
+      "vol_30": 4862.25630716355
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and is approaching a significant event in 3 days, which may impact its price.",
-      "action": "Hold the stock until the event on 15-Dec-2025 to assess its impact on the price.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and recent price drop, but upcoming event may impact stock price.",
+      "action": "Monitor the stock closely in the next few days as the event approaches.",
       "features_used": [
         "sentiment_score",
-        "days_to_event",
-        "last_price",
         "pct_7",
         "pct_30",
         "sma20",
@@ -342,26 +237,25 @@
       "bm_desc": "To consider and approve the Unaudited Consolidated financial results for the quarter ended Jun 30, 2025",
       "date": "16-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 575.9500122070312,
-      "pct_7": -0.06059364680842172,
-      "pct_30": -0.12853685742007015,
-      "sma20": 631.8549987792969,
-      "vol_30": 5824.825062836108
+      "last_price": 604.7000122070312,
+      "pct_7": -0.011766648013988523,
+      "pct_30": -0.12854879531435792,
+      "sma20": 628.3524993896484,
+      "vol_30": 5819.9090639496835
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has shown a decline in recent days, but the event is near, and the sentiment score is low. It's best to hold until the financial results are announced.",
-      "action": "Hold the stock until the financial results are announced on 16-Dec-2025.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price fluctuations suggest a stable market position.",
+      "action": "Maintain current investment in BF Utilities Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -375,24 +269,24 @@
       "bm_desc": "To consider interim dividend.",
       "date": "16-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 281.95001220703125,
-      "pct_7": -0.038205635076383526,
-      "pct_30": -0.10420965144708105,
-      "sma20": 293.8575042724609,
-      "vol_30": 638005.2537285542
+      "last_price": 298.25,
+      "pct_7": 0.05781162293761466,
+      "pct_30": -0.04712460063897761,
+      "sma20": 294.16500396728514,
+      "vol_30": 625521.602765597
     },
     "prediction": {
       "recommendation": "buy",
-      "confidence": 0.6,
-      "rationale": "The stock has a recent dividend announcement which is expected to positively impact the stock price.",
-      "action": "Buy CRAMC for potential increase in stock price due to the upcoming dividend announcement.",
+      "confidence": 0.8,
+      "rationale": "Dividend announcement with 3 days to event, positive sentiment score and recent price increase",
+      "action": "Buy CRAMC stock before the dividend announcement on 16-Dec-2025",
       "features_used": [
-        "sentiment_analysis",
-        "moving_averages",
-        "recent_company_announcements"
+        "dividend announcement",
+        "sentiment score",
+        "recent price increase"
       ]
     }
   },
@@ -406,19 +300,19 @@
       "bm_desc": "To consider Fund Raising by issuance of non-convertible debentures on a private placement basis.",
       "date": "16-Dec-2025",
       "estimated_EPS": 15.00259,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 157.72999572753906,
-      "pct_7": -0.07239471915221285,
-      "pct_30": -0.05346857714080655,
-      "sma20": 167.72449951171876,
-      "vol_30": 219366.3551348926
+      "last_price": 158.61000061035156,
+      "pct_7": -0.0680963369312817,
+      "pct_30": -0.04064598769901473,
+      "sma20": 167.107999420166,
+      "vol_30": 217285.42592510435
     },
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
+      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
       "action": "Sell FUSION shares before the fund raising event.",
       "features_used": [
         "sentiment_score",
@@ -437,20 +331,20 @@
       "bm_desc": "To consider other business matters",
       "date": "16-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 88.19000244140625,
-      "pct_7": -0.038591527155545036,
-      "pct_30": 0.187744140625,
-      "sma20": 84.63650054931641,
-      "vol_30": 303788.3437550392
+      "last_price": 89.02999877929688,
+      "pct_7": -0.04279113284078995,
+      "pct_30": 0.20981115925747607,
+      "sma20": 85.33350067138672,
+      "vol_30": 305159.7626174925
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has shown a slight increase in the last 30 days, but a decrease in the last 7 days. The sentiment score is neutral.",
-      "action": "Hold the stock until the next event date to assess its performance.",
+      "action": "Hold the stock until the next event date to assess its impact on the market.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -469,26 +363,26 @@
       "bm_desc": "To consider Fund Raising proposal by way of issuance of listed, secured/unsecured, non-convertible debentures on private placement basis",
       "date": "16-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 106.87999725341797,
-      "pct_7": -0.0007479602817825892,
-      "pct_30": -0.03677002401512841,
-      "sma20": 109.78850021362305,
-      "vol_30": 4567583.517494436
+      "last_price": 110.43000030517578,
+      "pct_7": 0.022973630634956388,
+      "pct_30": -0.011546732021412542,
+      "sma20": 109.86750030517578,
+      "vol_30": 4567990.024828236
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score and recent price decline, but the event is near and the company is raising funds.",
-      "action": "Hold the stock until the event date and reassess after the announcement.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is slightly positive. The event is approaching, and the volume is high.",
+      "action": "Hold the stock until the event date and reassess based on the outcome.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
-        "days_to_event"
+        "vol_30"
       ]
     }
   },
@@ -502,25 +396,183 @@
       "bm_desc": "To consider other business matters",
       "date": "16-Dec-2025",
       "estimated_EPS": 16.61205,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 238.60000610351562,
-      "pct_7": -0.0478850746517665,
-      "pct_30": -0.24529492105054607,
-      "sma20": 269.5724983215332,
-      "vol_30": 666379.4254829307
+      "last_price": 243.0500030517578,
+      "pct_7": -0.03263680377409828,
+      "pct_30": -0.2315838999941917,
+      "sma20": 265.8724990844727,
+      "vol_30": 663903.9661216451
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.7,
+      "rationale": "Company is set to make important business decisions and there's a bearish trend observed in recent price movements, so holding off on investment seems wise.",
+      "action": "Maintain the current investment position on Vikram Solar Limited and reevaluate after the upcoming board meeting.",
+      "features_used": [
+        "sentiment_score",
+        "days_to_event",
+        "price_movement_analysis",
+        "technical_indicators"
+      ]
+    }
+  },
+  {
+    "symbol": "GMRP&UI",
+    "company": "GMR Power and Urban Infra Limited",
+    "input": {
+      "symbol": "GMRP&UI",
+      "company": "GMR Power and Urban Infra Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider , evaluate and approve the proposal of raising funds upto Rs. 1200 crore by way of issuance of equity shares/warrants through preferential issue.",
+      "date": "17-Dec-2025",
+      "estimated_EPS": 11.05,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 115.08999633789062,
+      "pct_7": 0.03349493271457771,
+      "pct_30": -0.020510669464760656,
+      "sma20": 118.85199928283691,
+      "vol_30": 3293590.6772923507
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a decline in recent days, but the estimated EPS is high. The sentiment score is neutral.",
-      "action": "Hold the stock until the next earnings announcement to assess the impact of the company's business matters.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is slightly positive. The event is near, and the company is raising funds.",
+      "action": "Hold the stock until the event date and reassess based on the outcome.",
       "features_used": [
-        "estimated_EPS",
+        "sentiment analysis",
+        "price movement analysis",
+        "event analysis"
+      ]
+    }
+  },
+  {
+    "symbol": "KPIGREEN",
+    "company": "KPI Green Energy Limited",
+    "input": {
+      "symbol": "KPIGREEN",
+      "company": "KPI Green Energy Limited",
+      "purpose": "Fund Raising/Other business matters",
+      "bm_desc": "KPI Green Energy Ltd has informed NSE that the meeting of the Board of Directors of the Company is scheduled on 17/12/2025 ,inter alia, to consider and approve proposal for raising funds by issue of equity or any other equity-linked or convertible securities including warrants ('Securities') through all or any permissible modes or method, including private placement, preferential issue or such other modes as may be permitted. The disclosure is attached herewith.",
+      "date": "17-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 424.75,
+      "pct_7": -0.03848330503678554,
+      "pct_30": -0.12538574857547402,
+      "sma20": 433.8274978637695,
+      "vol_30": 760211.3437239961
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.8,
+      "rationale": "Dilution concern due to potential fund-raising",
+      "action": "Sell the stock before the 17th for avoiding potential dilution.",
+      "features_used": [
+        "sentiment_reason",
+        "days_to_event",
+        "pct_7",
+        "pct_30"
+      ]
+    }
+  },
+  {
+    "symbol": "KPIGREEN",
+    "company": "KPI Green Energy Limited",
+    "input": {
+      "symbol": "KPIGREEN",
+      "company": "KPI Green Energy Limited",
+      "purpose": "Fund Raising/Other business matters",
+      "bm_desc": "Update on board meeting- KPI Green Energy Ltd has informed NSE that the meeting of the Board of Directors of the Company is scheduled on 17/12/2025 ,inter alia, to consider and approve KPI Green Energy Limited informed the BSE regarding proposal for raising funds by issue of equity or any other equity-linked or convertible securities including warrants ('Securities') to promoter and/or promoter group, through all or any permissible modes or method, including private placement, preferential issue or such other modes. Disclosure is attached herewith",
+      "date": "17-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 424.75,
+      "pct_7": -0.03848330503678554,
+      "pct_30": -0.12538574857547402,
+      "sma20": 433.8274978637695,
+      "vol_30": 760211.3437239961
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.7,
+      "rationale": "The company is planning to raise funds through equity-linked securities, which may lead to dilution of shareholder value. However, the event is scheduled to occur in the near term, and the stock price has been relatively stable.",
+      "action": "Hold the stock until the board meeting outcome is announced and assess the impact on the company's financials.",
+      "features_used": [
+        "sentiment analysis",
+        "event analysis",
+        "technical analysis"
+      ]
+    }
+  },
+  {
+    "symbol": "ONELIFECAP",
+    "company": "Onelife Capital Advisors Limited",
+    "input": {
+      "symbol": "ONELIFECAP",
+      "company": "Onelife Capital Advisors Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "consider, discuss and decide various matters in connection with the Rights Issue, including the specific terms of the Rights Issue",
+      "date": "17-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 16.940000534057617,
+      "pct_7": 0.19717321489349504,
+      "pct_30": 0.1755725685937375,
+      "sma20": 13.91599998474121,
+      "vol_30": 47351.54043442138
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.8,
+      "rationale": "The stock's recent performance and short-term trend suggest stability, but concern about dilution from the Rights Issue affects long-term potential.",
+      "action": "Monitor the stock for potential price fluctuations around the Rights Issue.",
+      "features_used": [
+        "sentiment_score",
         "pct_7",
         "pct_30",
-        "sentiment_score"
+        "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "SUPREMEENG",
+    "company": "Supreme Engineering Limited",
+    "input": {
+      "symbol": "SUPREMEENG",
+      "company": "Supreme Engineering Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2025",
+      "date": "17-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 1.3600000143051147,
+      "pct_7": 0.2710279884458351,
+      "pct_30": 0.743589825884128,
+      "sma20": 1.061499997973442,
+      "vol_30": 155356.11226406074
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and moderate price movement over the past month.",
+      "action": "Hold the stock until more information is available about the upcoming financial results.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
       ]
     }
   },
@@ -534,24 +586,25 @@
       "bm_desc": "To consider Fund Raising",
       "date": "18-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 79.37000274658203,
-      "pct_7": -0.0408458882588274,
-      "pct_30": -0.14554846304125457,
-      "sma20": 86.16449966430665,
-      "vol_30": 8287.351307173225
+      "last_price": 95.23999786376953,
+      "pct_7": 0.13841732840976295,
+      "pct_30": 0.028065614111085768,
+      "sma20": 86.27899971008301,
+      "vol_30": 14591.671214700906
     },
     "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
-      "action": "Sell Maha Rashtra Apex Corporation Limited shares before the fund raising event.",
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "Fund raising announcement with mixed short-term performance and negative sentiment, but stable long-term momentum.",
+      "action": "Hold the stock MAHAPEXLTD until closer to the event date to reassess its impact.",
       "features_used": [
+        "fund_raising_event",
         "sentiment_score",
-        "pct_7",
-        "pct_30"
+        "short_term_performance",
+        "long_term_momentum"
       ]
     }
   },
@@ -565,25 +618,26 @@
       "bm_desc": "To consider and approve the interim dividend and other business matters",
       "date": "18-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 247.00999450683594,
-      "pct_7": 0.010555176976488667,
-      "pct_30": -0.11465951789664541,
-      "sma20": 249.67699966430663,
-      "vol_30": 116396.25147073221
+      "last_price": 251.1199951171875,
+      "pct_7": 0.05185553044807123,
+      "pct_30": -0.10808024860635845,
+      "sma20": 248.32799911499023,
+      "vol_30": 116114.26105340448
     },
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "Dividend announcement with a short time to event, indicating a potential short-term price increase.",
-      "action": "Buy Prakash Pipes Limited (PPL) stock before the dividend announcement on 18-Dec-2025.",
+      "rationale": "Dividend announcement with positive sentiment score and recent price increase",
+      "action": "Buy Prakash Pipes Limited (PPL) stock before the dividend announcement on 18-Dec-2025",
       "features_used": [
         "sentiment_score",
-        "days_to_event",
         "pct_7",
-        "sma20"
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -597,24 +651,57 @@
       "bm_desc": "To consider other business matters",
       "date": "18-Dec-2025",
       "estimated_EPS": 32.4,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 132.83999633789062,
-      "pct_7": -0.011239372512283685,
-      "pct_30": -0.15961289186618832,
-      "sma20": 135.40350074768065,
-      "vol_30": 458621.87722429546
+      "last_price": 134.72999572753906,
+      "pct_7": 0.019677520234957502,
+      "pct_30": -0.142284223599347,
+      "sma20": 134.78550071716307,
+      "vol_30": 459996.88663292234
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.7,
-      "rationale": "The recent sentiment score of 0.0 and negative short-term price movement (%7: -0.0112%) indicate a wait-and-see approach. The stock's long-term moving average (sma20) is slightly above the current price.",
-      "action": "Hold the stock and monitor future developments before making any investment decisions.",
+      "confidence": 0.6,
+      "rationale": "Neutral sentiment and stable price movement over the past week, but recent 30-day price drop suggests caution.",
+      "action": "Hold the stock and monitor for any significant price movements before the upcoming event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
-        "sma20"
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "SILGO",
+    "company": "Silgo Retail Limited",
+    "input": {
+      "symbol": "SILGO",
+      "company": "Silgo Retail Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider Fund Raising through Rights Issue.",
+      "date": "22-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 9,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 72.01000213623047,
+      "pct_7": 0.03492383215332473,
+      "pct_30": 0.07928658301471758,
+      "sma20": 67.22549972534179,
+      "vol_30": 127282.04978312184
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and dilution-related terms indicate potential decline in stock price.",
+      "action": "Sell Silgo Retail Limited (SILGO) stock before the fund raising event.",
+      "features_used": [
+        "sentiment_score",
+        "sentiment_reason",
+        "days_to_event"
       ]
     }
   },
@@ -628,25 +715,26 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and dividend",
       "date": "22-Jan-2026",
       "estimated_EPS": 53.95535,
-      "days_to_event": 41,
+      "days_to_event": 40,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 1841.4000244140625,
-      "pct_7": -0.037176457822712394,
-      "pct_30": 0.024650853836710507,
-      "sma20": 1868.8099853515625,
-      "vol_30": 598795.6283850934
+      "last_price": 1851.0,
+      "pct_7": -0.05859015056083927,
+      "pct_30": 0.012748289900202492,
+      "sma20": 1871.3799865722656,
+      "vol_30": 585213.900754333
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
-      "action": "Maintain the current investment position in Coforge Limited.",
+      "rationale": "The stock has a neutral sentiment score and a slight increase in price over the last 30 days, but a recent decline in the last 7 days.",
+      "action": "Monitor the stock's performance over the next few weeks before making any investment decisions.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -660,14 +748,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Jan-2026",
       "estimated_EPS": 11.6,
-      "days_to_event": 42,
+      "days_to_event": 41,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 418.6499938964844,
-      "pct_7": 0.1143198836676782,
-      "pct_30": 0.07126409153899349,
-      "sma20": 402.94749908447267,
-      "vol_30": 1524554.3919928805
+      "last_price": 414.1499938964844,
+      "pct_7": 0.004852602279796114,
+      "pct_30": 0.05583172440148987,
+      "sma20": 404.0124984741211,
+      "vol_30": 1245320.0110116575
     },
     "prediction": {
       "recommendation": "hold",
@@ -693,24 +781,59 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "24-Jan-2026",
       "estimated_EPS": 386.35974,
-      "days_to_event": 43,
+      "days_to_event": 42,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 11472.0,
-      "pct_7": -0.01026658614442244,
-      "pct_30": -0.029852008456659584,
-      "sma20": 11625.7,
-      "vol_30": 71472.92213403732
+      "last_price": 11723.0,
+      "pct_7": 0.009906960716747015,
+      "pct_30": -0.016609344853619645,
+      "sma20": 11618.15,
+      "vol_30": 79354.44840256097
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a slight downward trend with 7-day and 30-day percentages falling by 0.01% and 0.030% respectively, but recent sentiment is neutral (sentiment score of 0.05).",
-      "action": "Hold the stock as there's no strong indication to buy or sell.",
+      "rationale": "Neutral sentiment score and recent price movements suggest a stable market position.",
+      "action": "Maintain current investment in UltraTech Cement Limited.",
       "features_used": [
-        "sentiment score",
-        "stock price trend",
-        "volatility"
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "ABB",
+    "company": "ABB India Limited",
+    "input": {
+      "symbol": "ABB",
+      "company": "ABB India Limited",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and recommend dividend",
+      "date": "19-Feb-2026",
+      "estimated_EPS": 90.25604,
+      "days_to_event": 68,
+      "sentiment_score": 0.25,
+      "sentiment_reason": "dividend mentioned",
+      "last_price": 5278.0,
+      "pct_7": 0.020396326727887937,
+      "pct_30": 0.07189277010560513,
+      "sma20": 5142.85,
+      "vol_30": 201758.15309966658
+    },
+    "prediction": {
+      "recommendation": "buy",
+      "confidence": 0.7,
+      "rationale": "Positive sentiment due to dividend mention and recent price increase",
+      "action": "Buy ABB stock before the financial results announcement on 19-Feb-2026",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   }
