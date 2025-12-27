@@ -1,32 +1,34 @@
 [
   {
-    "symbol": "DCAL",
-    "company": "Dishman Carbogen Amcis Limited",
+    "symbol": "AURIGROW",
+    "company": "Auri Grow India Limited",
     "input": {
-      "symbol": "DCAL",
-      "company": "Dishman Carbogen Amcis Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider Fund Raising",
-      "date": "27-Dec-2025",
-      "estimated_EPS": 12.5,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 254.8000030517578,
-      "pct_7": 0.10484783820363641,
-      "pct_30": 0.10088574815897378,
-      "sma20": 235.87100067138672,
-      "vol_30": 375704.59629891854
+      "symbol": "AURIGROW",
+      "company": "Auri Grow India Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "AURIGROW : 29-Dec-2025 :  The Company has informed the Exchange that a Board meeting to be held on December 26, 2025 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on December 29, 2025,  To consider other business matters",
+      "date": "29-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 2,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 0.8799999952316284,
+      "pct_7": 0.023255791388182345,
+      "pct_30": 0.6923077452112252,
+      "sma20": 0.7319999963045121,
+      "vol_30": 31503807.649490613
     },
     "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and dilution-related terms indicate potential risks for investors.",
-      "action": "Sell your shares of DCAL before the fund raising event to minimize potential losses.",
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "The stock has a recent price increase, but the sentiment score is neutral and the company is rescheduling a board meeting.",
+      "action": "Hold the stock until more information is available about the rescheduled board meeting.",
       "features_used": [
         "sentiment_score",
-        "sentiment_reason",
-        "days_to_event"
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -40,14 +42,14 @@
       "bm_desc": "To consider Fund Raising",
       "date": "29-Dec-2025",
       "estimated_EPS": 15.00259,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 162.05999755859375,
-      "pct_7": 0.039245831867208425,
-      "pct_30": -0.025203022203947323,
-      "sma20": 162.3769989013672,
-      "vol_30": 129431.9896579294
+      "last_price": 161.0,
+      "pct_7": 0.0590711450806467,
+      "pct_30": -0.029769810586513512,
+      "sma20": 161.77549896240234,
+      "vol_30": 132275.63832270596
     },
     "prediction": {
       "recommendation": "sell",
@@ -68,10 +70,10 @@
       "symbol": "GAYAPROJ",
       "company": "Gayatri Projects Limited",
       "purpose": "Financial Results",
-      "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2024",
+      "bm_desc": "To consider and approve the financial results for the period ended March 31, 2025",
       "date": "29-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 11.529999732971191,
@@ -84,7 +86,7 @@
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and stable price movement over the past month.",
-      "action": "Monitor the stock for any significant price movements before making a decision.",
+      "action": "Maintain current investment position in Gayatri Projects Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -103,39 +105,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended September 30, 2024",
       "date": "29-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 11.529999732971191,
-      "pct_7": 0.0,
-      "pct_30": 0.0,
-      "sma20": 11.529999732971191,
-      "vol_30": 51481.037059647315
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and stable price movement over the past month.",
-      "action": "Monitor the stock for any significant price movements before making a decision.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "GAYAPROJ",
-    "company": "Gayatri Projects Limited",
-    "input": {
-      "symbol": "GAYAPROJ",
-      "company": "Gayatri Projects Limited",
-      "purpose": "Financial Results",
-      "bm_desc": "To consider and approve the financial results for the period ended March 31, 2025",
-      "date": "29-Dec-2025",
-      "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 11.529999732971191,
@@ -167,7 +137,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2024",
       "date": "29-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 11.529999732971191,
@@ -190,6 +160,38 @@
     }
   },
   {
+    "symbol": "GAYAPROJ",
+    "company": "Gayatri Projects Limited",
+    "input": {
+      "symbol": "GAYAPROJ",
+      "company": "Gayatri Projects Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2024",
+      "date": "29-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 2,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 11.529999732971191,
+      "pct_7": 0.0,
+      "pct_30": 0.0,
+      "sma20": 11.529999732971191,
+      "vol_30": 51481.037059647315
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
+      "action": "Monitor the stock for any significant price movements before making a decision.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
+      ]
+    }
+  },
+  {
     "symbol": "SHAH",
     "company": "Shah Metacorp Limited",
     "input": {
@@ -199,22 +201,23 @@
       "bm_desc": "Intimation about adjournment of Board Meeting of the Company.",
       "date": "29-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 4.960000038146973,
-      "pct_7": 0.0398322972704821,
-      "pct_30": 0.27506424277311314,
-      "sma20": 4.492000007629395,
-      "vol_30": 1846735.8362657756
+      "last_price": 4.920000076293945,
+      "pct_7": 0.014433025368622232,
+      "pct_30": 0.2913386220957832,
+      "sma20": 4.541000008583069,
+      "vol_30": 1827136.2519055414
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The recent price movement and sentiment score suggest a neutral stance, but the dilution-related terms in the news may impact the stock price.",
-      "action": "Hold the stock and monitor the upcoming board meeting for any significant developments.",
+      "rationale": "The recent price movement and sentiment score indicate a neutral market reaction to the company's board meeting adjournment. However, the dilution-related terms in the sentiment reason suggest a potential negative impact on the company's financials.",
+      "action": "Hold the stock until more information is available about the company's financials and the outcome of the board meeting.",
       "features_used": [
         "sentiment_score",
+        "sentiment_reason",
         "pct_7",
         "pct_30",
         "sma20",
@@ -232,14 +235,14 @@
       "bm_desc": "SILGO : 29-Dec-2025 :  The Company has informed the Exchange that a Board meeting to be held on December 22, 2025 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on December 29, 2025,  To consider Fund Raising",
       "date": "29-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 74.91999816894531,
-      "pct_7": 0.003348064900636105,
-      "pct_30": 0.177431980375802,
-      "sma20": 71.37249946594238,
-      "vol_30": 140506.36642685684
+      "last_price": 80.13999938964844,
+      "pct_7": 0.0772953360287314,
+      "pct_30": 0.2718616334617674,
+      "sma20": 72.1169994354248,
+      "vol_30": 142061.78230292993
     },
     "prediction": {
       "recommendation": "hold",
@@ -263,20 +266,20 @@
       "bm_desc": "To consider review and take note the financial results for the period ended September 30, 2025",
       "date": "29-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 9.199999809265137,
-      "pct_7": -0.03157896744577504,
-      "pct_30": -0.053497988012157216,
-      "sma20": 9.505500030517577,
-      "vol_30": 5741.87656056638
+      "last_price": 9.460000038146973,
+      "pct_7": 0.0031813077412867763,
+      "pct_30": -0.015608701757450105,
+      "sma20": 9.483000040054321,
+      "vol_30": 5786.721151784121
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price fluctuations suggest a stable market position.",
-      "action": "Maintain current investment in Simbhaoli Sugars Limited.",
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Hold the stock until more information is available about the upcoming financial results.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -295,24 +298,24 @@
       "bm_desc": "To consider Fund Raising by issuance of Non-Convertible Securities",
       "date": "30-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 103.80999755859375,
-      "pct_7": 0.002027018219745491,
-      "pct_30": -0.024342142200582617,
-      "sma20": 103.57549934387207,
-      "vol_30": 13315.874719693584
+      "last_price": 102.37999725341797,
+      "pct_7": -0.006115958351105788,
+      "pct_30": -0.026991103728730592,
+      "sma20": 103.52899932861328,
+      "vol_30": 12805.825886151848
     },
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price drop indicate potential decline in stock value.",
-      "action": "Sell FINKURVE stock before the fund raising event to avoid potential dilution.",
+      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
+      "action": "Sell FINKURVE before the event date to avoid potential dilution-related losses.",
       "features_used": [
         "sentiment_score",
-        "pct_30",
-        "sma20"
+        "pct_7",
+        "pct_30"
       ]
     }
   },
@@ -326,20 +329,20 @@
       "bm_desc": "Prior intimation under Regulation 29 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (the 'Listing Regulations') and  Closure of Trading Window for approval of  the amendment in Employee Stock Option Scheme 2017 and transfer of unallocated equity shares to  Minda   Employee Stock Option Scheme 2025  and also to approve Minda - Employee Stock Option Scheme 2025 in terms of  (Share Based Employee Benefits and Sweat Equity) Regulations, 2021.",
       "date": "30-Dec-2025",
       "estimated_EPS": 17.80333,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 587.3499755859375,
-      "pct_7": -0.01748078357380345,
-      "pct_30": 0.001961725272875192,
-      "sma20": 589.2750030517578,
-      "vol_30": 206069.54565499283
+      "last_price": 581.2999877929688,
+      "pct_7": -0.024746246627092017,
+      "pct_30": -0.020391028182113136,
+      "sma20": 589.0050018310546,
+      "vol_30": 184719.42633060875
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.7,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
-      "action": "Hold the stock until more information about the Employee Stock Option Scheme 2025 is available.",
+      "rationale": "The stock has a neutral sentiment score and recent price movements are minor, indicating a stable market position.",
+      "action": "Maintain the current investment position in Minda Corporation Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -359,14 +362,14 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "30-Dec-2025",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 9.5600004196167,
-      "pct_7": 0.18757766373965667,
-      "pct_30": 0.08267276355810593,
-      "sma20": 8.47950005531311,
-      "vol_30": 1780442.8637363482
+      "last_price": 9.609999656677246,
+      "pct_7": 0.20880501726270517,
+      "pct_30": 0.1033294620652776,
+      "sma20": 8.519500017166138,
+      "vol_30": 1783296.0338235777
     },
     "prediction": {
       "recommendation": "sell",
@@ -381,6 +384,260 @@
     }
   },
   {
+    "symbol": "JINDALPOLY",
+    "company": "Jindal Poly Films Limited",
+    "input": {
+      "symbol": "JINDALPOLY",
+      "company": "Jindal Poly Films Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
+      "date": "31-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 482.25,
+      "pct_7": -0.0012426345571734387,
+      "pct_30": -0.07694518378363291,
+      "sma20": 496.1749984741211,
+      "vol_30": 23161.238953421107
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has shown a slight decline in the last 30 days, but the sentiment score is low, indicating a lack of strong investor sentiment. The days to event are also low, which may lead to volatility.",
+      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "features_used": [
+        "sentiment_score",
+        "pct_30",
+        "days_to_event"
+      ]
+    }
+  },
+  {
+    "symbol": "LCCINFOTEC",
+    "company": "LCC Infotech Limited",
+    "input": {
+      "symbol": "LCCINFOTEC",
+      "company": "LCC Infotech Limited",
+      "purpose": "Fund Raising/Other business matters",
+      "bm_desc": "To consider Fund Raising and other business matters",
+      "date": "31-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 4.5,
+      "pct_7": 0.16883119778400757,
+      "pct_30": -0.07786887408392063,
+      "sma20": 4.395500016212464,
+      "vol_30": 181946.53574729414
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and recent price drop indicate potential decline in stock value.",
+      "action": "Sell LCCINFOTEC stock before the event date to avoid potential dilution-related losses.",
+      "features_used": [
+        "sentiment_score",
+        "pct_30",
+        "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "NACLIND",
+    "company": "NACL Industries Limited",
+    "input": {
+      "symbol": "NACLIND",
+      "company": "NACL Industries Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider Fund Raising",
+      "date": "31-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 168.88999938964844,
+      "pct_7": 0.043626011732757375,
+      "pct_30": -0.05016589782026126,
+      "sma20": 167.63442916870116,
+      "vol_30": 131971.33218729176
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and recent price drop indicate potential decline in stock value.",
+      "action": "Sell NACLIND stock before the fund raising event to avoid potential dilution.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "SIGACHI",
+    "company": "Sigachi Industries Limited",
+    "input": {
+      "symbol": "SIGACHI",
+      "company": "Sigachi Industries Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider Fund Raising",
+      "date": "31-Dec-2025",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 33.95000076293945,
+      "pct_7": -0.0032296126223242405,
+      "pct_30": -0.0029368128153216544,
+      "sma20": 34.80250015258789,
+      "vol_30": 18514042.941744316
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score (-0.3) and recent price drops (-0.0032296126223242405% in 7 days) indicate potential decline in stock value.",
+      "action": "Sell Sigachi Industries Limited stock before the fund raising event on 31-Dec-2025.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "last_price"
+      ]
+    }
+  },
+  {
+    "symbol": "CORONA",
+    "company": "CORONA Remedies Limited",
+    "input": {
+      "symbol": "CORONA",
+      "company": "CORONA Remedies Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
+      "date": "02-Jan-2026",
+      "estimated_EPS": null,
+      "days_to_event": 6,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 1364.699951171875,
+      "pct_7": -0.027229362447364847,
+      "pct_30": null,
+      "sma20": null,
+      "vol_30": null
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in CORONA Remedies Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7"
+      ]
+    }
+  },
+  {
+    "symbol": "SUPREMEENG",
+    "company": "Supreme Engineering Limited",
+    "input": {
+      "symbol": "SUPREMEENG",
+      "company": "Supreme Engineering Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2025",
+      "date": "02-Jan-2026",
+      "estimated_EPS": null,
+      "days_to_event": 6,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 1.159999966621399,
+      "pct_7": -0.10769230063850332,
+      "pct_30": 0.22105261176576874,
+      "sma20": 1.1784999936819076,
+      "vol_30": 145450.17678956632
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and mixed short-term price movement",
+      "action": "Monitor the stock for potential price movement before the financial results announcement on January 8, 2026.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "NEUEON",
+    "company": "Neueon Corporation Limited",
+    "input": {
+      "symbol": "NEUEON",
+      "company": "Neueon Corporation Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider other business matters",
+      "date": "03-Jan-2026",
+      "estimated_EPS": null,
+      "days_to_event": 7,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 6.340000152587891,
+      "pct_7": 0.2145594650215723,
+      "pct_30": 0.2145594650215723,
+      "sma20": 5.34399983882904,
+      "vol_30": 15066.477002569829
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and stable price movement over the past 7 and 30 days.",
+      "action": "Monitor the stock for any significant price movements before making a decision.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "RADIOCITY",
+    "company": "Music Broadcast Limited",
+    "input": {
+      "symbol": "RADIOCITY",
+      "company": "Music Broadcast Limited",
+      "purpose": "Dividend/Other business matters",
+      "bm_desc": "Board Meeting Intimation to consider payment of interim dividend on NCRPS and approval of the redemption of the said NCRPS",
+      "date": "05-Jan-2026",
+      "estimated_EPS": 13.5,
+      "days_to_event": 9,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "dividend mentioned",
+      "last_price": 6.690000057220459,
+      "pct_7": 0.029230778033916716,
+      "pct_30": -0.021929838014795866,
+      "sma20": 6.553500032424926,
+      "vol_30": 63403.75439234515
+    },
+    "prediction": {
+      "recommendation": "buy",
+      "confidence": 0.7,
+      "rationale": "Upcoming dividend payment and positive sentiment score suggest a potential increase in stock price.",
+      "action": "Buy RADIOCITY stock before the upcoming dividend payment.",
+      "features_used": [
+        "sentiment_score",
+        "estimated_EPS",
+        "days_to_event",
+        "last_price"
+      ]
+    }
+  },
+  {
     "symbol": "GMBREW",
     "company": "GM Breweries Limited",
     "input": {
@@ -390,21 +647,23 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "06-Jan-2026",
       "estimated_EPS": 60.67,
-      "days_to_event": 11,
+      "days_to_event": 10,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1110.4000244140625,
-      "pct_7": 0.13805474072132085,
-      "pct_30": 0.10895839204149826,
-      "sma20": 1002.0399963378907,
-      "vol_30": 176182.54762343815
+      "last_price": 1196.4000244140625,
+      "pct_7": 0.2383811765324273,
+      "pct_30": 0.2025329129111959,
+      "sma20": 1009.6349975585938,
+      "vol_30": 208962.31616110273
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment score and moderate price movement over the past month suggest a stable stock, but the upcoming financial results may impact the price.",
-      "action": "Monitor the stock closely for any significant price movements after the financial results are announced.",
+      "rationale": "The stock has shown moderate growth in the past month, but the sentiment score is low, indicating potential uncertainty.",
+      "action": "Hold the stock until more information about the financial results is available.",
       "features_used": [
+        "estimated_EPS",
+        "days_to_event",
         "sentiment_score",
         "pct_7",
         "pct_30",
@@ -423,26 +682,24 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and dividend",
       "date": "12-Jan-2026",
       "estimated_EPS": 72.60811,
-      "days_to_event": 17,
+      "days_to_event": 16,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 1674.699951171875,
-      "pct_7": 0.01392504733301081,
-      "pct_30": 0.03992792212059726,
-      "sma20": 1659.3449951171874,
-      "vol_30": 1292108.6279179987
+      "last_price": 1660.9000244140625,
+      "pct_7": 0.003564969434478815,
+      "pct_30": 0.03734935340701662,
+      "sma20": 1660.9399963378905,
+      "vol_30": 1317839.8657570125
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a positive sentiment score due to the mention of dividend, but the recent price movement is relatively stable.",
-      "action": "Hold the stock until the financial results and dividend announcement on January 12, 2026.",
+      "rationale": "The stock has a neutral sentiment score and a moderate price movement in the last 7 days, indicating a stable market position.",
+      "action": "Maintain the current investment in HCL Technologies Limited as there are no significant indicators for a buy or sell decision.",
       "features_used": [
         "sentiment_score",
         "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -456,20 +713,20 @@
       "bm_desc": "To consider and approve the quarterly audited financial results for the period ended December 31, 2025 and third interim dividend",
       "date": "12-Jan-2026",
       "estimated_EPS": 152.69382,
-      "days_to_event": 17,
+      "days_to_event": 16,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 3319.0,
-      "pct_7": 0.03553708117479393,
-      "pct_30": 0.0566025886896484,
-      "sma20": 3220.339990234375,
-      "vol_30": 1282296.8844478263
+      "last_price": 3280.0,
+      "pct_7": 0.019329961535219375,
+      "pct_30": 0.05155169637897461,
+      "sma20": 3227.5099853515626,
+      "vol_30": 1300665.5139411087
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has a positive sentiment due to the announcement of a dividend, but the recent price movement is relatively stable.",
-      "action": "Maintain the current investment in TCS as the dividend announcement is a positive factor, but the stock's price movement is not indicating a strong buy signal.",
+      "action": "Maintain the current investment in TCS as the dividend announcement is already priced in.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -489,20 +746,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "13-Jan-2026",
       "estimated_EPS": 66.27572,
-      "days_to_event": 18,
+      "days_to_event": 17,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1959.300048828125,
-      "pct_7": 0.0041513416661296265,
-      "pct_30": -0.019123880436483054,
-      "sma20": 1960.1000061035156,
-      "vol_30": 443199.5551734302
+      "last_price": 1950.0,
+      "pct_7": 0.0015408320493066618,
+      "pct_30": -0.02451225612806407,
+      "sma20": 1958.565008544922,
+      "vol_30": 449386.14851078513
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is minimal. However, the upcoming financial results may impact the stock price.",
-      "action": "Monitor the stock closely in the coming days as the financial results are announced.",
+      "rationale": "Neutral sentiment score and recent price movement suggest stability, but lack of significant growth indicators.",
+      "action": "Maintain current investment position in ICICI Lombard General Insurance Company Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -522,20 +779,53 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "13-Jan-2026",
       "estimated_EPS": 11.6252,
-      "days_to_event": 18,
+      "days_to_event": 17,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 652.0499877929688,
-      "pct_7": 0.022102006922388284,
-      "pct_30": 0.07359844242013369,
-      "sma20": 633.4149963378907,
-      "vol_30": 753056.4237823834
+      "last_price": 649.9500122070312,
+      "pct_7": 0.03084855227126293,
+      "pct_30": 0.06157617347003885,
+      "sma20": 634.6499969482422,
+      "vol_30": 763058.55377679
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has a neutral sentiment score and moderate price movement over the past month, indicating a stable market position.",
       "action": "Maintain the current investment in ICICI Prudential Life Insurance Company Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "HDBFS",
+    "company": "HDB Financial Services Limited",
+    "input": {
+      "symbol": "HDBFS",
+      "company": "HDB Financial Services Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "14-Jan-2026",
+      "estimated_EPS": 40.21568,
+      "days_to_event": 18,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 758.4000244140625,
+      "pct_7": -0.0016454945828036083,
+      "pct_30": 0.003705729114077405,
+      "sma20": 755.0549957275391,
+      "vol_30": 1816589.9384100887
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a neutral sentiment score and a slight increase in price over the past month, but a recent decline in the past week. The financial results are upcoming, which may impact the stock price.",
+      "action": "Monitor the stock closely in the coming days as the financial results are announced.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -555,14 +845,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "14-Jan-2026",
       "estimated_EPS": 78.3896,
-      "days_to_event": 19,
+      "days_to_event": 18,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 2656.10009765625,
-      "pct_7": 0.028021886384886452,
-      "pct_30": -0.010947645631632863,
-      "sma20": 2629.244982910156,
-      "vol_30": 543134.253793596
+      "last_price": 2647.199951171875,
+      "pct_7": 0.04171257753689073,
+      "pct_30": -0.007889084166822768,
+      "sma20": 2627.60498046875,
+      "vol_30": 548165.7201912029
     },
     "prediction": {
       "recommendation": "hold",
@@ -588,19 +878,19 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "14-Jan-2026",
       "estimated_EPS": 75.10179,
-      "days_to_event": 19,
+      "days_to_event": 18,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1663.4000244140625,
-      "pct_7": 0.04425889818536044,
-      "pct_30": 0.07454781938892929,
-      "sma20": 1606.1650024414062,
-      "vol_30": 4780108.265632786
+      "last_price": 1656.0999755859375,
+      "pct_7": 0.03377027190133419,
+      "pct_30": 0.08199399059310486,
+      "sma20": 1610.65,
+      "vol_30": 4476576.326821584
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment score and moderate price movement over the past month.",
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
       "action": "Maintain current investment position in Infosys Limited.",
       "features_used": [
         "sentiment_score",
@@ -620,23 +910,22 @@
       "bm_desc": "Intimation of Board Meeting on Thursday, January 15, 2026, earnings call with analysts and investors and closure of trading  window",
       "date": "15-Jan-2026",
       "estimated_EPS": 135.55463,
-      "days_to_event": 20,
+      "days_to_event": 19,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 2523.800048828125,
-      "pct_7": -0.003395930282443116,
-      "pct_30": -0.0577561886025294,
-      "sma20": 2599.4400146484377,
-      "vol_30": 455380.0136230557
+      "last_price": 2495.800048828125,
+      "pct_7": -0.0035135544538067442,
+      "pct_30": -0.0713993026863281,
+      "sma20": 2586.02001953125,
+      "vol_30": 448170.2704302187
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score and recent price decline, but the company is about to announce financial results, which may positively impact the stock price.",
-      "action": "Hold the stock until the financial results are announced on January 15, 2026.",
+      "rationale": "The stock has a negative sentiment score and has been declining over the past 30 days, but the upcoming earnings call may provide a catalyst for the stock.",
+      "action": "Hold the stock until the earnings call on January 15, 2026, and reassess the situation afterwards.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
         "pct_30",
         "sma20",
         "vol_30"
@@ -653,14 +942,14 @@
       "bm_desc": "To consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and nine months ended December 31,2025",
       "date": "15-Jan-2026",
       "estimated_EPS": 153.19397,
-      "days_to_event": 20,
+      "days_to_event": 19,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 4608.10009765625,
-      "pct_7": 0.0038995907764609594,
-      "pct_30": 0.06612227422512484,
-      "sma20": 4561.330053710937,
-      "vol_30": 219550.68879441553
+      "last_price": 4518.2998046875,
+      "pct_7": 0.008121533978194151,
+      "pct_30": 0.0599371332707308,
+      "sma20": 4567.985034179687,
+      "vol_30": 219648.51263371282
     },
     "prediction": {
       "recommendation": "hold",
@@ -671,8 +960,7 @@
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -686,20 +974,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "17-Jan-2026",
       "estimated_EPS": 56.3,
-      "days_to_event": 22,
+      "days_to_event": 21,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 997.2000122070312,
-      "pct_7": 0.0029166493509666935,
-      "pct_30": -0.0019516710798008763,
-      "sma20": 996.1449920654297,
-      "vol_30": 5196801.204122528
+      "last_price": 992.0999755859375,
+      "pct_7": 0.00823168250603401,
+      "pct_30": 0.0023236894537623787,
+      "sma20": 995.2749908447265,
+      "vol_30": 5387064.881814765
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable short-term price movement, but upcoming financial results may impact long-term performance.",
-      "action": "Monitor HDFC Bank's financial results announcement on January 17, 2026, for potential price movement.",
+      "rationale": "Neutral sentiment and stable price movement over the past month suggest a hold position.",
+      "action": "Maintain the current investment in HDFC Bank Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -719,20 +1007,53 @@
       "bm_desc": "The meeting of the Board of Directors of ICICI Bank Limited is scheduled to be held on Saturday, January 17, 2026, to inter alia, consider and approve the unaudited financial results (standalone and consolidated) for the quarter and nine months ending December 31, 2025.",
       "date": "17-Jan-2026",
       "estimated_EPS": 80.95655,
-      "days_to_event": 22,
+      "days_to_event": 21,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1359.800048828125,
-      "pct_7": -0.0045387636690154,
-      "pct_30": -0.006284694119045975,
-      "sma20": 1372.7499938964843,
-      "vol_30": 3216047.152251885
+      "last_price": 1350.4000244140625,
+      "pct_7": -0.0014788523838326073,
+      "pct_30": -0.0054500104197590105,
+      "sma20": 1370.6599975585937,
+      "vol_30": 3037413.8726064516
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "rationale": "The stock price is relatively stable with a slight decline in the last 7 and 30 days. The upcoming financial results meeting may have a moderate impact on the stock price.",
       "action": "Hold the stock until the financial results meeting on January 17, 2026, and reassess based on the outcome.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "CRAMC",
+    "company": "Canara Robeco Asset Management Company Limited",
+    "input": {
+      "symbol": "CRAMC",
+      "company": "Canara Robeco Asset Management Company Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Unaudited Standalone Financial Results for the period ended December 31, 2025",
+      "date": "20-Jan-2026",
+      "estimated_EPS": null,
+      "days_to_event": 24,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 307.95001220703125,
+      "pct_7": 0.0811725930105307,
+      "pct_30": 0.026656696069753405,
+      "sma20": 293.10241546630857,
+      "vol_30": 1029643.0954701523
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
+      "action": "Maintain current investment position in Canara Robeco Asset Management Company Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -752,20 +1073,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "20-Jan-2026",
       "estimated_EPS": 20.64607,
-      "days_to_event": 25,
+      "days_to_event": 24,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 391.70001220703125,
-      "pct_7": 0.013585198173541313,
-      "pct_30": -0.024529886403622414,
-      "sma20": 396.7949966430664,
-      "vol_30": 347954.88049683155
+      "last_price": 394.0,
+      "pct_7": 0.02178421619171189,
+      "pct_30": -0.012159975001371559,
+      "sma20": 396.3949966430664,
+      "vol_30": 348264.8422371067
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the past month suggest a hold position.",
-      "action": "Maintain the current investment in Gujarat Gas Limited.",
+      "rationale": "Neutral sentiment and recent price movement suggest stability, but no clear trend.",
+      "action": "Monitor the stock for potential price movement before the financial results announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -785,20 +1106,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "21-Jan-2026",
       "estimated_EPS": 55.76474,
-      "days_to_event": 26,
+      "days_to_event": 25,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1265.800048828125,
-      "pct_7": -0.008692908899450402,
-      "pct_30": 0.03229497572431339,
-      "sma20": 1270.679998779297,
-      "vol_30": 1412775.5282029465
+      "last_price": 1269.300048828125,
+      "pct_7": -0.0021226031225431985,
+      "pct_30": 0.026858728175647828,
+      "sma20": 1271.679998779297,
+      "vol_30": 1423460.7828283343
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has shown a slight decline in the last 7 days, but a moderate increase in the last 30 days. The sentiment score is neutral.",
-      "action": "Monitor the stock's performance in the coming days before making any investment decisions.",
+      "action": "Monitor the stock's performance over the next few days before making any investment decisions.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -818,20 +1139,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and other business matters",
       "date": "21-Jan-2026",
       "estimated_EPS": 69.95177,
-      "days_to_event": 26,
+      "days_to_event": 25,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1134.699951171875,
-      "pct_7": 0.007905402342995194,
-      "pct_30": -0.009168704547407147,
-      "sma20": 1131.4549926757813,
-      "vol_30": 106529.13934843012
+      "last_price": 1124.9000244140625,
+      "pct_7": 0.010328722604485252,
+      "pct_30": -0.013764642738844368,
+      "sma20": 1130.4799926757812,
+      "vol_30": 107165.8083577559
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Maintain current investment position in UTI Asset Management Company Limited.",
+      "confidence": 0.6,
+      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
+      "action": "Maintain the current investment position in UTI Asset Management Company Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -851,14 +1172,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and dividend",
       "date": "22-Jan-2026",
       "estimated_EPS": 22.47826,
-      "days_to_event": 27,
+      "days_to_event": 26,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 760.0999755859375,
-      "pct_7": 0.00835763849162996,
-      "pct_30": -0.02720898198550481,
-      "sma20": 761.5690002441406,
-      "vol_30": 856854.5046025543
+      "last_price": 748.7999877929688,
+      "pct_7": 0.02044153754365019,
+      "pct_30": -0.03861957798540416,
+      "sma20": 760.0649993896484,
+      "vol_30": 863592.875711791
     },
     "prediction": {
       "recommendation": "hold",
@@ -884,14 +1205,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "22-Jan-2026",
       "estimated_EPS": null,
-      "days_to_event": 27,
+      "days_to_event": 26,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1703.699951171875,
-      "pct_7": -0.06007945817105054,
-      "pct_30": -0.0228837032419974,
-      "sma20": 1822.8599853515625,
-      "vol_30": 35531.14596217039
+      "last_price": 1647.800048828125,
+      "pct_7": -0.08282307067786943,
+      "pct_30": -0.06708939405771996,
+      "sma20": 1812.414990234375,
+      "vol_30": 35706.52880543463
     },
     "prediction": {
       "recommendation": "hold",
@@ -917,20 +1238,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and dividend",
       "date": "22-Jan-2026",
       "estimated_EPS": 54.10051,
-      "days_to_event": 27,
+      "days_to_event": 26,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 1737.699951171875,
-      "pct_7": -0.06915582509079743,
-      "pct_30": -0.03898905093671179,
-      "sma20": 1874.884991455078,
-      "vol_30": 753423.0974026502
+      "last_price": 1673.300048828125,
+      "pct_7": -0.09291478662145869,
+      "pct_30": -0.08647699217462435,
+      "sma20": 1863.0399963378907,
+      "vol_30": 907477.9076453572
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movements are slightly negative, but the upcoming financial results and dividend announcement may have a positive impact.",
-      "action": "Monitor the stock closely in the coming days as the financial results and dividend announcement may influence its price.",
+      "rationale": "The stock has a neutral sentiment score and recent price movements are slightly negative, but the company is about to announce financial results and dividend, which may have a positive impact.",
+      "action": "Hold the stock until the financial results and dividend announcement to gauge the market's reaction.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -950,19 +1271,19 @@
       "bm_desc": "To consider and approve the Standalone and Consolidated un-audited financial results for the period ended December 31, 2025.",
       "date": "22-Jan-2026",
       "estimated_EPS": 25.76273,
-      "days_to_event": 27,
+      "days_to_event": 26,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 295.54998779296875,
-      "pct_7": 0.04879347266012579,
-      "pct_30": -0.006554662880777329,
-      "sma20": 289.9250015258789,
-      "vol_30": 4720352.439720302
+      "last_price": 296.8500061035156,
+      "pct_7": 0.05828879181289004,
+      "pct_30": 0.00780858396152273,
+      "sma20": 290.0475021362305,
+      "vol_30": 4721941.499377829
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the past month.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
       "action": "Maintain current investment position in GSPL.",
       "features_used": [
         "sentiment_score",
@@ -982,25 +1303,58 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "22-Jan-2026",
       "estimated_EPS": 112.76962,
-      "days_to_event": 27,
+      "days_to_event": 26,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 2891.89990234375,
-      "pct_7": 0.010058958368614368,
-      "pct_30": 0.045781597396374885,
-      "sma20": 2877.9349853515623,
-      "vol_30": 901712.7441836582
+      "last_price": 2850.60009765625,
+      "pct_7": -0.00513033571401611,
+      "pct_30": 0.019090571791981814,
+      "sma20": 2880.889990234375,
+      "vol_30": 904791.4378081828
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment score and stable price movement over the past month.",
-      "action": "Maintain current investment position in MphasiS Limited.",
+      "rationale": "The stock has shown a slight decline in the last 7 days, but a moderate increase in the last 30 days. The sentiment score is neutral.",
+      "action": "Hold the stock until the next financial results announcement on January 22, 2026.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "ATUL",
+    "company": "Atul Limited",
+    "input": {
+      "symbol": "ATUL",
+      "company": "Atul Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "23-Jan-2026",
+      "estimated_EPS": 257.66916,
+      "days_to_event": 27,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 6048.5,
+      "pct_7": 0.029356705241661007,
+      "pct_30": 0.012894582600686544,
+      "sma20": 5877.75,
+      "vol_30": 61236.25433338292
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "Neutral sentiment score and stable price movement over the past month suggest a hold position.",
+      "action": "Maintain the current investment in Atul Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -1014,26 +1368,25 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Jan-2026",
       "estimated_EPS": 64.10929,
-      "days_to_event": 28,
+      "days_to_event": 27,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1496.300048828125,
-      "pct_7": -0.0022005380178291567,
-      "pct_30": -0.005119648385555231,
-      "sma20": 1509.2600036621093,
-      "vol_30": 417512.19281069696
+      "last_price": 1506.0,
+      "pct_7": 0.006079214000614064,
+      "pct_30": -0.0009950248756218638,
+      "sma20": 1508.3000061035157,
+      "vol_30": 416813.5466937542
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the past month suggest a hold position.",
-      "action": "Maintain the current investment in CIPLA with a close eye on upcoming financial results.",
+      "rationale": "Neutral sentiment score and stable short-term price movement",
+      "action": "Maintain current investment position in CIPLA",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -1047,25 +1400,26 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Jan-2026",
       "estimated_EPS": 11.6,
-      "days_to_event": 28,
+      "days_to_event": 27,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 436.29998779296875,
-      "pct_7": 0.06713949193999302,
-      "pct_30": 0.09940778904552383,
-      "sma20": 414.4625,
-      "vol_30": 1503319.188897444
+      "last_price": 441.29998779296875,
+      "pct_7": 0.0005668291733800235,
+      "pct_30": 0.10449255731584017,
+      "sma20": 416.60499877929686,
+      "vol_30": 1504558.0713427002
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment score and moderate price movement over the past month.",
+      "rationale": "Neutral sentiment and stable price movement over the past 7 days, but a slight increase in price over the past 30 days.",
       "action": "Maintain current investment in The India Cements Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -1079,14 +1433,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Jan-2026",
       "estimated_EPS": 63.83355,
-      "days_to_event": 28,
+      "days_to_event": 27,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1091.300048828125,
-      "pct_7": 0.008036276961375988,
-      "pct_30": -0.013291095092111238,
-      "sma20": 1119.190008544922,
-      "vol_30": 1050007.988689229
+      "last_price": 1094.4000244140625,
+      "pct_7": 0.013990526176972384,
+      "pct_30": -0.01582731617440425,
+      "sma20": 1115.8800109863282,
+      "vol_30": 1051087.1290451142
     },
     "prediction": {
       "recommendation": "hold",
@@ -1112,20 +1466,53 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Jan-2026",
       "estimated_EPS": 63.83355,
-      "days_to_event": 28,
+      "days_to_event": 27,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1091.300048828125,
-      "pct_7": 0.008036276961375988,
-      "pct_30": -0.013291095092111238,
-      "sma20": 1119.190008544922,
-      "vol_30": 1050007.988689229
+      "last_price": 1094.4000244140625,
+      "pct_7": 0.013990526176972384,
+      "pct_30": -0.01582731617440425,
+      "sma20": 1115.8800109863282,
+      "vol_30": 1051087.1290451142
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "Neutral sentiment and recent price movement suggest stability, but no clear trend.",
       "action": "Maintain current investment position in JSW Steel Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "SBFC",
+    "company": "SBFC Finance Limited",
+    "input": {
+      "symbol": "SBFC",
+      "company": "SBFC Finance Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "24-Jan-2026",
+      "estimated_EPS": 5.04556,
+      "days_to_event": 28,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 104.48999786376953,
+      "pct_7": 0.012794414250765662,
+      "pct_30": -0.02655113258202202,
+      "sma20": 105.30599899291992,
+      "vol_30": 1138631.0400261935
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "Neutral sentiment and recent price stability, but upcoming financial results may impact stock price.",
+      "action": "Monitor the stock's performance after the financial results announcement on January 24, 2026.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -1145,19 +1532,19 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "24-Jan-2026",
       "estimated_EPS": 386.35974,
-      "days_to_event": 29,
+      "days_to_event": 28,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 11764.0,
-      "pct_7": 0.020471894517696043,
-      "pct_30": 0.015538674033149125,
-      "sma20": 11576.7,
-      "vol_30": 68362.23037789382
+      "last_price": 11794.0,
+      "pct_7": 0.02201039861351828,
+      "pct_30": 0.01848013816925742,
+      "sma20": 11585.55,
+      "vol_30": 68094.04157291945
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and moderate price movement over the past month, indicating a stable market position.",
+      "rationale": "Neutral sentiment score and stable price movement over the past month suggest a hold position.",
       "action": "Maintain the current investment in UltraTech Cement Limited.",
       "features_used": [
         "sentiment_score",
@@ -1178,26 +1565,56 @@
       "bm_desc": "To consider and approve the audited standalone financial results of the Company for the quarter and nine months period ending 31st December 2025 and unaudited consolidated financial results of the Company for the quarter and nine months period ending 31st December 2025.",
       "date": "27-Jan-2026",
       "estimated_EPS": 51.85017,
-      "days_to_event": 32,
+      "days_to_event": 31,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 2785.5,
-      "pct_7": -0.001934824799418755,
-      "pct_30": -0.03254374574914043,
-      "sma20": 2842.2499877929686,
-      "vol_30": 1354313.086778868
+      "last_price": 2746.5,
+      "pct_7": -0.0140718497537341,
+      "pct_30": -0.04496141826022093,
+      "sma20": 2835.619982910156,
+      "vol_30": 1066819.9635480847
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a slight decline in the last 30 days, but the sentiment score is low, indicating a lack of strong investor sentiment. The estimated EPS is high, but the days to event are relatively long.",
-      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the sentiment score is low, indicating a neutral market reaction to the upcoming financial results.",
+      "action": "Monitor the stock's performance after the financial results are announced.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
-        "days_to_event",
+        "pct_7",
         "pct_30",
         "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "MAHLOG",
+    "company": "Mahindra Logistics Limited",
+    "input": {
+      "symbol": "MAHLOG",
+      "company": "Mahindra Logistics Limited",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "In compliance with Regulation 29 and other applicable provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby inform you that a Meeting of the Board of Directors of Mahindra Logistics Limited ( the Company ) is scheduled to be held on Tuesday, 27 January 2026 to inter alia, consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the third quarter and nine months ended 31 December 2025, which shall be subject to limited review by the Statutory Auditor of the Company.",
+      "date": "27-Jan-2026",
+      "estimated_EPS": 12.5,
+      "days_to_event": 31,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 322.6499938964844,
+      "pct_7": 0.02771135961516058,
+      "pct_30": 0.00686528820611132,
+      "sma20": 320.5250015258789,
+      "vol_30": 115604.04571779912
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "The company is announcing a meeting to discuss financial results, but the sentiment score is low and there's no clear indication of a significant event.",
+      "action": "Hold the stock until more information is available about the financial results.",
+      "features_used": [
+        "sentiment_score",
+        "days_to_event",
+        "estimated_EPS"
       ]
     }
   },
@@ -1211,14 +1628,14 @@
       "bm_desc": "Mahindra & Mahindra Financial Services Ltd has informed the NSE that the meeting of the Board of Directors is scheduled on 28/01/2026, inter alia, to consider and approve the Unaudited Financial Results for the quarter ended December 31, 2025",
       "date": "28-Jan-2026",
       "estimated_EPS": 23.98162,
-      "days_to_event": 33,
+      "days_to_event": 32,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 389.6499938964844,
-      "pct_7": 0.14066155425772475,
-      "pct_30": 0.08977767361050071,
-      "sma20": 361.5149978637695,
-      "vol_30": 3522375.3112968546
+      "last_price": 394.1499938964844,
+      "pct_7": 0.12069940351456276,
+      "pct_30": 0.09379766121957345,
+      "sma20": 363.03999786376954,
+      "vol_30": 3481474.1756374096
     },
     "prediction": {
       "recommendation": "hold",
@@ -1244,26 +1661,26 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "29-Jan-2026",
       "estimated_EPS": 37.46909,
-      "days_to_event": 34,
+      "days_to_event": 33,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1777.4000244140625,
-      "pct_7": -0.021039850014068717,
-      "pct_30": -0.00442504016019496,
-      "sma20": 1770.4199951171875,
-      "vol_30": 165444.7078727061
+      "last_price": 1763.9000244140625,
+      "pct_7": -0.034431805743826316,
+      "pct_30": 0.00984718252877248,
+      "sma20": 1770.7049987792968,
+      "vol_30": 169718.54822040335
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a slight decline in the last 7 days, but the sentiment score is low, indicating a lack of strong investor sentiment. The estimated EPS is high, but the days to event are significant.",
-      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "rationale": "The stock has a neutral sentiment score and a slight increase in price over the past 30 days, but a recent decline in price over the past 7 days.",
+      "action": "Monitor the stock's performance over the next few weeks before making any investment decisions.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
-        "days_to_event",
         "pct_7",
-        "pct_30"
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -1277,14 +1694,14 @@
       "bm_desc": "To consider and approve the unaudited financial results for the quarter/nine months ending on December 31, 2025",
       "date": "29-Jan-2026",
       "estimated_EPS": 12.11508,
-      "days_to_event": 34,
+      "days_to_event": 33,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 490.54998779296875,
-      "pct_7": -0.013374948211573034,
-      "pct_30": -0.04264253626076542,
-      "sma20": 502.18750457763673,
-      "vol_30": 1000322.4758054569
+      "last_price": 488.20001220703125,
+      "pct_7": -0.012040841369917232,
+      "pct_30": -0.050933147285276426,
+      "sma20": 500.64000396728517,
+      "vol_30": 1019614.4490551767
     },
     "prediction": {
       "recommendation": "hold",
@@ -1300,6 +1717,71 @@
     }
   },
   {
+    "symbol": "GILLETTE",
+    "company": "Gillette India Limited",
+    "input": {
+      "symbol": "GILLETTE",
+      "company": "Gillette India Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "29-Jan-2026",
+      "estimated_EPS": null,
+      "days_to_event": 33,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 8467.0,
+      "pct_7": 0.06309247284826425,
+      "pct_30": 0.0072567213894836335,
+      "sma20": 8245.0,
+      "vol_30": 58670.53106269075
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
+      "action": "Maintain current investment position in Gillette India Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "NAM-INDIA",
+    "company": "Nippon Life India Asset Management Limited",
+    "input": {
+      "symbol": "NAM-INDIA",
+      "company": "Nippon Life India Asset Management Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "29-Jan-2026",
+      "estimated_EPS": 2505.5422,
+      "days_to_event": 33,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 867.1500244140625,
+      "pct_7": 0.0024276477090665605,
+      "pct_30": 0.01031112285560054,
+      "sma20": 856.7074981689453,
+      "vol_30": 1462211.1268489182
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "Neutral sentiment score and stable price movement over the past month suggest a hold position.",
+      "action": "Maintain the current investment in Nippon Life India Asset Management Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
     "symbol": "TTKPRESTIG",
     "company": "TTK Prestige Limited",
     "input": {
@@ -1309,26 +1791,24 @@
       "bm_desc": "To consider and approve the Un-audited Financial Results of the Company for the third quarter and nine months ended December 31, 2025.",
       "date": "29-Jan-2026",
       "estimated_EPS": 16.88385,
-      "days_to_event": 34,
+      "days_to_event": 33,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 621.2999877929688,
-      "pct_7": -0.014122539260025713,
-      "pct_30": -0.05849376449920185,
-      "sma20": 634.1950012207031,
-      "vol_30": 38203.67346386121
+      "last_price": 624.9500122070312,
+      "pct_7": 0.004985184116430563,
+      "pct_30": -0.05425238536349586,
+      "sma20": 632.4075012207031,
+      "vol_30": 15808.909052925765
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a decline in recent performance, but the estimated EPS is high. The sentiment score is low, indicating bearish sentiment.",
-      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "rationale": "The stock has shown a slight decline in the last 30 days, but the sentiment score is low, indicating a mixed market reaction to the upcoming financial results. The 7-day percentage change is minimal.",
+      "action": "Monitor the stock's performance in the coming weeks and adjust the recommendation based on the actual financial results.",
       "features_used": [
-        "estimated_EPS",
         "sentiment_score",
-        "pct_7",
         "pct_30",
-        "sma20"
+        "pct_7"
       ]
     }
   },
@@ -1342,22 +1822,88 @@
       "bm_desc": "To consider and approve the unaudited financial results (standalone and consolidated) for the third quarter and nine months ending December 31, 2025",
       "date": "30-Jan-2026",
       "estimated_EPS": 19.53111,
-      "days_to_event": 35,
+      "days_to_event": 34,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1259.699951171875,
-      "pct_7": 0.015395756861043441,
-      "pct_30": -0.007485030228080669,
-      "sma20": 1242.0700073242188,
-      "vol_30": 401256.0306607199
+      "last_price": 1272.5999755859375,
+      "pct_7": 0.030779200349461577,
+      "pct_30": 0.00744143823417831,
+      "sma20": 1242.3800048828125,
+      "vol_30": 415053.44654466165
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the last 7 days, but a slight decline over the last 30 days.",
+      "rationale": "Neutral sentiment score and stable price movement over the past month suggest a hold position.",
       "action": "Maintain the current investment in Nestle India Limited.",
       "features_used": [
         "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "PGHH",
+    "company": "Procter & Gamble Hygiene and Health Care Limited",
+    "input": {
+      "symbol": "PGHH",
+      "company": "Procter & Gamble Hygiene and Health Care Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "30-Jan-2026",
+      "estimated_EPS": 26695.598,
+      "days_to_event": 34,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 12950.0,
+      "pct_7": -0.003462870334744128,
+      "pct_30": 0.009825327510917026,
+      "sma20": 12790.75,
+      "vol_30": 3027.456924530068
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has shown a slight decline in the last 7 days but a small increase in the last 30 days. The sentiment score is low, indicating bearish sentiment.",
+      "action": "Hold the stock and monitor its performance before making any further decisions.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "IDFCFIRSTB",
+    "company": "IDFC First Bank Limited",
+    "input": {
+      "symbol": "IDFCFIRSTB",
+      "company": "IDFC First Bank Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "31-Jan-2026",
+      "estimated_EPS": 5.25882,
+      "days_to_event": 35,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 85.12000274658203,
+      "pct_7": 0.013936936758451424,
+      "pct_30": 0.0727158712465854,
+      "sma20": 82.3430004119873,
+      "vol_30": 11631677.814229684
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has shown a moderate increase in price over the past month, but the sentiment score is low, indicating a lack of investor enthusiasm. The estimated EPS is also not significantly high.",
+      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "features_used": [
+        "sentiment_score",
+        "estimated_EPS",
         "pct_7",
         "pct_30",
         "sma20"
@@ -1374,21 +1920,22 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "01-Feb-2026",
       "estimated_EPS": 11.6,
-      "days_to_event": 37,
+      "days_to_event": 36,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 463.75,
-      "pct_7": -0.04243235249007182,
-      "pct_30": -0.04253123948369064,
-      "sma20": 479.8175018310547,
-      "vol_30": 4498524.485798264
+      "last_price": 460.95001220703125,
+      "pct_7": -0.05046863607771712,
+      "pct_30": -0.07662259428017948,
+      "sma20": 478.570002746582,
+      "vol_30": 4499083.828567955
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment and recent price movement suggest stability, but no clear indication for a buy or sell.",
-      "action": "Maintain current investment position in Latent View Analytics Limited.",
+      "rationale": "The stock has shown a decline in recent days, but the estimated EPS is high. The sentiment score is low, indicating bearish sentiment.",
+      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
       "features_used": [
+        "estimated_EPS",
         "sentiment_score",
         "pct_7",
         "pct_30",
@@ -1406,27 +1953,26 @@
       "bm_desc": "KANSAI NEROLAC PAINTS LIMITED has informed the Exchange about Board Meeting to be held on 03-Feb-2025 to inter-alia consider and approve the Unaudited Financial results of the Company for the Quarter ended December 2025.",
       "date": "03-Feb-2026",
       "estimated_EPS": 9.60395,
-      "days_to_event": 39,
+      "days_to_event": 38,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 242.22000122070312,
-      "pct_7": 0.07883483258250235,
-      "pct_30": 0.04409670884653916,
-      "sma20": 227.4,
-      "vol_30": 292129.96813507314
+      "last_price": 237.4199981689453,
+      "pct_7": 0.06912230530220054,
+      "pct_30": 0.027703202225450196,
+      "sma20": 227.43450012207032,
+      "vol_30": 295754.01134416676
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable, but there's an upcoming event that may impact the stock price.",
-      "action": "Monitor the stock closely before the upcoming financial results announcement on 03-Feb-2026.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable. However, the upcoming financial results may impact the stock price.",
+      "action": "Monitor the stock closely for any significant price movements after the financial results are announced.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
-        "vol_30",
-        "days_to_event"
+        "vol_30"
       ]
     }
   },
@@ -1440,25 +1986,58 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and other business matters",
       "date": "06-Feb-2026",
       "estimated_EPS": 912.7499,
-      "days_to_event": 42,
+      "days_to_event": 41,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 36195.0,
-      "pct_7": -0.0009660502346121591,
-      "pct_30": -0.00013812154696135615,
-      "sma20": 36403.25,
-      "vol_30": 8475.695532778876
+      "last_price": 35855.0,
+      "pct_7": -0.0033356497567755827,
+      "pct_30": 0.002376292982946504,
+      "sma20": 36380.0,
+      "vol_30": 8367.249930670103
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment score and stable short-term price movement",
-      "action": "Maintain current investment position in Bosch Limited.",
+      "rationale": "The stock has shown a slight decline in the last 7 days but a small increase in the last 30 days. The sentiment score is neutral.",
+      "action": "Monitor the stock's performance over the next few weeks before making any investment decisions.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "PGHL",
+    "company": "Procter & Gamble Health Limited",
+    "input": {
+      "symbol": "PGHL",
+      "company": "Procter & Gamble Health Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "06-Feb-2026",
+      "estimated_EPS": 194.0,
+      "days_to_event": 41,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 5644.5,
+      "pct_7": -0.011211351493387034,
+      "pct_30": -0.031070294395330822,
+      "sma20": 5692.875,
+      "vol_30": 2623.0819946343104
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the estimated EPS is high. The sentiment score is low, indicating bearish sentiment.",
+      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "features_used": [
+        "estimated_EPS",
+        "pct_7",
+        "pct_30",
+        "sentiment_score"
       ]
     }
   },
@@ -1472,19 +2051,19 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "06-Feb-2026",
       "estimated_EPS": 645.1891,
-      "days_to_event": 42,
+      "days_to_event": 41,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 26145.0,
-      "pct_7": 0.0059638322431705415,
-      "pct_30": -0.013023782559456354,
-      "sma20": 26156.25,
-      "vol_30": 22099.528656465303
+      "last_price": 26420.0,
+      "pct_7": 0.014398157035899306,
+      "pct_30": -0.0013230013230013382,
+      "sma20": 26139.5,
+      "vol_30": 21996.27521772773
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment score and recent price movement suggest stability, but no clear trend.",
+      "rationale": "Neutral sentiment score and recent price movements suggest stability, but no clear trend.",
       "action": "Maintain current investment position in SHREECEM.",
       "features_used": [
         "sentiment_score",
@@ -1505,20 +2084,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "09-Feb-2026",
       "estimated_EPS": 42.49,
-      "days_to_event": 45,
+      "days_to_event": 44,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 2727.199951171875,
-      "pct_7": -0.027493526482114117,
-      "pct_30": -0.05170553782163634,
-      "sma20": 2808.3250122070312,
-      "vol_30": 4561.791454539833
+      "last_price": 2706.699951171875,
+      "pct_7": -0.016103252936432222,
+      "pct_30": -0.05094672118798216,
+      "sma20": 2799.335009765625,
+      "vol_30": 4559.6094478849145
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the SMA20 is still above the current price. The sentiment score is neutral.",
-      "action": "Monitor the stock's performance over the next 45 days before the financial results announcement.",
+      "action": "Monitor the stock's performance over the next few days before making any investment decisions.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -1537,24 +2116,28 @@
       "bm_desc": "Pursuant to Regulation 29 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015,this is to inform you that a Meeting of the Board of Directors of the Company is scheduled to be heldon Monday, February 09, 2026, inter-alia, to consider, approve and take on record, theUnaudited Standalone and Consolidated Financial Results of the Company for the quarter and ninemonths ending December 31, 2025.",
       "date": "09-Feb-2026",
       "estimated_EPS": 132.30724,
-      "days_to_event": 45,
+      "days_to_event": 44,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 5874.0,
-      "pct_7": -0.025870646766169125,
-      "pct_30": 0.0042742349119506695,
-      "sma20": 5865.9,
-      "vol_30": 92810.35283155237
+      "last_price": 5774.5,
+      "pct_7": -0.023340380549682904,
+      "pct_30": -0.0013834846519671373,
+      "sma20": 5867.875,
+      "vol_30": 92857.97552384074
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The company is scheduled to release its financial results in 45 days, which may impact the stock price. The sentiment score is neutral.",
+      "rationale": "The company is scheduled to release its financial results in 44 days, which may impact the stock price. The sentiment score is neutral.",
       "action": "Hold the stock until the financial results are released.",
       "features_used": [
         "sentiment_score",
         "days_to_event",
-        "estimated_EPS"
+        "last_price",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -1568,20 +2151,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "11-Feb-2026",
       "estimated_EPS": 59.15513,
-      "days_to_event": 47,
+      "days_to_event": 46,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 925.3499755859375,
-      "pct_7": 0.00401448605638266,
-      "pct_30": -0.030438021882868038,
-      "sma20": 935.9800018310547,
-      "vol_30": 75462.82205857948
+      "last_price": 920.4000244140625,
+      "pct_7": -0.005134302410042535,
+      "pct_30": -0.02664969524376304,
+      "sma20": 934.7350036621094,
+      "vol_30": 74940.9971309997
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
-      "action": "Maintain the current investment in Amara Raja Energy & Mobility Limited.",
+      "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the SMA20 is still above the current price, indicating a potential short-term recovery.",
+      "action": "Monitor the stock's performance over the next 46 days before the financial results announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -1601,19 +2184,19 @@
       "bm_desc": "To consider and approve the unaudited financial results (both standalone and consolidated), for the quarter ending on 31st December, 2025 ( financial results ).",
       "date": "11-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 47,
+      "days_to_event": 46,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 547.25,
-      "pct_7": 0.034205754041077396,
-      "pct_30": 0.06334396976479906,
-      "sma20": 538.4750030517578,
-      "vol_30": 112454.70813543753
+      "last_price": 530.6500244140625,
+      "pct_7": 0.011725499359509062,
+      "pct_30": -0.025704579771315128,
+      "sma20": 537.1450042724609,
+      "vol_30": 112883.54579383352
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and moderate price movement over the past month.",
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
       "action": "Maintain current investment position in Carraro India Limited.",
       "features_used": [
         "sentiment_score",
@@ -1634,20 +2217,53 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and other business matters",
       "date": "11-Feb-2026",
       "estimated_EPS": 140.31854,
-      "days_to_event": 47,
+      "days_to_event": 46,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 3636.699951171875,
-      "pct_7": 0.004335805349868771,
-      "pct_30": -0.014658094976840452,
-      "sma20": 3656.880017089844,
-      "vol_30": 765213.8242469429
+      "last_price": 3623.10009765625,
+      "pct_7": 0.002850987790333326,
+      "pct_30": -0.012590943928564746,
+      "sma20": 3653.9750244140623,
+      "vol_30": 790671.320568117
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "Neutral sentiment score and recent price movement suggest stability, but no clear indication for a buy or sell.",
       "action": "Maintain current investment position in Mahindra & Mahindra Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "MFSL",
+    "company": "Max Financial Services Limited",
+    "input": {
+      "symbol": "MFSL",
+      "company": "Max Financial Services Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "11-Feb-2026",
+      "estimated_EPS": 14.0725,
+      "days_to_event": 46,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 1672.0,
+      "pct_7": 0.004868066270261595,
+      "pct_30": -0.015254151623562473,
+      "sma20": 1690.4200073242187,
+      "vol_30": 230272.55784645848
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "Neutral sentiment score and recent price movement suggest stability, but no clear trend.",
+      "action": "Maintain current investment position in Max Financial Services Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -1667,14 +2283,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "12-Feb-2026",
       "estimated_EPS": 87.55113,
-      "days_to_event": 48,
+      "days_to_event": 47,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 2582.10009765625,
-      "pct_7": -0.010841175967747696,
-      "pct_30": -0.03360897038423072,
-      "sma20": 2635.2050048828123,
-      "vol_30": 149241.04286554872
+      "last_price": 2549.800048828125,
+      "pct_7": -0.027128030892001553,
+      "pct_30": -0.0539477237228837,
+      "sma20": 2628.790002441406,
+      "vol_30": 63986.65977041396
     },
     "prediction": {
       "recommendation": "hold",
@@ -1700,26 +2316,58 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "13-Feb-2026",
       "estimated_EPS": 146.3,
-      "days_to_event": 49,
+      "days_to_event": 48,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 3909.699951171875,
-      "pct_7": 0.0034649145755314414,
-      "pct_30": -0.0788134934139213,
-      "sma20": 3987.8900146484375,
-      "vol_30": 11686.772294094848
+      "last_price": 3893.60009765625,
+      "pct_7": 0.01652613320658558,
+      "pct_30": -0.07913534889554119,
+      "sma20": 3974.010009765625,
+      "vol_30": 11613.967911701107
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "Neutral sentiment score and recent price movement suggest stability, but volatility is high.",
-      "action": "Monitor the stock for potential price fluctuations before making any investment decisions.",
+      "action": "Monitor the stock closely over the next 48 days for any significant changes in sentiment or price movement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
         "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "CENTRUM",
+    "company": "Centrum Capital Limited",
+    "input": {
+      "symbol": "CENTRUM",
+      "company": "Centrum Capital Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "13-Feb-2026",
+      "estimated_EPS": null,
+      "days_to_event": 48,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 28.010000228881836,
+      "pct_7": -0.017537705927251457,
+      "pct_30": -0.038118151729448324,
+      "sma20": 29.087000179290772,
+      "vol_30": 455156.0981172965
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "Neutral sentiment score and recent price fluctuations suggest a stable market position.",
+      "action": "Maintain current investment in Centrum Capital Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
       ]
     }
   },
@@ -1733,25 +2381,58 @@
       "bm_desc": "To consider and approve the standalone and consolidated unaudited financial results of the Company for the quarter and nine months ending December 31, 2025",
       "date": "13-Feb-2026",
       "estimated_EPS": 26.4087,
-      "days_to_event": 49,
+      "days_to_event": 48,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1091.300048828125,
-      "pct_7": 0.05490579877054125,
-      "pct_30": 0.04380683771221894,
-      "sma20": 1064.2700073242188,
-      "vol_30": 695873.9266301185
+      "last_price": 1100.300048828125,
+      "pct_7": 0.06690584382150022,
+      "pct_30": 0.04750573424814797,
+      "sma20": 1066.010009765625,
+      "vol_30": 691257.1602484395
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and stable price movement over the past month suggest a hold position.",
+      "action": "Maintain the current investment in KFINTECH without making any changes.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "TVTODAY",
+    "company": "TV Today Network Limited",
+    "input": {
+      "symbol": "TVTODAY",
+      "company": "TV Today Network Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the quarter ending on December 31, 2025",
+      "date": "13-Feb-2026",
+      "estimated_EPS": 19.8,
+      "days_to_event": 48,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 141.77999877929688,
+      "pct_7": 0.05193648956372643,
+      "pct_30": 0.01590714574046248,
+      "sma20": 135.50449981689454,
+      "vol_30": 90737.51085294607
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a moderate increase in price over the past month, but the sentiment score is low, indicating a lack of investor enthusiasm. The estimated EPS is high, but the days to event are significant.",
-      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "rationale": "Neutral sentiment and stable price movement over the past month, but upcoming financial results may impact the stock.",
+      "action": "Monitor the stock closely in the coming days as the financial results are announced.",
       "features_used": [
-        "price_change",
         "sentiment_score",
-        "estimated_EPS",
-        "days_to_event"
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -1765,24 +2446,27 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and recommend dividend",
       "date": "19-Feb-2026",
       "estimated_EPS": 90.44354,
-      "days_to_event": 55,
+      "days_to_event": 54,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 5215.0,
-      "pct_7": -0.005150705837466574,
-      "pct_30": 0.031243820446905213,
-      "sma20": 5183.025,
-      "vol_30": 100439.85310098341
+      "last_price": 5183.0,
+      "pct_7": 0.0023206343067105895,
+      "pct_30": 0.02218716102948437,
+      "sma20": 5180.15,
+      "vol_30": 99097.97484471108
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and a slight increase in price over the last 30 days, but the dividend announcement is not a strong enough signal to warrant a buy or sell.",
-      "action": "Maintain the current investment in ABB India Limited.",
+      "rationale": "The stock has a moderate positive sentiment score and recent price movement, but the event is still 54 days away.",
+      "action": "Monitor the stock's price movement and adjust the recommendation closer to the event date.",
       "features_used": [
         "sentiment_score",
+        "days_to_event",
+        "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   }
