@@ -1,135 +1,5 @@
 [
   {
-    "symbol": "ASIL",
-    "company": "Amit Spinning Industries Limited",
-    "input": {
-      "symbol": "ASIL",
-      "company": "Amit Spinning Industries Limited",
-      "purpose": "Financial Results",
-      "bm_desc": "ASIL : 16-Feb-2026 :  The Company has informed the Exchange that a Board meeting was held today on February 14, 2026 and it has been adjourned due to non completion of Limited Review Procedure. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on February 16, 2026,  To consider and approve the financial results for the period ended December 31, 2025",
-      "date": "16-Feb-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 0.699999988079071,
-      "pct_7": 0.0,
-      "pct_30": 0.0,
-      "sma20": 0.699999988079071,
-      "vol_30": 0.0
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The company has adjourned its board meeting due to incomplete review procedure, and the meeting to consider financial results is scheduled for the next day. The sentiment score is low, indicating a neutral market reaction.",
-      "action": "Hold the stock until the financial results are announced and the market reaction is clearer.",
-      "features_used": [
-        "sentiment_score",
-        "days_to_event",
-        "last_price"
-      ]
-    }
-  },
-  {
-    "symbol": "CREATIVEYE",
-    "company": "Creative Eye Limited",
-    "input": {
-      "symbol": "CREATIVEYE",
-      "company": "Creative Eye Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider other business matters",
-      "date": "16-Feb-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 6.809999942779541,
-      "pct_7": 0.02098948499013864,
-      "pct_30": -0.028530710352658084,
-      "sma20": 6.816999983787537,
-      "vol_30": 9014.295703485937
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price stability suggest holding the stock.",
-      "action": "Hold the stock until more information is available about the upcoming business matters.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "SEJALLTD",
-    "company": "Sejal Glass Limited",
-    "input": {
-      "symbol": "SEJALLTD",
-      "company": "Sejal Glass Limited",
-      "purpose": "Financial Results/Other business matters",
-      "bm_desc": "To consider and approve the Audited Standalone Financial Results along with Audit Report for the period ended December 31, 2025 for the purpose of submission of Networth Certificate to comply with regulatory requirements and other business matters.",
-      "date": "16-Feb-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 676.0499877929688,
-      "pct_7": 0.01914526671356742,
-      "pct_30": -0.1374712958383726,
-      "sma20": 703.897494506836,
-      "vol_30": 7240.095784992216
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Maintain current investment position in Sejal Glass Limited.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "SGFIN",
-    "company": "SG Finserve Limited",
-    "input": {
-      "symbol": "SGFIN",
-      "company": "SG Finserve Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider and approve the modifications in terms and conditions of Non-Convertible Debentures (NCDs)",
-      "date": "16-Feb-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 405.3999938964844,
-      "pct_7": 0.16293742627216767,
-      "pct_30": -0.010857660463001961,
-      "sma20": 370.9300003051758,
-      "vol_30": 208068.6176268223
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
-      "action": "Hold the stock until more information about the NCD modifications is available.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
     "symbol": "CREATIVEYE",
     "company": "Creative Eye Limited",
     "input": {
@@ -139,7 +9,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "17-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 6.809999942779541,
@@ -152,7 +22,7 @@
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Hold the stock until more information is available about the upcoming financial results.",
+      "action": "Hold the stock for now and monitor further developments.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -172,7 +42,7 @@
       "bm_desc": "To consider and approve inter alia, the proposal of fund raise by way of issuance of equity shares through Rights Issue.",
       "date": "17-Feb-2026",
       "estimated_EPS": 9.32857,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 582.2999877929688,
@@ -185,13 +55,12 @@
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
-      "action": "Hold the stock until more information about the Rights Issue is available.",
+      "action": "Hold the stock for now and reassess after the Rights Issue announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -205,7 +74,7 @@
       "bm_desc": "VALECHAENG : 17-Feb-2026 :  The Company has informed the Exchange that a Board meeting to be held on February 13, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on February 17, 2026,  To consider and approve the financial results for the period ended December 31, 2025",
       "date": "17-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 960.0,
@@ -239,7 +108,7 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "18-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 203.6699981689453,
@@ -251,13 +120,14 @@
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price increase may indicate a potential dip in the stock price.",
-      "action": "Consider selling your shares of Affordable Robotic & Automation Limited before the upcoming event.",
+      "rationale": "Negative sentiment score and recent price increase may indicate a potential bubble, while the upcoming event could lead to dilution.",
+      "action": "Consider selling your shares in Affordable Robotic & Automation Limited before the upcoming event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -271,7 +141,7 @@
       "bm_desc": "To consider other business matters",
       "date": "18-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 26.979999542236328,
@@ -283,14 +153,13 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
+      "rationale": "Neutral sentiment and recent price movement suggest holding the stock.",
       "action": "Hold the stock until more information is available about the upcoming event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -304,7 +173,7 @@
       "bm_desc": "To consider other business matters",
       "date": "18-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 13.319999694824219,
@@ -336,7 +205,7 @@
       "bm_desc": "To consider interim dividend",
       "date": "18-Feb-2026",
       "estimated_EPS": 3.1,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 98.08000183105469,
@@ -367,7 +236,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and recommend dividend",
       "date": "19-Feb-2026",
       "estimated_EPS": 90.3817,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
       "last_price": 5780.5,
@@ -380,10 +249,9 @@
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has shown moderate growth over the past month, but the sentiment score is low due to the mention of dividend, which may not have a significant impact on the stock price.",
-      "action": "Monitor the stock's performance over the next few days before making any investment decisions.",
+      "action": "Monitor the stock's performance over the next few days to see if the dividend announcement has any effect on the price.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
         "pct_7",
         "pct_30",
         "sma20",
@@ -401,7 +269,7 @@
       "bm_desc": "To consider and approve the Audited financial results (Standalone & Consolidated) for the period ended December 31, 2025 and dividend",
       "date": "19-Feb-2026",
       "estimated_EPS": 24.7,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
       "last_price": 456.54998779296875,
@@ -437,7 +305,7 @@
       "bm_desc": "Prior Intimation of Board Meeting to consider and declare interim dividend",
       "date": "20-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 254.9499969482422,
@@ -449,14 +317,13 @@
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "Prior intimation of dividend announcement with a short time frame to event, indicating a potential price increase.",
-      "action": "Buy DVL stock before the dividend announcement on 20-Feb-2026.",
+      "rationale": "Prior intimation of dividend announcement with 4 days to event, positive sentiment score and recent price drop",
+      "action": "Buy DVL stock before the dividend announcement on 20-Feb-2026",
       "features_used": [
-        "sentiment_score",
-        "days_to_event",
-        "pct_7",
-        "pct_30",
-        "sma20"
+        "dividend announcement",
+        "sentiment analysis",
+        "price movement",
+        "moving averages"
       ]
     }
   },
@@ -470,7 +337,7 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "20-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 29.09000015258789,
@@ -483,7 +350,7 @@
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
-      "action": "Hold the stock for the next 5 days to see how the fund raising and business matters affect the company's performance.",
+      "action": "Hold the stock for the next 4 days to see how the fund raising and business matters affect the company's performance.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -503,7 +370,7 @@
       "bm_desc": "PVP : 23-Feb-2026 :  The Company has informed the Exchange that a Board meeting to be held on February 12, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on February 23, 2026,  To consider and approve the financial results for the period ended December 31, 2025",
       "date": "23-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 8,
+      "days_to_event": 7,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 29.190000534057617,
@@ -515,14 +382,13 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score and has been declining over the past month, but the upcoming financial results meeting may provide a catalyst for the stock.",
-      "action": "Hold the stock until the financial results meeting on February 23, 2026.",
+      "rationale": "The stock has a negative sentiment score and has been declining over the past 7 and 30 days. However, the SMA20 is slightly higher than the current price, indicating some support.",
+      "action": "Hold the stock until the financial results are announced on February 23, 2026.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -536,7 +402,7 @@
       "bm_desc": "To consider dividend and other business matters",
       "date": "23-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 8,
+      "days_to_event": 7,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 82.55000305175781,
@@ -548,14 +414,13 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but it's close to its SMA20. It's 8 days away from the event.",
-      "action": "Hold the stock until the event date and reassess based on the outcome.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but it's close to its SMA20. It's recommended to hold the stock for now.",
+      "action": "Hold the stock for the next 7 days until the event date.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "days_to_event"
+        "sma20"
       ]
     }
   },
@@ -569,7 +434,7 @@
       "bm_desc": "To consider and approve the Audited Financial Results (Standalone and Consolidated) of the Company for the quarter and year ended December 31, 2025.  And to consider recommendation of Dividend for the year 2025, if thought appropriate by the Board of Directors.",
       "date": "24-Feb-2026",
       "estimated_EPS": 86.675,
-      "days_to_event": 9,
+      "days_to_event": 8,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
       "last_price": 3772.10009765625,
@@ -602,7 +467,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and to consider the recommendation of final dividend for financial year 2025",
       "date": "25-Feb-2026",
       "estimated_EPS": 18.55,
-      "days_to_event": 10,
+      "days_to_event": 9,
       "sentiment_score": 0.25,
       "sentiment_reason": "dividend mentioned",
       "last_price": 709.6500244140625,
@@ -635,7 +500,7 @@
       "bm_desc": "To consider and approve the Annual Audited financial results (Standalone, Consolidated and Segment)  for the Financial Year ended December 31, 2025.",
       "date": "27-Feb-2026",
       "estimated_EPS": -1.52,
-      "days_to_event": 12,
+      "days_to_event": 11,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 152.3699951171875,
