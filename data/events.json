@@ -1,21 +1,5 @@
 [
   {
-    "symbol": "ABB",
-    "company": "ABB India Limited",
-    "purpose": "Financial Results/Dividend",
-    "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025 and recommend dividend",
-    "date": "19-Feb-2026",
-    "estimated_EPS": 90.3817
-  },
-  {
-    "symbol": "CIEINDIA",
-    "company": "CIE Automotive India Limited",
-    "purpose": "Financial Results/Dividend",
-    "bm_desc": "To consider and approve the Audited financial results (Standalone & Consolidated) for the period ended December 31, 2025 and dividend",
-    "date": "19-Feb-2026",
-    "estimated_EPS": 24.7
-  },
-  {
     "symbol": "DVL",
     "company": "Dhunseri Ventures Limited",
     "purpose": "Dividend",
@@ -64,6 +48,14 @@
     "estimated_EPS": null
   },
   {
+    "symbol": "BKMINDST",
+    "company": "Bkm Industries Limited",
+    "purpose": "Other business matters",
+    "bm_desc": "To deliberate on matters pertaining to reduction of capital and allotment of securities in accordance with the approved Resolution Plan and to consider any other business matters thereafter.",
+    "date": "21-Feb-2026",
+    "estimated_EPS": null
+  },
+  {
     "symbol": "CCCL",
     "company": "Consolidated Construction Consortium Limited",
     "purpose": "Fund Raising",
@@ -102,6 +94,14 @@
     "bm_desc": "To consider dividend and other business matters",
     "date": "23-Feb-2026",
     "estimated_EPS": null
+  },
+  {
+    "symbol": "TIL",
+    "company": "TIL Limited",
+    "purpose": "Fund Raising",
+    "bm_desc": "To consider Fund Raising",
+    "date": "23-Feb-2026",
+    "estimated_EPS": 62.8
   },
   {
     "symbol": "DICIND",
@@ -168,11 +168,27 @@
     "estimated_EPS": 11.76667
   },
   {
+    "symbol": "BEL",
+    "company": "Bharat Electronics Limited",
+    "purpose": "Dividend",
+    "bm_desc": "To consider dividend",
+    "date": "27-Feb-2026",
+    "estimated_EPS": 9.88797
+  },
+  {
     "symbol": "RAIN",
     "company": "Rain Industries Limited",
     "purpose": "Financial Results",
     "bm_desc": "To consider and approve the Annual Audited financial results (Standalone, Consolidated and Segment)  for the Financial Year ended December 31, 2025.",
     "date": "27-Feb-2026",
     "estimated_EPS": -1.52
+  },
+  {
+    "symbol": "BALMLAWRIE",
+    "company": "Balmer Lawrie & Company Limited",
+    "purpose": "Dividend/Other business matters",
+    "bm_desc": "Intimation of Board Meeting, inter-alia, for:(a) Consideration of payment of Interim Dividend for Financial Year 2025-26;(b) Closure of Trading Window",
+    "date": "05-Mar-2026",
+    "estimated_EPS": null
   }
 ]
