@@ -1,175 +1,5 @@
 [
   {
-    "symbol": "BEL",
-    "company": "Bharat Electronics Limited",
-    "input": {
-      "symbol": "BEL",
-      "company": "Bharat Electronics Limited",
-      "purpose": "Dividend",
-      "bm_desc": "To consider dividend",
-      "date": "27-Feb-2026",
-      "estimated_EPS": 9.88797,
-      "days_to_event": 1,
-      "sentiment_score": 0.2,
-      "sentiment_reason": "dividend mentioned",
-      "last_price": 439.29998779296875,
-      "pct_7": -0.0168960908748379,
-      "pct_30": 0.06963714325754733,
-      "sma20": 439.40249786376955,
-      "vol_30": 14303394.227167238
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a recent negative 7-day return, but a positive 30-day return, indicating mixed market sentiment. The dividend announcement is a positive factor, but the recent price movement suggests caution.",
-      "action": "Hold the stock until the dividend announcement and assess the market reaction.",
-      "features_used": [
-        "sentiment_score",
-        "sentiment_reason",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30",
-        "estimated_EPS",
-        "days_to_event"
-      ]
-    }
-  },
-  {
-    "symbol": "EMSLIMITED",
-    "company": "EMS Limited",
-    "input": {
-      "symbol": "EMSLIMITED",
-      "company": "EMS Limited",
-      "purpose": "Fund Raising",
-      "bm_desc": "To consider Fund Raising",
-      "date": "27-Feb-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 289.1499938964844,
-      "pct_7": -0.050410529075584964,
-      "pct_30": -0.13037595820606207,
-      "sma20": 335.38499908447267,
-      "vol_30": 137301.53978283267
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
-      "action": "Sell EMSLIMITED before the fund raising event.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30"
-      ]
-    }
-  },
-  {
-    "symbol": "MAGNUM",
-    "company": "Magnum Ventures Limited",
-    "input": {
-      "symbol": "MAGNUM",
-      "company": "Magnum Ventures Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider other business matters",
-      "date": "27-Feb-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 21.8700008392334,
-      "pct_7": -0.035288894325902875,
-      "pct_30": 0.08428362699599012,
-      "sma20": 22.30649995803833,
-      "vol_30": 46669.539360974166
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
-      "action": "Hold the stock for the next trading day to see how the company's business matters discussion unfolds.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20"
-      ]
-    }
-  },
-  {
-    "symbol": "PRABHA",
-    "company": "Prabha Energy Limited",
-    "input": {
-      "symbol": "PRABHA",
-      "company": "Prabha Energy Limited",
-      "purpose": "Fund Raising/Other business matters",
-      "bm_desc": "To consider Fund Raising and other business matters",
-      "date": "27-Feb-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 178.1999969482422,
-      "pct_7": 0.2069082581417243,
-      "pct_30": 0.1702895642492004,
-      "sma20": 165.77450103759764,
-      "vol_30": 61350.6935941083
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and dilution-related terms indicate potential risks.",
-      "action": "Sell PRABHA stock due to potential risks associated with fund raising and dilution.",
-      "features_used": [
-        "sentiment_score",
-        "sentiment_reason",
-        "days_to_event",
-        "last_price",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "RAIN",
-    "company": "Rain Industries Limited",
-    "input": {
-      "symbol": "RAIN",
-      "company": "Rain Industries Limited",
-      "purpose": "Financial Results",
-      "bm_desc": "To consider and approve the Annual Audited financial results (Standalone, Consolidated and Segment)  for the Financial Year ended December 31, 2025.",
-      "date": "27-Feb-2026",
-      "estimated_EPS": -1.52,
-      "days_to_event": 1,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 152.6300048828125,
-      "pct_7": 0.0199813252162504,
-      "pct_30": 0.13412098979175924,
-      "sma20": 156.31999816894532,
-      "vol_30": 6781778.175593918
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and estimated EPS of -1.52 indicate potential decline in stock price.",
-      "action": "Sell RAIN stock before the financial results announcement on 27-Feb-2026.",
-      "features_used": [
-        "sentiment_score",
-        "estimated_EPS",
-        "last_price",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
     "symbol": "5PAISA",
     "company": "5Paisa Capital Limited",
     "input": {
@@ -179,24 +9,26 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "28-Feb-2026",
       "estimated_EPS": 15.5,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 325.1499938964844,
-      "pct_7": -0.007024028782422809,
-      "pct_30": -0.035735521572723195,
-      "sma20": 331.10500183105466,
-      "vol_30": 286538.18551476166
+      "last_price": 320.79998779296875,
+      "pct_7": -0.007118595688945906,
+      "pct_30": -0.06088998225674447,
+      "sma20": 329.66750183105466,
+      "vol_30": 128221.62483726838
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the estimated EPS is high and the days to event are low.",
-      "action": "Hold the stock until more information about the fund raising and business matters is available.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the event is near and the price has dropped slightly. The SMA20 is above the current price.",
+      "action": "Hold the stock until the event date and reassess based on the outcome.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
-        "days_to_event"
+        "days_to_event",
+        "sma20",
+        "pct_7",
+        "pct_30"
       ]
     }
   },
@@ -210,14 +42,14 @@
       "bm_desc": "To consider and, if thought fit, to approve the appointment of Chief Executive Officer (CEO) of the Company, subject to such terms and conditions as may be placed before the Board.",
       "date": "28-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 15.130000114440918,
-      "pct_7": -0.10737466469487711,
-      "pct_30": -0.04662884539725343,
-      "sma20": 16.52350010871887,
-      "vol_30": 69012.36480533135
+      "last_price": 14.8100004196167,
+      "pct_7": -0.10836846024033742,
+      "pct_30": -0.07610731221273015,
+      "sma20": 16.458000087738036,
+      "vol_30": 68338.45613960581
     },
     "prediction": {
       "recommendation": "hold",
@@ -242,25 +74,26 @@
       "bm_desc": "To consider and approve the Unaudited Consolidated financial results for the period ended December 31, 2025",
       "date": "28-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 493.04998779296875,
-      "pct_7": -0.06583933460345359,
-      "pct_30": -0.07503986664668227,
-      "sma20": 523.5824920654297,
-      "vol_30": 12708.44388355157
+      "last_price": 495.1499938964844,
+      "pct_7": -0.05766489220026594,
+      "pct_30": -0.03243772565415848,
+      "sma20": 522.4524917602539,
+      "vol_30": 12650.855952323416
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and recent price fluctuations suggest a stable market position.",
-      "action": "Maintain current investment in BF Utilities Limited.",
+      "action": "Monitor BFUTILITIE's performance over the next few days to adjust the recommendation accordingly.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -274,24 +107,24 @@
       "bm_desc": "To consider Fund Raising",
       "date": "28-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 128.39999389648438,
-      "pct_7": -0.060166897339238745,
-      "pct_30": -0.010023154065890938,
-      "sma20": 135.54299850463866,
-      "vol_30": 95037.44781706635
+      "last_price": 132.92999267578125,
+      "pct_7": -0.0350609902994371,
+      "pct_30": 0.03616805388164268,
+      "sma20": 135.66399841308595,
+      "vol_30": 94830.25995462666
     },
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
-      "action": "Sell MOLDTECH stock before the fund raising event.",
+      "rationale": "Negative sentiment score (-0.3) and recent price drop (-0.0350609902994371%) indicate potential decline in stock value.",
+      "action": "Sell MOLDTECH stock before the fund raising event to avoid potential dilution.",
       "features_used": [
         "sentiment_score",
         "pct_7",
-        "pct_30"
+        "last_price"
       ]
     }
   },
@@ -305,20 +138,20 @@
       "bm_desc": "To consider bonus and other business matters",
       "date": "28-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 97.94999694824219,
-      "pct_7": -0.16510401293017196,
-      "pct_30": -0.028080986955082765,
-      "sma20": 112.93349990844726,
-      "vol_30": 4663505.906048377
+      "last_price": 78.36000061035156,
+      "pct_7": -0.3388457405517844,
+      "pct_30": -0.2339427127871232,
+      "sma20": 111.63549995422363,
+      "vol_30": 4785195.093946513
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
-      "action": "Hold the stock until the bonus/other business matters meeting on 28-Feb-2026.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is negative, but the event is imminent and may impact the stock price.",
+      "action": "Hold the stock until the bonus/other business matters event is announced.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -338,20 +171,20 @@
       "bm_desc": "To consider other business matters",
       "date": "28-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 74.01000213623047,
-      "pct_7": -0.024258356953275384,
-      "pct_30": 0.041514279186461334,
-      "sma20": 74.89500045776367,
-      "vol_30": 170033.95414116018
+      "last_price": 72.41999816894531,
+      "pct_7": -0.050851962354189095,
+      "pct_30": 0.013292247544652191,
+      "sma20": 74.96150054931641,
+      "vol_30": 175124.12608644585
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price stability suggest holding the stock.",
-      "action": "Hold Silgo Retail Limited stock due to neutral sentiment and recent price stability.",
+      "rationale": "Neutral sentiment and recent price movement suggest holding the stock.",
+      "action": "Hold the stock SILGO until further information is available.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -370,14 +203,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "28-Feb-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 60.349998474121094,
-      "pct_7": -0.019177642265333805,
-      "pct_30": 0.15990774341772251,
-      "sma20": 57.61799945831299,
-      "vol_30": 52045.78067906276
+      "last_price": 60.79999923706055,
+      "pct_7": -0.0032787010317942844,
+      "pct_30": 0.16721057897789104,
+      "sma20": 58.02899932861328,
+      "vol_30": 52053.76431655052
     },
     "prediction": {
       "recommendation": "hold",
@@ -403,24 +236,24 @@
       "bm_desc": "To consider Fund Raising",
       "date": "02-Mar-2026",
       "estimated_EPS": 93.22857,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 2517.0,
-      "pct_7": -0.011933698480470434,
-      "pct_30": 0.04690834696004442,
-      "sma20": 2557.3549560546876,
-      "vol_30": 414857.38476385974
+      "last_price": 2462.39990234375,
+      "pct_7": -0.030283993622519767,
+      "pct_30": 0.020047503151622292,
+      "sma20": 2562.47001953125,
+      "vol_30": 415294.63791155926
     },
     "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The company is considering fund raising, which may impact the stock price.",
-      "action": "Hold the stock until more information about the fund raising is available.",
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and recent price drop indicate potential decline in stock value.",
+      "action": "Sell BALKRISIND stock before the fund raising event.",
       "features_used": [
-        "sentiment analysis",
-        "technical analysis",
-        "event analysis"
+        "sentiment_score",
+        "pct_7",
+        "last_price"
       ]
     }
   },
@@ -434,11 +267,11 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "02-Mar-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 35.349998474121094,
-      "pct_7": -0.255789505807977,
+      "last_price": 33.59000015258789,
+      "pct_7": -0.2557057532108161,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -465,11 +298,11 @@
       "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
       "date": "02-Mar-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 35.349998474121094,
-      "pct_7": -0.255789505807977,
+      "last_price": 33.59000015258789,
+      "pct_7": -0.2557057532108161,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -496,20 +329,20 @@
       "bm_desc": "To consider other business matters",
       "date": "02-Mar-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 801.5999755859375,
-      "pct_7": -0.13378003626757173,
-      "pct_30": -0.026357357620279798,
-      "sma20": 865.4875030517578,
-      "vol_30": 507434.9887277493
+      "last_price": 199.9499969482422,
+      "pct_7": -0.11197472257518004,
+      "pct_30": 0.08146846189505519,
+      "sma20": 215.72187576293945,
+      "vol_30": 2031965.425968405
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price fluctuations suggest holding the stock.",
-      "action": "Hold InfoBeans Technologies Limited stock due to neutral sentiment and recent price fluctuations.",
+      "rationale": "Neutral sentiment and mixed short-term performance",
+      "action": "Hold InfoBeans Technologies Limited stock due to neutral sentiment and mixed short-term performance.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -528,24 +361,90 @@
       "bm_desc": "To consider dividend",
       "date": "02-Mar-2026",
       "estimated_EPS": 20.1,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 552.9500122070312,
-      "pct_7": -0.051706336205227243,
-      "pct_30": 0.0683992372698563,
-      "sma20": 571.0524963378906,
-      "vol_30": 708113.4394118619
+      "last_price": 553.25,
+      "pct_7": -0.040079771951847976,
+      "pct_30": 0.06856591018831493,
+      "sma20": 573.467495727539,
+      "vol_30": 707904.3552911375
     },
     "prediction": {
       "recommendation": "buy",
-      "confidence": 0.8,
-      "rationale": "The stock has a positive sentiment score and is due for a dividend, indicating a potential increase in value.",
-      "action": "Buy Sheela Foam Limited (SFL) stock for a potential dividend payout.",
+      "confidence": 0.7,
+      "rationale": "Dividend announcement and positive sentiment score indicate a potential increase in stock price.",
+      "action": "Buy Sheela Foam Limited (SFL) stock for a potential short-term gain.",
+      "features_used": [
+        "dividend announcement",
+        "sentiment analysis",
+        "short-term price movement"
+      ]
+    }
+  },
+  {
+    "symbol": "ATLANTAELE",
+    "company": "Atlanta Electricals Limited",
+    "input": {
+      "symbol": "ATLANTAELE",
+      "company": "Atlanta Electricals Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider other business matters",
+      "date": "03-Mar-2026",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 883.5999755859375,
+      "pct_7": -0.037210595929242696,
+      "pct_30": 0.2165771588004033,
+      "sma20": 859.6824981689454,
+      "vol_30": 184459.4696460507
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and mixed short-term performance",
+      "action": "Maintain current investment position in Atlanta Electricals Limited.",
       "features_used": [
         "sentiment_score",
-        "days_to_event",
-        "estimated_EPS"
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "FEDFINA",
+    "company": "Fedbank Financial Services Limited",
+    "input": {
+      "symbol": "FEDFINA",
+      "company": "Fedbank Financial Services Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To Consider and approve the Issuance of Non- Convertible Debentures on Private Placement Basis",
+      "date": "03-Mar-2026",
+      "estimated_EPS": 12.385,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 135.02999877929688,
+      "pct_7": -0.02863100413505404,
+      "pct_30": -0.08142857973267437,
+      "sma20": 141.02299880981445,
+      "vol_30": 1735657.4939634497
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
+      "action": "Hold the stock until more information about the debenture issuance is available.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -559,14 +458,14 @@
       "bm_desc": "Intimation of Board Meeting to consider declaration of Interim Dividend, if any, forthe Financial year 2025-26 and closure of Trading Window.",
       "date": "03-Mar-2026",
       "estimated_EPS": 11.8,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 200.10000610351562,
-      "pct_7": 0.037325103342900956,
-      "pct_30": 0.28764487749469914,
-      "sma20": 188.17900009155272,
-      "vol_30": 14144852.16270512
+      "last_price": 197.13999938964844,
+      "pct_7": 0.037305952244366614,
+      "pct_30": 0.2608889778944219,
+      "sma20": 189.18899993896486,
+      "vol_30": 14199452.6188447
     },
     "prediction": {
       "recommendation": "buy",
@@ -586,6 +485,70 @@
     }
   },
   {
+    "symbol": "STEELXIND",
+    "company": "STEEL EXCHANGE INDIA LIMITED",
+    "input": {
+      "symbol": "STEELXIND",
+      "company": "STEEL EXCHANGE INDIA LIMITED",
+      "purpose": "Fund Raising/Other business matters",
+      "bm_desc": "To consider Fund Raising and other business matters",
+      "date": "04-Mar-2026",
+      "estimated_EPS": null,
+      "days_to_event": 5,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 8.329999923706055,
+      "pct_7": 0.05979640995012314,
+      "pct_30": 0.06385696103089389,
+      "sma20": 7.94850001335144,
+      "vol_30": 505740.91515401733
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and dilution-related terms indicate potential risks for investors.",
+      "action": "Sell STEELXIND shares before the upcoming event to avoid potential dilution.",
+      "features_used": [
+        "sentiment_score",
+        "sentiment_reason",
+        "days_to_event"
+      ]
+    }
+  },
+  {
+    "symbol": "UNIVASTU",
+    "company": "Univastu India Limited",
+    "input": {
+      "symbol": "UNIVASTU",
+      "company": "Univastu India Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider and approve postal ballot notice",
+      "date": "04-Mar-2026",
+      "estimated_EPS": null,
+      "days_to_event": 5,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 66.79000091552734,
+      "pct_7": 0.04326779783986345,
+      "pct_30": 0.041965717713585926,
+      "sma20": 64.60350036621094,
+      "vol_30": 180775.17999666766
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and stable price movement over the past month.",
+      "action": "Maintain current investment position in Univastu India Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
     "symbol": "BALMLAWRIE",
     "company": "Balmer Lawrie & Company Limited",
     "input": {
@@ -595,24 +558,26 @@
       "bm_desc": "Intimation of Board Meeting, inter-alia, for:(a) Consideration of payment of Interim Dividend for Financial Year 2025-26;(b) Closure of Trading Window",
       "date": "05-Mar-2026",
       "estimated_EPS": null,
-      "days_to_event": 7,
+      "days_to_event": 6,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 180.13999938964844,
-      "pct_7": 0.0025601443266820567,
-      "pct_30": 0.0786180786460362,
-      "sma20": 178.8614990234375,
-      "vol_30": 48783.41995015656
+      "last_price": 180.80999755859375,
+      "pct_7": 0.001495537180136175,
+      "pct_30": 0.09568532830760512,
+      "sma20": 179.3614990234375,
+      "vol_30": 48744.58528132408
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has a neutral sentiment score and a slight price increase over the past 7 days, but no significant changes in the short-term moving averages.",
-      "action": "Hold the stock until the next board meeting for further analysis.",
+      "rationale": "The stock has a neutral sentiment score and a slight increase in price over the past 7 days, but the upcoming board meeting may lead to volatility.",
+      "action": "Monitor the stock closely in the coming days as the board meeting may impact its price.",
       "features_used": [
         "sentiment_score",
         "pct_7",
-        "sma20"
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -626,11 +591,11 @@
       "bm_desc": "To consider and approve unaudited standalone and consolidated financial results of the Company for the quarter and nine months ended December 31, 2025.",
       "date": "05-Mar-2026",
       "estimated_EPS": 22.1,
-      "days_to_event": 7,
+      "days_to_event": 6,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 808.6500244140625,
-      "pct_7": -0.08961438287186885,
+      "last_price": 811.7000122070312,
+      "pct_7": -0.06695787020247512,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -638,12 +603,236 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price drop, but no clear indication of a strong trend.",
-      "action": "Monitor the stock for potential stabilization before making any investment decisions.",
+      "rationale": "Neutral sentiment score and recent price drop, but upcoming financial results may impact stock price.",
+      "action": "Monitor the stock for potential price movement after the financial results announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
-        "last_price"
+        "days_to_event"
+      ]
+    }
+  },
+  {
+    "symbol": "KAVDEFENCE",
+    "company": "Kavveri Defence & Wireless Technologies Limited",
+    "input": {
+      "symbol": "KAVDEFENCE",
+      "company": "Kavveri Defence & Wireless Technologies Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider and approve the conversion of warrants into Equity Share Capital of the Company and allotment of Equity Shares pursuant thereto to the eligible warrant holders",
+      "date": "05-Mar-2026",
+      "estimated_EPS": null,
+      "days_to_event": 6,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 63.61000061035156,
+      "pct_7": -0.08316513219207644,
+      "pct_30": 0.06513729588303985,
+      "sma20": 69.72950077056885,
+      "vol_30": 288224.8013692441
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in Kavveri Defence & Wireless Technologies Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "DCMSIL",
+    "company": "DCM Shriram International Limited",
+    "input": {
+      "symbol": "DCMSIL",
+      "company": "DCM Shriram International Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+      "date": "06-Mar-2026",
+      "estimated_EPS": null,
+      "days_to_event": 7,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 60.63999938964844,
+      "pct_7": 0.10616562800480467,
+      "pct_30": null,
+      "sma20": null,
+      "vol_30": null
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and lack of recent price movement",
+      "action": "Monitor the stock for potential price movement before the financial results announcement.",
+      "features_used": [
+        "sentiment_score",
+        "days_to_event",
+        "last_price",
+        "pct_7"
+      ]
+    }
+  },
+  {
+    "symbol": "IOC",
+    "company": "Indian Oil Corporation Limited",
+    "input": {
+      "symbol": "IOC",
+      "company": "Indian Oil Corporation Limited",
+      "purpose": "Dividend",
+      "bm_desc": "To consider declaration of 2nd interim dividend for the financial year 2025-2026.",
+      "date": "06-Mar-2026",
+      "estimated_EPS": 19.90378,
+      "days_to_event": 7,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "dividend mentioned",
+      "last_price": 186.47000122070312,
+      "pct_7": 0.043247149434795684,
+      "pct_30": 0.17350540203405718,
+      "sma20": 175.68400115966796,
+      "vol_30": 8348210.13669175
+    },
+    "prediction": {
+      "recommendation": "buy",
+      "confidence": 0.8,
+      "rationale": "Dividend announcement with 7 days to event, positive sentiment score and increasing stock price",
+      "action": "Buy IOC stock before the dividend announcement on 06-Mar-2026",
+      "features_used": [
+        "dividend announcement",
+        "sentiment score",
+        "stock price trend",
+        "days to event"
+      ]
+    }
+  },
+  {
+    "symbol": "SUNTV",
+    "company": "Sun TV Network Limited",
+    "input": {
+      "symbol": "SUNTV",
+      "company": "Sun TV Network Limited",
+      "purpose": "Dividend",
+      "bm_desc": "To consider the declaration of Interim Dividend, if any, for the financial year2025-26.",
+      "date": "06-Mar-2026",
+      "estimated_EPS": 46.52978,
+      "days_to_event": 7,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "dividend mentioned",
+      "last_price": 611.4000244140625,
+      "pct_7": 0.038030601721668056,
+      "pct_30": 0.15852630485713082,
+      "sma20": 576.8191558837891,
+      "vol_30": 561432.3960796846
+    },
+    "prediction": {
+      "recommendation": "buy",
+      "confidence": 0.8,
+      "rationale": "Dividend announcement with 7 days to event, positive sentiment score and increasing stock price",
+      "action": "Buy SUNTV stock before the dividend announcement on 06-Mar-2026",
+      "features_used": [
+        "dividend_announcement",
+        "sentiment_analysis",
+        "stock_price_trend"
+      ]
+    }
+  },
+  {
+    "symbol": "TULSI",
+    "company": "Tulsi Extrusions Limited",
+    "input": {
+      "symbol": "TULSI",
+      "company": "Tulsi Extrusions Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Unaudited Standalone financial results of the Company for the quarter ended June 30, 2025.",
+      "date": "06-Mar-2026",
+      "estimated_EPS": null,
+      "days_to_event": 7,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 0.5,
+      "pct_7": 0.0,
+      "pct_30": 0.0,
+      "sma20": 0.5,
+      "vol_30": 0.0
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
+      "action": "Maintain current investment position in Tulsi Extrusions Limited.",
+      "features_used": [
+        "sentiment_score",
+        "price_movement",
+        "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "IRFC",
+    "company": "Indian Railway Finance Corporation Limited",
+    "input": {
+      "symbol": "IRFC",
+      "company": "Indian Railway Finance Corporation Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider Fund Raising-Board to also consider approval of market borrowing programme  for the financial year 2026-27  in its meeting scheduled to be held on 9th March 2026",
+      "date": "09-Mar-2026",
+      "estimated_EPS": 6.9,
+      "days_to_event": 10,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 103.2300033569336,
+      "pct_7": -0.08895944240443288,
+      "pct_30": -0.09929323089446118,
+      "sma20": 112.853999710083,
+      "vol_30": 10103698.514414186
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the days to event are limited and the stock price has shown a slight decline in the last 7 and 30 days.",
+      "action": "Hold the stock until more information about the fund raising and market borrowing programme is available.",
+      "features_used": [
+        "sentiment_score",
+        "days_to_event",
+        "pct_7",
+        "pct_30"
+      ]
+    }
+  },
+  {
+    "symbol": "IRFC",
+    "company": "Indian Railway Finance Corporation Limited",
+    "input": {
+      "symbol": "IRFC",
+      "company": "Indian Railway Finance Corporation Limited",
+      "purpose": "Dividend/Other business matters",
+      "bm_desc": "To consider dividend and other business matters",
+      "date": "09-Mar-2026",
+      "estimated_EPS": 6.9,
+      "days_to_event": 10,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "dividend mentioned",
+      "last_price": 103.2300033569336,
+      "pct_7": -0.08895944240443288,
+      "pct_30": -0.09929323089446118,
+      "sma20": 112.853999710083,
+      "vol_30": 10103698.514414186
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a negative short-term performance, but the upcoming dividend announcement may positively impact the price. The sentiment score is slightly positive due to the mention of dividend.",
+      "action": "Hold the stock until the dividend announcement and re-evaluate based on the outcome.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
       ]
     }
   }
