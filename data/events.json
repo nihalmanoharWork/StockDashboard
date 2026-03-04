@@ -1,21 +1,5 @@
 [
   {
-    "symbol": "STEELXIND",
-    "company": "STEEL EXCHANGE INDIA LIMITED",
-    "purpose": "Fund Raising/Other business matters",
-    "bm_desc": "To consider Fund Raising and other business matters",
-    "date": "04-Mar-2026",
-    "estimated_EPS": null
-  },
-  {
-    "symbol": "UNIVASTU",
-    "company": "Univastu India Limited",
-    "purpose": "Other business matters",
-    "bm_desc": "To consider and approve postal ballot notice",
-    "date": "04-Mar-2026",
-    "estimated_EPS": null
-  },
-  {
     "symbol": "BALMLAWRIE",
     "company": "Balmer Lawrie & Company Limited",
     "purpose": "Dividend/Other business matters",
@@ -98,16 +82,16 @@
   {
     "symbol": "AHCL",
     "company": "Anlon Healthcare Limited",
-    "purpose": "Bonus",
-    "bm_desc": "To consider stock split and bonus issue",
+    "purpose": "Stock Split",
+    "bm_desc": "To consider stock split and Issue of Bonus Shares",
     "date": "06-Mar-2026",
     "estimated_EPS": null
   },
   {
     "symbol": "AHCL",
     "company": "Anlon Healthcare Limited",
-    "purpose": "Stock Split",
-    "bm_desc": "To consider stock split and Issue of Bonus Shares",
+    "purpose": "Bonus",
+    "bm_desc": "To consider stock split and bonus issue",
     "date": "06-Mar-2026",
     "estimated_EPS": null
   },
@@ -210,18 +194,26 @@
   {
     "symbol": "IRFC",
     "company": "Indian Railway Finance Corporation Limited",
-    "purpose": "Fund Raising",
-    "bm_desc": "To consider Fund Raising-Board to also consider approval of market borrowing programme  for the financial year 2026-27  in its meeting scheduled to be held on 9th March 2026",
+    "purpose": "Dividend/Other business matters",
+    "bm_desc": "To consider dividend and other business matters",
     "date": "09-Mar-2026",
     "estimated_EPS": 6.9
   },
   {
     "symbol": "IRFC",
     "company": "Indian Railway Finance Corporation Limited",
-    "purpose": "Dividend/Other business matters",
-    "bm_desc": "To consider dividend and other business matters",
+    "purpose": "Fund Raising",
+    "bm_desc": "To consider Fund Raising-Board to also consider approval of market borrowing programme  for the financial year 2026-27  in its meeting scheduled to be held on 9th March 2026",
     "date": "09-Mar-2026",
     "estimated_EPS": 6.9
+  },
+  {
+    "symbol": "POWERGRID",
+    "company": "Power Grid Corporation of India Limited",
+    "purpose": "Fund Raising",
+    "bm_desc": "To consider Fund Raising",
+    "date": "09-Mar-2026",
+    "estimated_EPS": 18.54494
   },
   {
     "symbol": "RAILTEL",
