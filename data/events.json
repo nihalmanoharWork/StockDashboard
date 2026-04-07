@@ -1,29 +1,5 @@
 [
   {
-    "symbol": "GATECH",
-    "company": "GACM Technologies Limited",
-    "purpose": "Fund Raising",
-    "bm_desc": "To consider Fund Raising",
-    "date": "07-Apr-2026",
-    "estimated_EPS": null
-  },
-  {
-    "symbol": "GATECHDVR",
-    "company": "GACM Technologies Limited",
-    "purpose": "Fund Raising",
-    "bm_desc": "To consider Fund Raising",
-    "date": "07-Apr-2026",
-    "estimated_EPS": null
-  },
-  {
-    "symbol": "PAKKA",
-    "company": "PAKKA LIMITED",
-    "purpose": "Fund Raising/Other business matters",
-    "bm_desc": "PAKKA : 07-Apr-2026 :  The Company has informed the Exchange that a Board meeting to be held on April 04, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on April 07, 2026, To consider Fund Raising and other business matters",
-    "date": "07-Apr-2026",
-    "estimated_EPS": null
-  },
-  {
     "symbol": "AQYLON",
     "company": "Aqylon Nexus Limited",
     "purpose": "Financial Results/Other business matters",
@@ -72,6 +48,14 @@
     "estimated_EPS": 58.6
   },
   {
+    "symbol": "ANANDRATHI",
+    "company": "Anand Rathi Wealth Limited",
+    "purpose": "Bonus",
+    "bm_desc": "In furtherance to our intimation dated 30th March, 2026, regarding proposed Board Meeting scheduled to be held on Thursday i.e. 09th April, 2026, this is to inform you that the Board of Directors in its meeting inter alia would consider a proposal for Issuance of Bonus Shares to the Shareholders of the Company",
+    "date": "09-Apr-2026",
+    "estimated_EPS": 58.6
+  },
+  {
     "symbol": "GMBREW",
     "company": "GM Breweries Limited",
     "purpose": "Financial Results/Dividend",
@@ -86,6 +70,14 @@
     "bm_desc": "To consider and approve the unaudited standalone financial results for the period ended December 31, 2025",
     "date": "09-Apr-2026",
     "estimated_EPS": null
+  },
+  {
+    "symbol": "RSWM",
+    "company": "RSWM Limited",
+    "purpose": "Fund Raising",
+    "bm_desc": "To consider Fund Raising",
+    "date": "09-Apr-2026",
+    "estimated_EPS": 53.71
   },
   {
     "symbol": "TCS",
@@ -120,6 +112,14 @@
     "estimated_EPS": 77.53894
   },
   {
+    "symbol": "JUSTDIAL",
+    "company": "Just Dial Limited",
+    "purpose": "Financial Results",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026",
+    "date": "13-Apr-2026",
+    "estimated_EPS": 66.77009
+  },
+  {
     "symbol": "SWARAJENG",
     "company": "Swaraj Engines Limited",
     "purpose": "Financial Results/Dividend",
@@ -138,16 +138,16 @@
   {
     "symbol": "ICICIPRULI",
     "company": "ICICI Prudential Life Insurance Company Limited",
-    "purpose": "Dividend/Other business matters",
-    "bm_desc": "To consider approval of the audited standalone and consolidated financial statements and financial results of the Company for the quarter and year ended March 31, 2026 and recommendation of dividend, if any for the financial year ending March 31, 2026.",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and recommendation of dividend, if any for the financial year ending March 31, 2026.",
     "date": "14-Apr-2026",
     "estimated_EPS": 11.36218
   },
   {
     "symbol": "ICICIPRULI",
     "company": "ICICI Prudential Life Insurance Company Limited",
-    "purpose": "Financial Results/Dividend",
-    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and recommendation of dividend, if any for the financial year ending March 31, 2026.",
+    "purpose": "Dividend/Other business matters",
+    "bm_desc": "To consider approval of the audited standalone and consolidated financial statements and financial results of the Company for the quarter and year ended March 31, 2026 and recommendation of dividend, if any for the financial year ending March 31, 2026.",
     "date": "14-Apr-2026",
     "estimated_EPS": 11.36218
   },
@@ -218,16 +218,16 @@
   {
     "symbol": "HDFCBANK",
     "company": "HDFC Bank Limited",
-    "purpose": "Fund Raising",
-    "bm_desc": "To consider Fund Raising",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
     "date": "18-Apr-2026",
     "estimated_EPS": 57.1
   },
   {
     "symbol": "HDFCBANK",
     "company": "HDFC Bank Limited",
-    "purpose": "Financial Results/Dividend",
-    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
+    "purpose": "Fund Raising",
+    "bm_desc": "To consider Fund Raising",
     "date": "18-Apr-2026",
     "estimated_EPS": 57.1
   },
@@ -280,6 +280,14 @@
     "estimated_EPS": 147.9899
   },
   {
+    "symbol": "MAHSCOOTER",
+    "company": "Maharashtra Scooters Limited",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "Board Meeting Intimation for Considering and Approving the Audited Financial Results for the Quarter and Financial Year Ended 31 March 2026 and Recommendation of Dividend, If Any.",
+    "date": "22-Apr-2026",
+    "estimated_EPS": null
+  },
+  {
     "symbol": "TECHM",
     "company": "Tech Mahindra Limited",
     "purpose": "Financial Results/Other business matters",
@@ -310,6 +318,14 @@
     "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
     "date": "23-Apr-2026",
     "estimated_EPS": 76.87743
+  },
+  {
+    "symbol": "LTM",
+    "company": "LTIMindtree Limited",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend, if any.",
+    "date": "23-Apr-2026",
+    "estimated_EPS": 212.0066
   },
   {
     "symbol": "MAHLOG",
@@ -384,6 +400,14 @@
     "estimated_EPS": null
   },
   {
+    "symbol": "BAJAJHFL",
+    "company": "Bajaj Housing Finance Limited",
+    "purpose": "Financial Results",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026",
+    "date": "27-Apr-2026",
+    "estimated_EPS": 3.63596
+  },
+  {
     "symbol": "CRAMC",
     "company": "Canara Robeco Asset Management Company Limited",
     "purpose": "Financial Results",
@@ -416,6 +440,14 @@
     "estimated_EPS": 386.59796
   },
   {
+    "symbol": "CEATLTD",
+    "company": "CEAT Limited",
+    "purpose": "Financial Results/Dividend/Other business matters",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026, dividend and other business matters",
+    "date": "28-Apr-2026",
+    "estimated_EPS": 218.83574
+  },
+  {
     "symbol": "MAHLIFE",
     "company": "Mahindra Lifespace Developers Limited",
     "purpose": "Financial Results/Dividend",
@@ -430,6 +462,14 @@
     "bm_desc": "To consider and approve the financial results for the quarter and year ended March 31, 2026",
     "date": "28-Apr-2026",
     "estimated_EPS": 15.79827
+  },
+  {
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
+    "date": "29-Apr-2026",
+    "estimated_EPS": 40.71252
   },
   {
     "symbol": "CAPITALSFB",
@@ -472,6 +512,38 @@
     "estimated_EPS": 148.00542
   },
   {
+    "symbol": "NDTV",
+    "company": "New Delhi Television Limited",
+    "purpose": "Financial Results",
+    "bm_desc": "To consider and approve the Audited Financial Results (Standalone and Consolidated) of the Company for the quarter and year ended March 31, 2026",
+    "date": "29-Apr-2026",
+    "estimated_EPS": null
+  },
+  {
+    "symbol": "BAJAJFINSV",
+    "company": "Bajaj Finserv Limited",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend, if any.",
+    "date": "30-Apr-2026",
+    "estimated_EPS": 81.10294
+  },
+  {
+    "symbol": "CHOLAFIN",
+    "company": "Cholamandalam Investment and Finance Company Limited",
+    "purpose": "Financial Results",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026",
+    "date": "30-Apr-2026",
+    "estimated_EPS": 77.53273
+  },
+  {
+    "symbol": "GODREJAGRO",
+    "company": "Godrej Agrovet Limited",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
+    "date": "30-Apr-2026",
+    "estimated_EPS": 29.64877
+  },
+  {
     "symbol": "HINDUNILVR",
     "company": "Hindustan Unilever Limited",
     "purpose": "Financial Results/Dividend",
@@ -510,6 +582,14 @@
     "bm_desc": "To consider and approve the financial results for the quarter and financial year ended March 31, 2026 and Dividend",
     "date": "04-May-2026",
     "estimated_EPS": 22.39117
+  },
+  {
+    "symbol": "CSBBANK",
+    "company": "CSB Bank Limited",
+    "purpose": "Financial Results",
+    "bm_desc": "To consider and approve the audited financial results of the Bank for the quarter and financial year ended March 31, 2026",
+    "date": "04-May-2026",
+    "estimated_EPS": 50.895
   },
   {
     "symbol": "EXIDEIND",
@@ -552,6 +632,14 @@
     "estimated_EPS": 15.57414
   },
   {
+    "symbol": "UBL",
+    "company": "United Breweries Limited",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
+    "date": "05-May-2026",
+    "estimated_EPS": 26.61857
+  },
+  {
     "symbol": "BLUESTARCO",
     "company": "Blue Star Limited",
     "purpose": "Financial Results/Dividend",
@@ -590,6 +678,14 @@
     "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
     "date": "06-May-2026",
     "estimated_EPS": 642.79626
+  },
+  {
+    "symbol": "BAJAJHLDNG",
+    "company": "Bajaj Holdings & Investment Limited",
+    "purpose": "Financial Results/Dividend",
+    "bm_desc": "Board Meeting Intimation for Considering and Approving the Standalone and Consolidated Audited Financial Results for Quarter and Financial Year ended 31 March 2026 and recommendation of Dividend, If Any.",
+    "date": "07-May-2026",
+    "estimated_EPS": null
   },
   {
     "symbol": "DABUR",
