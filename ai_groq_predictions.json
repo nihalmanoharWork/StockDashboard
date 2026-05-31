@@ -1,5 +1,37 @@
 [
   {
+    "symbol": "LIBAS",
+    "company": "Libas Consumer Products Limited",
+    "input": {
+      "symbol": "LIBAS",
+      "company": "Libas Consumer Products Limited",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "LIBAS : 01-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 30, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 01, 2026, To consider and approve the financial results for the period ended March 31, 2026 and other business matters",
+      "date": "01-Jun-2026",
+      "estimated_EPS": null,
+      "days_to_event": 1,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 12.430000305175781,
+      "pct_7": -0.0024076832166408657,
+      "pct_30": 0.018852499959546964,
+      "sma20": 12.350499963760376,
+      "vol_30": 42725.06771274471
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "The stock price has been relatively stable with a slight decrease in the last 7 days, but an increase in the last 30 days. The sentiment score is low, indicating a neutral market sentiment.",
+      "action": "Hold the stock until more information about the financial results is available.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20"
+      ]
+    }
+  },
+  {
     "symbol": "RPEL",
     "company": "Raghav Productivity Enhancers Limited",
     "input": {
@@ -9,7 +41,7 @@
       "bm_desc": "To consider other business matters related to AGM of the Company and Board report for FY 2025-26",
       "date": "01-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 965.0999755859375,
@@ -21,8 +53,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
-      "action": "Hold Raghav Productivity Enhancers Limited stock until more information is available about the upcoming AGM.",
+      "rationale": "The stock has shown moderate growth over the past month, but the sentiment score is neutral and the event is just one day away, making it a hold for now.",
+      "action": "Monitor the stock's performance after the event to reassess the recommendation.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -42,7 +74,7 @@
       "bm_desc": "To consider Appointment of an Additional Director of the Company",
       "date": "01-Jun-2026",
       "estimated_EPS": 60.72,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 435.79998779296875,
@@ -66,6 +98,37 @@
     }
   },
   {
+    "symbol": "ASIL",
+    "company": "Amit Spinning Industries Limited",
+    "input": {
+      "symbol": "ASIL",
+      "company": "Amit Spinning Industries Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "ASIL : 02-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 30, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 02, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
+      "date": "02-Jun-2026",
+      "estimated_EPS": null,
+      "days_to_event": 2,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 0.699999988079071,
+      "pct_7": 0.0,
+      "pct_30": 0.0,
+      "sma20": 0.699999988079071,
+      "vol_30": 0.0
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "The stock has a neutral sentiment score and no significant price movement in the last 7 and 30 days.",
+      "action": "Hold the stock until the financial results are announced on June 2, 2026.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30"
+      ]
+    }
+  },
+  {
     "symbol": "CANBK",
     "company": "Canara Bank",
     "input": {
@@ -75,7 +138,7 @@
       "bm_desc": "To consider Fund Raising",
       "date": "02-Jun-2026",
       "estimated_EPS": 23.10336,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 130.8000030517578,
@@ -87,13 +150,12 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is near, and the company is raising funds.",
-      "action": "Hold the stock until the event date and reassess based on the outcome.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The SMA20 is close to the current price.",
+      "action": "Hold the stock until more information about the fund raising is available.",
       "features_used": [
         "sentiment_score",
         "pct_7",
-        "days_to_event",
-        "estimated_EPS"
+        "sma20"
       ]
     }
   },
@@ -107,7 +169,7 @@
       "bm_desc": "To consider Fund Raising proposal by way of issuance of listed, secured/unsecured, non-convertible debentures on private placement basis",
       "date": "02-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 123.20999908447266,
@@ -131,6 +193,41 @@
     }
   },
   {
+    "symbol": "DEEDEV",
+    "company": "DEE Development Engineers Limited",
+    "input": {
+      "symbol": "DEEDEV",
+      "company": "DEE Development Engineers Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "Intimation of Board Meeting to approve the proposal for raising of funds by way of issuance of Equity Shares of the Company on preferential basis.",
+      "date": "03-Jun-2026",
+      "estimated_EPS": 22.2,
+      "days_to_event": 3,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 593.4000244140625,
+      "pct_7": 0.24886884570462597,
+      "pct_30": 0.47318779145310796,
+      "sma20": 490.59500274658205,
+      "vol_30": 354740.4342620383
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.6,
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is near, and the estimated EPS is high.",
+      "action": "Hold the stock until the event date and reassess based on the outcome.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30",
+        "days_to_event",
+        "estimated_EPS"
+      ]
+    }
+  },
+  {
     "symbol": "IBULLSLTD",
     "company": "Indiabulls Limited",
     "input": {
@@ -140,7 +237,7 @@
       "bm_desc": "To consider Fund Raising",
       "date": "03-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 21.030000686645508,
@@ -171,7 +268,7 @@
       "bm_desc": "To consider Fund Raising by ideaForge Technology Limited (the Company)",
       "date": "03-Jun-2026",
       "estimated_EPS": 27.9,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 845.0,
@@ -184,7 +281,7 @@
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price increase and high volume suggest a potential short-term hold.",
-      "action": "Hold the stock for the next 4 days to see how the fund raising event affects the price.",
+      "action": "Hold the stock for the next 3 days to see how the fund raising event affects the price.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -204,7 +301,7 @@
       "bm_desc": "To consider Fund Raising",
       "date": "03-Jun-2026",
       "estimated_EPS": 30.6,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 549.3499755859375,
@@ -229,6 +326,37 @@
     }
   },
   {
+    "symbol": "HGS",
+    "company": "Hinduja Global Solutions Limited",
+    "input": {
+      "symbol": "HGS",
+      "company": "Hinduja Global Solutions Limited",
+      "purpose": "Dividend",
+      "bm_desc": "to consider recommendation/ declaration of dividend, if any.",
+      "date": "04-Jun-2026",
+      "estimated_EPS": 107.73,
+      "days_to_event": 4,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "dividend mentioned",
+      "last_price": 412.8999938964844,
+      "pct_7": 0.020387989928180916,
+      "pct_30": 0.0046228561958256975,
+      "sma20": 413.1200012207031,
+      "vol_30": 44858.41296770996
+    },
+    "prediction": {
+      "recommendation": "buy",
+      "confidence": 0.8,
+      "rationale": "The stock has a positive sentiment score and is due for a dividend declaration, indicating a potential increase in value.",
+      "action": "Buy HGS stock before the dividend declaration on 08-Jun-2026.",
+      "features_used": [
+        "sentiment_score",
+        "days_to_event",
+        "estimated_EPS"
+      ]
+    }
+  },
+  {
     "symbol": "PILANIINVS",
     "company": "Pilani Investment and Industries Corporation Limited",
     "input": {
@@ -238,7 +366,7 @@
       "bm_desc": "To consider dividend and other business matters",
       "date": "04-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 4489.2998046875,
@@ -251,7 +379,7 @@
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and recent price movement",
-      "action": "Monitor the stock for potential dividend announcement on 04-Jun-2026",
+      "action": "Hold the stock until the event date to assess the impact of the dividend announcement.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -271,7 +399,7 @@
       "bm_desc": "To consider and recommend the appointment of an Independent Director in the place of Mr. P B Sampath, retiring Director.",
       "date": "04-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 513.75,
@@ -304,7 +432,7 @@
       "bm_desc": "To consider other business matters of Amalgamation with its Holding Company",
       "date": "05-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 55.369998931884766,
@@ -337,7 +465,7 @@
       "bm_desc": "To consider Issuance of Bonus Shares.",
       "date": "05-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 25.15999984741211,
@@ -370,7 +498,7 @@
       "bm_desc": "To consider dividend and other business matters",
       "date": "05-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 97.47000122070312,
@@ -381,9 +509,9 @@
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price drop, but upcoming dividend consideration may impact price.",
-      "action": "Monitor the stock for potential price movement after the dividend consideration meeting.",
+      "confidence": 0.6,
+      "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but it's close to a dividend event which might have a positive impact.",
+      "action": "Hold the stock until the dividend event and reassess afterwards.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -403,7 +531,7 @@
       "bm_desc": "Further to our letter dated 30th March, 2026, we wish to inform you that a meeting of the Board of Directors of our Company will be held at the Registered Office of our company at Plot No.111, Road No.IO, Jubilee Hills, Hyderabad- 500 033 on Friday, the 5th June, 2026 to, inter-alia, consider and approve a Scheme of Amalgamation for the merger of one of our subsidiaries viz., Andhra Cements Limited with the company, which will be subject to necessary approvals as may be required from the regulatories and other authorities concerned.Further, in accordance with the Company's Code of Conduct for Prevention of lnsider Trading, the trading window for dealing in the securities of the Company shall remain closed for designated persons and their immediate relatives as per the applicable provisions of the SEBI (Prohibition of Insider Trading) Regulations, 2015.",
       "date": "05-Jun-2026",
       "estimated_EPS": 3.36667,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 178.25999450683594,
@@ -415,11 +543,41 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.8,
-      "rationale": "The stock is experiencing a neutral sentiment with a low estimated EPS and a recent decline in price. The upcoming event of a Board of Directors meeting may impact the stock price.",
-      "action": "Hold the stock until the outcome of the Board of Directors meeting is known.",
+      "rationale": "The stock is trading near its 20-day SMA and has a low sentiment score, indicating a stable market position. However, the upcoming Board meeting and merger announcement may cause market volatility.",
+      "action": "Hold the stock until the market reaction to the merger announcement is clear.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
+        "sma20",
+        "days_to_event"
+      ]
+    }
+  },
+  {
+    "symbol": "SARVESHWAR",
+    "company": "Sarveshwar Foods Limited",
+    "input": {
+      "symbol": "SARVESHWAR",
+      "company": "Sarveshwar Foods Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "SARVESHWAR : 05-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 30, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 05, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
+      "date": "05-Jun-2026",
+      "estimated_EPS": null,
+      "days_to_event": 5,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 3.809999942779541,
+      "pct_7": 0.04670325081758242,
+      "pct_30": -0.042713586803831194,
+      "sma20": 3.800000023841858,
+      "vol_30": 936497.9358265111
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in Sarveshwar Foods Limited.",
+      "features_used": [
+        "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
@@ -437,7 +595,7 @@
       "bm_desc": "VALECHAENG : 05-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 29, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 05, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
       "date": "05-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 960.0,
@@ -468,7 +626,7 @@
       "bm_desc": "BCG : 07-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 30, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 07, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
       "date": "07-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 8,
+      "days_to_event": 7,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 10.4399995803833,
@@ -480,14 +638,13 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
+      "rationale": "Neutral sentiment and recent price stability suggest holding the stock.",
       "action": "Hold the stock until the financial results are announced on June 7, 2026.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -501,7 +658,7 @@
       "bm_desc": "Sky Gold And Diamonds Ltd has informed NSE that the meeting of the Board of Directors of the Company is scheduled on 09/06/2026 ,inter alia, to consider and approve The appointment of Mr. Akash Talesara as the Chief Executive Officer (CEO) of the Company and such other matters as may be deemed necessary with the approval of the Board.",
       "date": "09-Jun-2026",
       "estimated_EPS": 30.60667,
-      "days_to_event": 10,
+      "days_to_event": 9,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 521.0,
@@ -513,15 +670,12 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The company is announcing a CEO appointment, but there is no significant change in sentiment or price movement.",
+      "rationale": "The company is announcing a CEO appointment, which may have a neutral impact on the stock price. The sentiment score is neutral and the stock price has been relatively stable.",
       "action": "Hold the stock until more information is available about the CEO's impact on the company's performance.",
       "features_used": [
-        "sentiment_score",
-        "days_to_event",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "sentiment analysis",
+        "event analysis",
+        "technical analysis"
       ]
     }
   },
@@ -535,7 +689,7 @@
       "bm_desc": "SRPL : 15-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 29, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 15, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
       "date": "15-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 16,
+      "days_to_event": 15,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 0.4099999964237213,
@@ -547,7 +701,7 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has a low sentiment score and recent price decline, but the event of financial results is upcoming which may impact the stock price.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
       "action": "Hold the stock until the financial results are announced on June 15, 2026.",
       "features_used": [
         "sentiment_score",
