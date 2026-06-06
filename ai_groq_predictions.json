@@ -1,136 +1,5 @@
 [
   {
-    "symbol": "GUJTHEM",
-    "company": "Gujarat Themis Biosyn Limited",
-    "input": {
-      "symbol": "GUJTHEM",
-      "company": "Gujarat Themis Biosyn Limited",
-      "purpose": "Fund Raising/Other business matters",
-      "bm_desc": "To consider Fund Raising and other business matters",
-      "date": "06-Jun-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 405.25,
-      "pct_7": -0.062355417505452815,
-      "pct_30": 0.07152296911656708,
-      "sma20": 384.5975006103516,
-      "vol_30": 526104.1238632941
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price drop indicate potential decline in stock value.",
-      "action": "Sell your shares of Gujarat Themis Biosyn Limited before the upcoming event.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "last_price"
-      ]
-    }
-  },
-  {
-    "symbol": "NECCLTD",
-    "company": "North Eastern Carrying Corporation Limited",
-    "input": {
-      "symbol": "NECCLTD",
-      "company": "North Eastern Carrying Corporation Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider and approve allotment of 45,00,000 equity shares to promoter against conversion of Loan aggregating of Rs. 6.83 Crores on a preferential basis.",
-      "date": "06-Jun-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.3,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 15.239999771118164,
-      "pct_7": -0.010389600738664129,
-      "pct_30": -0.10247348751630181,
-      "sma20": 15.372499990463258,
-      "vol_30": 50342.15741471372
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential sell opportunity.",
-      "action": "Sell 45,00,000 equity shares of North Eastern Carrying Corporation Limited at the current market price.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "last_price"
-      ]
-    }
-  },
-  {
-    "symbol": "RHETAN",
-    "company": "Rhetan TMT Limited",
-    "input": {
-      "symbol": "RHETAN",
-      "company": "Rhetan TMT Limited",
-      "purpose": "Other business matters",
-      "bm_desc": "To consider appointment of Company Secretary & Compliance Officer",
-      "date": "06-Jun-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.0,
-      "sentiment_reason": "",
-      "last_price": 31.079999923706055,
-      "pct_7": 0.020019711982212307,
-      "pct_30": 0.18989276129817423,
-      "sma20": 28.81649990081787,
-      "vol_30": 5378984.772893664
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment and stable price movement over the past 7 and 30 days.",
-      "action": "Monitor the stock for any significant price movements before making a decision.",
-      "features_used": [
-        "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
-    "symbol": "USK",
-    "company": "Udayshivakumar Infra Limited",
-    "input": {
-      "symbol": "USK",
-      "company": "Udayshivakumar Infra Limited",
-      "purpose": "Financial Results/Fund Raising",
-      "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and Fund Raising",
-      "date": "06-Jun-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": -0.25,
-      "sentiment_reason": "dilution-related terms",
-      "last_price": 23.549999237060547,
-      "pct_7": 0.04620164360746304,
-      "pct_30": 0.013775277706846278,
-      "sma20": 22.425500202178956,
-      "vol_30": 9878.17373739736
-    },
-    "prediction": {
-      "recommendation": "sell",
-      "confidence": 0.7,
-      "rationale": "Negative sentiment score and dilution-related terms indicate potential risks for the company.",
-      "action": "Sell Udayshivakumar Infra Limited (USK) due to negative sentiment and potential dilution.",
-      "features_used": [
-        "sentiment_score",
-        "sentiment_reason",
-        "last_price",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
     "symbol": "BCG",
     "company": "Brightcom Group Limited",
     "input": {
@@ -140,22 +9,24 @@
       "bm_desc": "BCG : 07-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 30, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 07, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
       "date": "07-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 12.779999732971191,
-      "pct_7": 0.24198248594257166,
-      "pct_30": 0.3368199970731378,
-      "sma20": 10.20400004386902,
-      "vol_30": 6576702.356167518
+      "last_price": 12.09000015258789,
+      "pct_7": 0.17492713288705586,
+      "pct_30": 0.26464431191652915,
+      "sma20": 10.169500064849853,
+      "vol_30": 10005121.169135688
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has a low sentiment score and recent price movement is not significant, indicating a neutral market sentiment.",
-      "action": "Hold the stock until the financial results are announced on June 7, 2026.",
+      "rationale": "The stock has a low sentiment score and the company is about to release its financial results, which may cause volatility.",
+      "action": "Hold the stock until the financial results are released and assess the impact on the stock price.",
       "features_used": [
         "sentiment_score",
+        "days_to_event",
+        "last_price",
         "pct_7",
         "pct_30",
         "sma20",
@@ -173,27 +44,27 @@
       "bm_desc": "To consider Fund Raising through issuance of Senior, Secured, Listed Non-Convertible Debentures",
       "date": "08-Jun-2026",
       "estimated_EPS": 29.0,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 153.69000244140625,
-      "pct_7": 0.05927359790876019,
-      "pct_30": 0.055055978398238725,
-      "sma20": 142.95649909973145,
-      "vol_30": 3354497.505985059
+      "last_price": 146.86000061035156,
+      "pct_7": 0.012199354312056654,
+      "pct_30": 0.008169166309909048,
+      "sma20": 142.6149990081787,
+      "vol_30": 3337978.4093174594
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is near, and the company is raising funds.",
-      "action": "Hold the stock until the event date and reassess based on the outcome.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
+      "action": "Hold the stock until more information about the fund raising is available.",
       "features_used": [
         "sentiment_score",
+        "sentiment_reason",
         "pct_7",
         "pct_30",
         "sma20",
-        "vol_30",
-        "days_to_event"
+        "vol_30"
       ]
     }
   },
@@ -207,20 +78,20 @@
       "bm_desc": "To consider other business matters",
       "date": "08-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 27.549999237060547,
-      "pct_7": -0.017825312427794393,
-      "pct_30": -0.08653848221340477,
-      "sma20": 29.134999656677245,
-      "vol_30": 97770.21783485942
+      "last_price": 27.389999389648438,
+      "pct_7": -0.023529406964834965,
+      "pct_30": -0.09184351696876258,
+      "sma20": 29.12699966430664,
+      "vol_30": 97265.65707313048
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment and recent price movement suggest holding the stock.",
-      "action": "Hold the stock until the next event date.",
+      "action": "Hold the stock until more information is available about the upcoming business matters.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -239,25 +110,24 @@
       "bm_desc": "To consider voluntary delisting",
       "date": "09-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 304.0,
-      "pct_7": 0.38075124916306047,
-      "pct_30": 1.2078581931129437,
-      "sma20": 196.8944999694824,
-      "vol_30": 69693.72679951724
+      "last_price": 314.3399963378906,
+      "pct_7": 0.4277149427810998,
+      "pct_30": 1.282954395847712,
+      "sma20": 197.41149978637696,
+      "vol_30": 82814.24666071418
     },
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.8,
-      "rationale": "The stock is scheduled for voluntary delisting in 4 days, which may lead to a significant price drop.",
-      "action": "Sell HITECHCORP stock before the delisting event.",
+      "rationale": "Voluntary delisting and negative sentiment score indicate a potential decline in stock value.",
+      "action": "Sell HITECHCORP stock before the delisting event on 09-Jun-2026.",
       "features_used": [
-        "voluntary delisting",
-        "sentiment score",
-        "price movement",
-        "moving averages"
+        "sentiment_score",
+        "days_to_event",
+        "voluntary_delisting"
       ]
     }
   },
@@ -271,14 +141,14 @@
       "bm_desc": "Sky Gold And Diamonds Ltd has informed NSE that the meeting of the Board of Directors of the Company is scheduled on 09/06/2026 ,inter alia, to consider and approve The appointment of Mr. Akash Talesara as the Chief Executive Officer (CEO) of the Company and such other matters as may be deemed necessary with the approval of the Board.",
       "date": "09-Jun-2026",
       "estimated_EPS": 30.60667,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 527.0,
-      "pct_7": 0.08291381199955072,
-      "pct_30": 0.10020876826722347,
-      "sma20": 490.445002746582,
-      "vol_30": 1525873.1131624717
+      "last_price": 528.4500122070312,
+      "pct_7": 0.08589339121503858,
+      "pct_30": 0.10323593362636996,
+      "sma20": 490.5175033569336,
+      "vol_30": 1533266.0565426922
     },
     "prediction": {
       "recommendation": "hold",
@@ -286,13 +156,10 @@
       "rationale": "The company is announcing a CEO appointment, which may have a neutral impact on the stock price.",
       "action": "Hold the stock until more information is available about the CEO's impact on the company's performance.",
       "features_used": [
-        "sentiment_score",
-        "days_to_event",
-        "estimated_EPS",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "sentiment analysis",
+        "event analysis",
+        "technical indicators (SMA20)",
+        "price movement analysis"
       ]
     }
   },
@@ -306,20 +173,20 @@
       "bm_desc": "To consider other business matters",
       "date": "09-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 144.67999267578125,
-      "pct_7": -0.10364915808657194,
-      "pct_30": -0.1950595957821768,
-      "sma20": 155.2495002746582,
-      "vol_30": 1229457.889190476
+      "last_price": 141.7899932861328,
+      "pct_7": -0.12155386860066286,
+      "pct_30": -0.2111383723557001,
+      "sma20": 155.1050003051758,
+      "vol_30": 1227770.893297306
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and recent price movement is slightly negative, but the event is near and may impact the stock price.",
-      "action": "Hold the stock until the event date and reassess after the event.",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and recent price drop, but event in 3 days may impact stock.",
+      "action": "Monitor the stock for potential price movement after the upcoming event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -339,20 +206,20 @@
       "bm_desc": "Intimation of Board Meeting for consideration of  Scheme of Arrangement,  as per Regulation 29 of the SEBI (Listing Obligations and Disclosure Requirements), Regulation, 2015",
       "date": "10-Jun-2026",
       "estimated_EPS": 32.3275,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 1422.5999755859375,
-      "pct_7": 0.018033455511381913,
-      "pct_30": 0.30729648908176244,
-      "sma20": 1241.0099792480469,
-      "vol_30": 2070087.1852841615
+      "last_price": 1419.5,
+      "pct_7": 0.015815067410782424,
+      "pct_30": 0.30444777034896053,
+      "sma20": 1240.85498046875,
+      "vol_30": 2080220.0910697577
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "rationale": "The stock has a neutral sentiment score and a moderate price increase over the past 30 days, but the upcoming board meeting may impact the stock price.",
-      "action": "Monitor the stock closely in the coming days as the board meeting may bring significant changes.",
+      "action": "Monitor the stock closely for any changes in price or sentiment following the board meeting.",
       "features_used": [
         "sentiment_score",
         "pct_30",
@@ -371,25 +238,22 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "10-Jun-2026",
       "estimated_EPS": 19.91892,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 285.0,
-      "pct_7": -0.05047474331020407,
-      "pct_30": -0.09795857259454943,
-      "sma20": 295.8449951171875,
-      "vol_30": 13379868.956885241
+      "last_price": 285.6499938964844,
+      "pct_7": -0.04830917972632298,
+      "pct_30": -0.09590130444651579,
+      "sma20": 295.8774948120117,
+      "vol_30": 13277470.336067561
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the estimated EPS is high and the company is raising funds.",
-      "action": "Hold the stock until the event date to assess the impact of the fund raising on the stock price.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is relatively stable.",
+      "action": "Hold the stock until the event date to assess the impact of the fund raising on the company's performance.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
-        "days_to_event",
-        "last_price",
         "pct_7",
         "pct_30",
         "sma20",
@@ -407,26 +271,26 @@
       "bm_desc": "SRPL : 15-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 29, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 15, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
       "date": "15-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 10,
+      "days_to_event": 9,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 0.4000000059604645,
       "pct_7": -0.024390220854836775,
       "pct_30": -0.09090907243657698,
-      "sma20": 0.419499996304512,
+      "sma20": 0.41749999672174454,
       "vol_30": 218804.53627938783
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score and recent price decline, but the upcoming financial results meeting may provide a catalyst for the stock.",
-      "action": "Hold the stock until the financial results meeting on June 15, 2026.",
+      "confidence": 0.5,
+      "rationale": "The stock has a negative sentiment score and recent price decline, but the days to event for financial results are relatively short.",
+      "action": "Hold the stock until the financial results are announced on June 15, 2026.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
-        "vol_30"
+        "days_to_event"
       ]
     }
   },
@@ -440,20 +304,20 @@
       "bm_desc": "To consider Fund Raising (Equity & Debt), subject to the approval of the Shareholders of the Bank",
       "date": "25-Jun-2026",
       "estimated_EPS": 33.1,
-      "days_to_event": 20,
+      "days_to_event": 19,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 172.0,
-      "pct_7": 0.03739443205140791,
-      "pct_30": 0.07379203311704163,
-      "sma20": 166.67999954223632,
-      "vol_30": 1704374.2965876982
+      "last_price": 171.8300018310547,
+      "pct_7": 0.03636911138906607,
+      "pct_30": 0.07273073846903033,
+      "sma20": 166.67149963378907,
+      "vol_30": 1702184.9693739875
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is still 20 days away.",
-      "action": "Hold the stock until the event date and reassess based on the outcome.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is still 19 days away.",
+      "action": "Hold the stock until the event date and reassess based on the actual outcome.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -473,25 +337,25 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "18-Jul-2026",
       "estimated_EPS": 16.8,
-      "days_to_event": 43,
+      "days_to_event": 42,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 382.25,
-      "pct_7": -0.045806305102187084,
-      "pct_30": -0.04663926084974268,
-      "sma20": 395.0425003051758,
-      "vol_30": 5367583.666709273
+      "last_price": 380.95001220703125,
+      "pct_7": -0.049051406882422266,
+      "pct_30": -0.04988152984435612,
+      "sma20": 394.97750091552734,
+      "vol_30": 5366924.610907415
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the estimated EPS is high. The sentiment score is low, indicating bearish sentiment.",
-      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the SMA20 is still above the current price. The sentiment score is neutral.",
+      "action": "Hold the stock until the next earnings announcement to assess the impact of the financial results.",
       "features_used": [
-        "estimated_EPS",
+        "sentiment_score",
         "pct_7",
         "pct_30",
-        "sentiment_score"
+        "sma20"
       ]
     }
   },
@@ -505,14 +369,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "20-Jul-2026",
       "estimated_EPS": 437.77094,
-      "days_to_event": 45,
+      "days_to_event": 44,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 10970.0,
-      "pct_7": -0.061510822140473986,
-      "pct_30": -0.0928636401223849,
-      "sma20": 11459.45,
-      "vol_30": 309821.1489153817
+      "last_price": 10912.0,
+      "pct_7": -0.06647275216015058,
+      "pct_30": -0.09765980319192924,
+      "sma20": 11456.55,
+      "vol_30": 306771.3144396488
     },
     "prediction": {
       "recommendation": "hold",
@@ -521,8 +385,6 @@
       "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
       "features_used": [
         "sentiment_score",
-        "estimated_EPS",
-        "days_to_event",
         "pct_7",
         "pct_30",
         "sma20",
@@ -540,20 +402,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "27-Jul-2026",
       "estimated_EPS": 68.63974,
-      "days_to_event": 52,
+      "days_to_event": 51,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 1447.300048828125,
-      "pct_7": 0.04242294971070715,
-      "pct_30": 0.13034990724124618,
-      "sma20": 1389.0350036621094,
-      "vol_30": 4988337.203146662
+      "last_price": 1435.5,
+      "pct_7": 0.033923923046468296,
+      "pct_30": 0.12113399924130319,
+      "sma20": 1388.445001220703,
+      "vol_30": 4965889.390768105
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "Neutral sentiment and stable price movement over the past month suggest a hold position.",
-      "action": "Maintain the current investment in Coforge Limited.",
+      "rationale": "Neutral sentiment score and moderate price movement over the past month.",
+      "action": "Monitor the stock for potential price fluctuations before making any investment decisions.",
       "features_used": [
         "sentiment_score",
         "pct_7",
