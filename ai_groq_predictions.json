@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "BCG",
-    "company": "Brightcom Group Limited",
-    "input": {
-      "symbol": "BCG",
-      "company": "Brightcom Group Limited",
-      "purpose": "Financial Results",
-      "bm_desc": "BCG : 07-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 30, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 07, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
-      "date": "07-Jun-2026",
-      "estimated_EPS": null,
-      "days_to_event": 1,
-      "sentiment_score": 0.05,
-      "sentiment_reason": "",
-      "last_price": 12.09000015258789,
-      "pct_7": 0.17492713288705586,
-      "pct_30": 0.26464431191652915,
-      "sma20": 10.169500064849853,
-      "vol_30": 10005121.169135688
-    },
-    "prediction": {
-      "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "The stock has a low sentiment score and the company is about to release its financial results, which may cause volatility.",
-      "action": "Hold the stock until the financial results are released and assess the impact on the stock price.",
-      "features_used": [
-        "sentiment_score",
-        "days_to_event",
-        "last_price",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
-      ]
-    }
-  },
-  {
     "symbol": "AYE",
     "company": "Aye Finance Limited",
     "input": {
@@ -44,7 +9,7 @@
       "bm_desc": "To consider Fund Raising through issuance of Senior, Secured, Listed Non-Convertible Debentures",
       "date": "08-Jun-2026",
       "estimated_EPS": 29.0,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 146.86000061035156,
@@ -78,7 +43,7 @@
       "bm_desc": "To consider other business matters",
       "date": "08-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 2,
+      "days_to_event": 1,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 27.389999389648438,
@@ -90,8 +55,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price movement suggest holding the stock.",
-      "action": "Hold the stock until more information is available about the upcoming business matters.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
+      "action": "Hold the stock for the next trading day to see how it reacts to the upcoming event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -110,7 +75,7 @@
       "bm_desc": "To consider voluntary delisting",
       "date": "09-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 314.3399963378906,
@@ -141,7 +106,7 @@
       "bm_desc": "Sky Gold And Diamonds Ltd has informed NSE that the meeting of the Board of Directors of the Company is scheduled on 09/06/2026 ,inter alia, to consider and approve The appointment of Mr. Akash Talesara as the Chief Executive Officer (CEO) of the Company and such other matters as may be deemed necessary with the approval of the Board.",
       "date": "09-Jun-2026",
       "estimated_EPS": 30.60667,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 528.4500122070312,
@@ -153,13 +118,13 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The company is announcing a CEO appointment, which may have a neutral impact on the stock price.",
-      "action": "Hold the stock until more information is available about the CEO's impact on the company's performance.",
+      "rationale": "The company is announcing a CEO appointment, but there is no significant change in sentiment or price movement.",
+      "action": "Hold the stock until more information is available about the CEO appointment's impact on the company's performance.",
       "features_used": [
         "sentiment analysis",
         "event analysis",
-        "technical indicators (SMA20)",
-        "price movement analysis"
+        "technical indicators (SMA20, pct_7, pct_30)",
+        "volume analysis"
       ]
     }
   },
@@ -173,7 +138,7 @@
       "bm_desc": "To consider other business matters",
       "date": "09-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 141.7899932861328,
@@ -185,14 +150,13 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and recent price drop, but event in 3 days may impact stock.",
-      "action": "Monitor the stock for potential price movement after the upcoming event.",
+      "rationale": "Neutral sentiment and recent price drop, but close to SMA20.",
+      "action": "Hold the stock until the next event and reassess the situation.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -206,7 +170,7 @@
       "bm_desc": "Intimation of Board Meeting for consideration of  Scheme of Arrangement,  as per Regulation 29 of the SEBI (Listing Obligations and Disclosure Requirements), Regulation, 2015",
       "date": "10-Jun-2026",
       "estimated_EPS": 32.3275,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
       "last_price": 1419.5,
@@ -218,13 +182,16 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a neutral sentiment score and a moderate price increase over the past 30 days, but the upcoming board meeting may impact the stock price.",
-      "action": "Monitor the stock closely for any changes in price or sentiment following the board meeting.",
+      "rationale": "The stock has a neutral sentiment score and is due for a board meeting, but the estimated EPS is high. The recent price movement is positive, but the volume is not extremely high.",
+      "action": "Hold the stock until the board meeting outcome is announced.",
       "features_used": [
         "sentiment_score",
+        "estimated_EPS",
+        "days_to_event",
+        "pct_7",
         "pct_30",
         "sma20",
-        "days_to_event"
+        "vol_30"
       ]
     }
   },
@@ -237,8 +204,8 @@
       "purpose": "Fund Raising",
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "10-Jun-2026",
-      "estimated_EPS": 19.91892,
-      "days_to_event": 4,
+      "estimated_EPS": 19.91705,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 285.6499938964844,
@@ -262,6 +229,37 @@
     }
   },
   {
+    "symbol": "ZEEL",
+    "company": "Zee Entertainment Enterprises Limited",
+    "input": {
+      "symbol": "ZEEL",
+      "company": "Zee Entertainment Enterprises Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider raising of funds by issue of equity shares and/or other securities convertible into equity shares, in one or more tranches",
+      "date": "10-Jun-2026",
+      "estimated_EPS": 8.32763,
+      "days_to_event": 3,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 112.2699966430664,
+      "pct_7": 0.22753113674726366,
+      "pct_30": 0.18766527126682653,
+      "sma20": 90.36849937438964,
+      "vol_30": 46761830.6019038
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score and dilution-related terms indicate potential decline in stock price.",
+      "action": "Sell ZEEL stock before the fund-raising event to avoid potential dilution.",
+      "features_used": [
+        "sentiment_score",
+        "sentiment_reason",
+        "days_to_event"
+      ]
+    }
+  },
+  {
     "symbol": "SRPL",
     "company": "Shree Ram Proteins Limited",
     "input": {
@@ -271,7 +269,7 @@
       "bm_desc": "SRPL : 15-Jun-2026 :  The Company has informed the Exchange that a Board meeting to be held on May 29, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on Jun 15, 2026,  To consider and approve the financial results for the period ended March 31, 2026",
       "date": "15-Jun-2026",
       "estimated_EPS": null,
-      "days_to_event": 9,
+      "days_to_event": 8,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 0.4000000059604645,
@@ -283,14 +281,14 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has a negative sentiment score and recent price decline, but the days to event for financial results are relatively short.",
-      "action": "Hold the stock until the financial results are announced on June 15, 2026.",
+      "rationale": "The stock has a neutral sentiment score and recent price movement is relatively stable.",
+      "action": "Maintain current investment position in Shree Ram Proteins Limited.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
-        "days_to_event"
+        "vol_30"
       ]
     }
   },
@@ -304,7 +302,7 @@
       "bm_desc": "To consider Fund Raising (Equity & Debt), subject to the approval of the Shareholders of the Bank",
       "date": "25-Jun-2026",
       "estimated_EPS": 33.1,
-      "days_to_event": 19,
+      "days_to_event": 18,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 171.8300018310547,
@@ -316,8 +314,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is still 19 days away.",
-      "action": "Hold the stock until the event date and reassess based on the actual outcome.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The event is still 18 days away.",
+      "action": "Hold the stock until the event date and reassess based on the outcome.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -337,7 +335,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "18-Jul-2026",
       "estimated_EPS": 16.8,
-      "days_to_event": 42,
+      "days_to_event": 41,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 380.95001220703125,
@@ -369,7 +367,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "20-Jul-2026",
       "estimated_EPS": 437.77094,
-      "days_to_event": 44,
+      "days_to_event": 43,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 10912.0,
@@ -385,6 +383,8 @@
       "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
       "features_used": [
         "sentiment_score",
+        "estimated_EPS",
+        "days_to_event",
         "pct_7",
         "pct_30",
         "sma20",
@@ -402,7 +402,7 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "27-Jul-2026",
       "estimated_EPS": 68.63974,
-      "days_to_event": 51,
+      "days_to_event": 50,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 1435.5,
