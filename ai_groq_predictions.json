@@ -9,14 +9,14 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "17-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
       "last_price": 35.97999954223633,
       "pct_7": 0.04108790834836973,
       "pct_30": 0.24240333838710493,
       "sma20": 32.78800010681152,
-      "vol_30": 2977325.406953972
+      "vol_30": 3097572.4392229
     },
     "prediction": {
       "recommendation": "sell",
@@ -41,7 +41,7 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "17-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms"
     },
@@ -49,11 +49,10 @@
       "recommendation": "sell",
       "confidence": 0.8,
       "rationale": "Negative sentiment score and dilution-related terms indicate potential negative impact on the company's value.",
-      "action": "Sell your shares of Capital Infra Trust (CAPINVIT) before the upcoming event.",
+      "action": "Sell your shares in Capital Infra Trust before the upcoming event.",
       "features_used": [
         "sentiment_analysis",
-        "event_analysis",
-        "company_data"
+        "event_analysis"
       ]
     }
   },
@@ -67,14 +66,14 @@
       "bm_desc": "To consider Fund Raising and other business matters",
       "date": "17-Aug-2026",
       "estimated_EPS": 2.1,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 42.650001525878906,
-      "pct_7": 0.10952141127925841,
-      "pct_30": 0.153014317128485,
-      "sma20": 40.13999996185303,
-      "vol_30": 7555674.994556647
+      "last_price": 41.65999984741211,
+      "pct_7": 0.07787834935835125,
+      "pct_30": 0.15146488380356304,
+      "sma20": 40.276000022888184,
+      "vol_30": 7570500.4359954065
     },
     "prediction": {
       "recommendation": "hold",
@@ -101,11 +100,11 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026 and other business matters",
       "date": "17-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 831.4000244140625,
-      "pct_7": 0.036723002380139036,
+      "last_price": 849.3499755859375,
+      "pct_7": -0.03345664229196299,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -113,8 +112,8 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and lack of recent price movement",
-      "action": "Monitor the stock for potential price movement before the upcoming event.",
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in INDOMIM.",
       "features_used": [
         "sentiment_score",
         "pct_7"
@@ -128,23 +127,89 @@
       "symbol": "SRPL",
       "company": "Shree Ram Proteins Limited",
       "purpose": "Financial Results",
-      "bm_desc": "SRPL : 17-Aug-2026 :  The Company has informed the Exchange that a Board meeting to be held on July 31, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on August 17, 2026",
+      "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "17-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 3,
+      "days_to_event": 2,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
       "last_price": 0.3400000035762787,
       "pct_7": 0.030303000199675578,
       "pct_30": -0.028571401810159047,
-      "sma20": 0.33700000643730166,
-      "vol_30": 262266.0502940351
+      "sma20": 0.3365000069141388,
+      "vol_30": 262266.05029403506
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Hold SRPL stock until more information is available about the upcoming financial results.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "SRPL",
+    "company": "Shree Ram Proteins Limited",
+    "input": {
+      "symbol": "SRPL",
+      "company": "Shree Ram Proteins Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "SRPL : 17-Aug-2026 :  The Company has informed the Exchange that a Board meeting to be held on July 31, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on August 17, 2026",
+      "date": "17-Aug-2026",
+      "estimated_EPS": null,
+      "days_to_event": 2,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 0.3400000035762787,
+      "pct_7": 0.030303000199675578,
+      "pct_30": -0.028571401810159047,
+      "sma20": 0.3365000069141388,
+      "vol_30": 262266.05029403506
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
       "rationale": "The stock has a low sentiment score and recent price fluctuations are minor, indicating a stable market position.",
       "action": "Maintain current investment in Shree Ram Proteins Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "ANNAPURNA",
+    "company": "Annapurna Swadisht Limited",
+    "input": {
+      "symbol": "ANNAPURNA",
+      "company": "Annapurna Swadisht Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "ANNAPURNA : 18-Aug-2026 :  The Company has informed the Exchange that a Board meeting to be held on August 14, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on August 18, 2026.",
+      "date": "18-Aug-2026",
+      "estimated_EPS": null,
+      "days_to_event": 3,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 153.8000030517578,
+      "pct_7": 0.11773253073880707,
+      "pct_30": 0.1546547040201527,
+      "sma20": 137.98750038146972,
+      "vol_30": 60792.27754197263
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "The stock has a low sentiment score and recent price movement is not significant, indicating a neutral market sentiment.",
+      "action": "Monitor the stock's performance over the next few days as the company's board meeting is scheduled to take place.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -164,20 +229,20 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026 and other business matters",
       "date": "18-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 4.329999923706055,
-      "pct_7": -0.02477480452630154,
-      "pct_30": -0.035634711707850264,
-      "sma20": 4.462500023841858,
-      "vol_30": 56896.691816280334
+      "last_price": 4.690000057220459,
+      "pct_7": 0.06590908081078362,
+      "pct_30": 0.03761063650692731,
+      "sma20": 4.471500015258789,
+      "vol_30": 60552.09823323322
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price fluctuations suggest no strong reason to buy or sell.",
-      "action": "Hold BAGFILMS stock until more information is available about the upcoming financial results.",
+      "rationale": "Neutral sentiment score and stable price movement over the past month.",
+      "action": "Monitor the stock for potential price fluctuations before making any investment decisions.",
       "features_used": [
         "sentiment_score",
         "pct_7",
@@ -196,24 +261,24 @@
       "bm_desc": "Pursuant to Regulations 29(1)(d) of the Listing Regulations, we wish to inform you that a meeting of the Finance Committee of the Board of directors of Balkrishna Industries Limited ( Company ) is scheduled to be held on 18th August, 2026 inter-alia, to consider and approve the proposal of raising funds through issuance of non-convertible debentures on a private placement basis in one or more tranches ( Debentures ).",
       "date": "18-Aug-2026",
       "estimated_EPS": 100.5711,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 2496.89990234375,
-      "pct_7": 0.002006501142079342,
-      "pct_30": 0.13062869700078839,
-      "sma20": 2256.639501953125,
-      "vol_30": 929991.1186128564
+      "last_price": 2410.0,
+      "pct_7": -0.03661660300623992,
+      "pct_30": 0.11703651097187229,
+      "sma20": 2270.2613159179687,
+      "vol_30": 927499.7711644474
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.7,
-      "rationale": "The company is planning to raise funds through non-convertible debentures, which may lead to dilution of shareholder value.",
-      "action": "Hold the stock until more information is available about the fund-raising plan.",
+      "rationale": "The company is planning to raise funds through non-convertible debentures, which may lead to dilution of shareholder value. However, the recent price movement suggests a potential recovery.",
+      "action": "Hold the stock until more information is available about the fund-raising plan and its potential impact on the company's financials.",
       "features_used": [
         "sentiment analysis",
         "event analysis",
-        "technical indicators"
+        "technical analysis"
       ]
     }
   },
@@ -227,26 +292,27 @@
       "bm_desc": "To consider Fund Raising",
       "date": "18-Aug-2026",
       "estimated_EPS": 39.91668,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 315.0,
-      "pct_7": -0.03448275862068961,
-      "pct_30": 0.031603057814293845,
-      "sma20": 318.44749908447267,
-      "vol_30": 3023263.9370928206
+      "last_price": 319.45001220703125,
+      "pct_7": -0.013129440345160726,
+      "pct_30": 0.031815264565021595,
+      "sma20": 318.64250030517576,
+      "vol_30": 2972648.304188965
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is positive. The company is planning a fund raising, which may impact the stock price.",
-      "action": "Hold the stock until the fund raising event and reassess the situation afterwards.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the recent price movement is slightly positive. The event is near, and the company is raising funds.",
+      "action": "Hold the stock until the event date and reassess based on the outcome.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
         "sma20",
-        "vol_30"
+        "vol_30",
+        "days_to_event"
       ]
     }
   },
@@ -260,19 +326,19 @@
       "bm_desc": "As per intimation letter",
       "date": "18-Aug-2026",
       "estimated_EPS": 27.1,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 178.02000427246094,
-      "pct_7": -0.06868945876678323,
-      "pct_30": -0.07401818323817455,
-      "sma20": 190.59100112915038,
-      "vol_30": 248200.54978411467
+      "last_price": 179.9199981689453,
+      "pct_7": -0.04607392191975479,
+      "pct_30": -0.08905876576935368,
+      "sma20": 189.19650115966797,
+      "vol_30": 247486.9967300523
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the days to event are low and the price has shown a slight decline in the last 7 days.",
+      "rationale": "The stock has a negative sentiment score due to dilution-related terms, but the days to event are low and the price has shown a slight recovery in the last 7 days.",
       "action": "Hold the stock for now and reassess after the event.",
       "features_used": [
         "sentiment_score",
@@ -292,26 +358,24 @@
       "bm_desc": "consider and approve the first interim dividend on equity shares, for the Financial Year 2026-27.",
       "date": "18-Aug-2026",
       "estimated_EPS": 17.70988,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 343.25,
-      "pct_7": -0.05205745867379763,
-      "pct_30": -0.010521746787846675,
-      "sma20": 348.62500457763673,
-      "vol_30": 508204.0280735308
+      "last_price": 345.1000061035156,
+      "pct_7": -0.05153222395347612,
+      "pct_30": -0.0028893382905659237,
+      "sma20": 348.2200042724609,
+      "vol_30": 513275.24702416686
     },
     "prediction": {
       "recommendation": "buy",
       "confidence": 0.8,
-      "rationale": "The stock has a positive sentiment due to the announcement of a dividend, and the recent price drop presents a buying opportunity.",
+      "rationale": "The stock has a positive sentiment due to the announcement of a dividend, and the recent price drop may present a buying opportunity.",
       "action": "Buy IGIL stock before the dividend announcement on 18-Aug-2026.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "dividend_announcement",
+        "recent_price_drop"
       ]
     }
   },
@@ -325,14 +389,14 @@
       "bm_desc": "To consider and recommend dividend",
       "date": "18-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
       "last_price": 660.5,
       "pct_7": -0.13569747520356967,
       "pct_30": -0.08123525167725687,
       "sma20": 741.5100006103515,
-      "vol_30": 574544.0032794633
+      "vol_30": 570414.182960969
     },
     "prediction": {
       "recommendation": "buy",
@@ -353,28 +417,28 @@
       "symbol": "SIGMA",
       "company": "Sigma Solve Limited",
       "purpose": "Dividend",
-      "bm_desc": "To consider revise amount of Final dividend for the year ended March 31 2026",
+      "bm_desc": "To consider dividend",
       "date": "18-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 46.04999923706055,
-      "pct_7": -0.04242048053762715,
-      "pct_30": 0.21120459449276918,
-      "sma20": 43.42600002288818,
-      "vol_30": 1215971.5482734153
+      "last_price": 45.689998626708984,
+      "pct_7": -0.03709171987211235,
+      "pct_30": 0.21257957156738505,
+      "sma20": 43.87099990844727,
+      "vol_30": 1215181.2580696938
     },
     "prediction": {
       "recommendation": "hold",
-      "confidence": 0.5,
-      "rationale": "Neutral sentiment score and recent price movement suggests no strong reason to buy or sell.",
-      "action": "Hold the stock until more information about the dividend revision is available.",
+      "confidence": 0.6,
+      "rationale": "The stock has a recent positive trend, but the sentiment score is low due to a recent dividend mention.",
+      "action": "Hold the stock for the upcoming dividend event.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "days_to_event"
       ]
     }
   },
@@ -385,27 +449,126 @@
       "symbol": "SIGMA",
       "company": "Sigma Solve Limited",
       "purpose": "Dividend",
-      "bm_desc": "To consider dividend",
+      "bm_desc": "To consider revise amount of Final dividend for the year ended March 31 2026",
       "date": "18-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 4,
+      "days_to_event": 3,
       "sentiment_score": 0.2,
       "sentiment_reason": "dividend mentioned",
-      "last_price": 46.04999923706055,
-      "pct_7": -0.04242048053762715,
-      "pct_30": 0.21120459449276918,
-      "sma20": 43.42600002288818,
-      "vol_30": 1215971.5482734153
+      "last_price": 45.689998626708984,
+      "pct_7": -0.03709171987211235,
+      "pct_30": 0.21257957156738505,
+      "sma20": 43.87099990844727,
+      "vol_30": 1215181.2580696938
     },
     "prediction": {
-      "recommendation": "buy",
-      "confidence": 0.8,
-      "rationale": "Dividend consideration and recent price increase suggest a potential buying opportunity.",
-      "action": "Buy SIGMA stock before the dividend event.",
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price movement suggests no strong reason to buy or sell.",
+      "action": "Hold the stock SIGMA until more information about the revised dividend amount is available.",
       "features_used": [
         "sentiment_score",
+        "pct_7",
         "pct_30",
         "sma20"
+      ]
+    }
+  },
+  {
+    "symbol": "CPPLUS",
+    "company": "Aditya Infotech Limited",
+    "input": {
+      "symbol": "CPPLUS",
+      "company": "Aditya Infotech Limited",
+      "purpose": "Fund Raising",
+      "bm_desc": "A meeting of the Board of Directors of the Company is scheduled to be held on August 19, 2026, inter alia, to consider and approve the proposal for fund raising by the Company.",
+      "date": "19-Aug-2026",
+      "estimated_EPS": 73.7,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 3519.0,
+      "pct_7": -0.0375252866375374,
+      "pct_30": -0.028210947815355936,
+      "sma20": 3574.302978515625,
+      "vol_30": 102490.09959114245
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.8,
+      "rationale": "Negative sentiment score and recent price decline due to fund raising proposal.",
+      "action": "Sell CPPLUS before the fund raising proposal is approved on August 19, 2026.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "DHANBANK",
+    "company": "Dhanlaxmi Bank Limited",
+    "input": {
+      "symbol": "DHANBANK",
+      "company": "Dhanlaxmi Bank Limited",
+      "purpose": "Other business matters",
+      "bm_desc": "Consider and approve  Dhanlaxmi Bank Limited Employee Stock Option Plan   2025  in accordance with the Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021, subject to the approval of the shareholders of the Bank.",
+      "date": "19-Aug-2026",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "",
+      "last_price": 32.2599983215332,
+      "pct_7": -0.013455731839154161,
+      "pct_30": -0.0511765199549058,
+      "sma20": 33.21750030517578,
+      "vol_30": 3080231.7842195635
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in Dhanlaxmi Bank Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "pct_30",
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "DUCON",
+    "company": "Ducon Infratechnologies Limited",
+    "input": {
+      "symbol": "DUCON",
+      "company": "Ducon Infratechnologies Limited",
+      "purpose": "Fund Raising/Other business matters",
+      "bm_desc": "Intimation of Board Meeting to be held on Wednesday, 19th August, 2026",
+      "date": "19-Aug-2026",
+      "estimated_EPS": null,
+      "days_to_event": 4,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "dilution-related terms",
+      "last_price": 3.0899999141693115,
+      "pct_7": 0.003246750230832429,
+      "pct_30": 0.019801961500356402,
+      "sma20": 3.0485000014305115,
+      "vol_30": 150533.98628965495
+    },
+    "prediction": {
+      "recommendation": "sell",
+      "confidence": 0.7,
+      "rationale": "Negative sentiment score (-0.3) and dilution-related terms indicate potential negative impact on the company's financials.",
+      "action": "Consider selling DUCON stock before the upcoming board meeting on 19th August 2026.",
+      "features_used": [
+        "sentiment_score",
+        "sentiment_reason",
+        "days_to_event",
+        "last_price"
       ]
     }
   },
@@ -419,22 +582,23 @@
       "bm_desc": "GULFPETRO : 19-Aug-2026 :  The Company has informed the Exchange that a Board meeting to be held on August 14, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on August 19, 2026, To consider Fund Raising and other business matters. Trading Window will remain closed until 48 hours after the information become public.",
       "date": "19-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 62.75,
-      "pct_7": 0.14653755755240705,
-      "pct_30": 0.6227050160657261,
-      "sma20": 47.70000019073486,
-      "vol_30": 236083.41484412743
+      "last_price": 61.720001220703125,
+      "pct_7": 0.18509982816283665,
+      "pct_30": 0.5629272878546865,
+      "sma20": 48.86050033569336,
+      "vol_30": 233956.371400421
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.7,
-      "rationale": "The company is rescheduling a board meeting to consider fund raising and other business matters, which may lead to a potential stock price fluctuation. The sentiment score is negative due to dilution-related terms.",
+      "rationale": "The company is rescheduling a board meeting to consider fund raising and other business matters, which may lead to a potential stock price fluctuation. However, the sentiment score is negative due to dilution-related terms.",
       "action": "Hold the stock until the meeting outcome is announced to avoid potential volatility.",
       "features_used": [
         "sentiment_score",
+        "sentiment_reason",
         "days_to_event",
         "last_price",
         "pct_7",
@@ -454,11 +618,11 @@
       "bm_desc": "Consideration and approval of Statement of unaudited consolidated/standalone financial results for the quarter and three months period ended 30 June 2026.",
       "date": "19-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 534.3499755859375,
-      "pct_7": 0.03979363728420049,
+      "last_price": 528.9500122070312,
+      "pct_7": -0.004704111285307677,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -466,12 +630,11 @@
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment score and lack of recent price movement suggest holding the stock.",
-      "action": "Hold Lohia Corp Limited stock until more information is available.",
+      "rationale": "Neutral sentiment score and recent price movement suggest no strong reason to buy or sell.",
+      "action": "Maintain current investment position in Lohia Corp Limited.",
       "features_used": [
         "sentiment_score",
-        "pct_7",
-        "last_price"
+        "pct_7"
       ]
     }
   },
@@ -485,25 +648,26 @@
       "bm_desc": "To consider Fund Raising",
       "date": "19-Aug-2026",
       "estimated_EPS": 37.28,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": -0.3,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 1360.0,
-      "pct_7": -0.03463944288525411,
-      "pct_30": -0.10118298728188835,
-      "sma20": 1432.3699951171875,
-      "vol_30": 86112.40022407097
+      "last_price": 1435.5999755859375,
+      "pct_7": 0.02228863182332863,
+      "pct_30": -0.023069087726480086,
+      "sma20": 1423.7999938964845,
+      "vol_30": 84920.77843759515
     },
     "prediction": {
       "recommendation": "sell",
       "confidence": 0.7,
-      "rationale": "Negative sentiment score and recent price decline indicate potential for further decline.",
+      "rationale": "Negative sentiment score and recent price drop indicate potential decline in stock value.",
       "action": "Sell WHEELS stock before the fund raising event to avoid potential dilution.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -517,11 +681,11 @@
       "bm_desc": "To consider and approve the financial results for the period ended Jun 30, 2026",
       "date": "19-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 5,
+      "days_to_event": 4,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 150.39999389648438,
-      "pct_7": 0.17490821303373139,
+      "last_price": 172.5,
+      "pct_7": 0.32968477361463244,
       "pct_30": null,
       "sma20": null,
       "vol_30": null
@@ -530,11 +694,9 @@
       "recommendation": "hold",
       "confidence": 0.5,
       "rationale": "Neutral sentiment score and lack of recent price movement",
-      "action": "Monitor the stock for potential price movement before the financial results announcement on August 19, 2026.",
+      "action": "Monitor the stock for potential price movement before the financial results announcement.",
       "features_used": [
         "sentiment_score",
-        "days_to_event",
-        "last_price",
         "pct_7"
       ]
     }
@@ -549,25 +711,57 @@
       "bm_desc": "To consider other business matters",
       "date": "20-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 74.81999969482422,
-      "pct_7": -0.04015391117329037,
-      "pct_30": -0.003197413690057549,
-      "sma20": 76.48099937438965,
-      "vol_30": 476098.9015894159
+      "last_price": 74.95999908447266,
+      "pct_7": -0.03588425614826163,
+      "pct_30": 0.013657906395011299,
+      "sma20": 76.63099937438965,
+      "vol_30": 476283.4278022028
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "The stock has shown a slight decline in the last 7 days, but the 30-day percentage change is minimal. The sentiment score is neutral.",
-      "action": "Hold the stock until the next event date to assess its impact on the market.",
+      "rationale": "The stock has shown a slight decline in the last 7 days, but a moderate increase in the last 30 days. The sentiment score is neutral.",
+      "action": "Hold the stock for the next 5 days to see how it performs before the event.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
+      ]
+    }
+  },
+  {
+    "symbol": "MANIPALHOS",
+    "company": "Manipal Health Enterprises Limited",
+    "input": {
+      "symbol": "MANIPALHOS",
+      "company": "Manipal Health Enterprises Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve, inter alia, the Unaudited Financial Results (both Standalone and Consolidated) of the Company for the quarter ended June 30, 2026",
+      "date": "20-Aug-2026",
+      "estimated_EPS": 12.7,
+      "days_to_event": 5,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 706.9500122070312,
+      "pct_7": 0.08677941922679677,
+      "pct_30": null,
+      "sma20": null,
+      "vol_30": null
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "Neutral sentiment score and recent price movement suggest a stable stock, but no clear indication of growth or decline.",
+      "action": "Maintain current investment position in Manipal Health Enterprises Limited.",
+      "features_used": [
+        "sentiment_score",
+        "pct_7",
+        "last_price"
       ]
     }
   },
@@ -581,27 +775,27 @@
       "bm_desc": "We hereby inform you that a meeting of the Board of Directors of the Company is scheduled to be held on 20-08-2026 to   i) convene the 33rd  Annual General Meeting of the Company and to approve the Notice, Directors Report etc.ii) consider the Valuation Report on the wholly-owned subsidiary of the company, M/s.Premier Tissues India Ltd.The trading window for dealing in Company s Shares stands closed from 14th  August, 2026 and shall re-open after 48 hours from the conclusion of the Board Meeting.",
       "date": "20-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 68.62999725341797,
-      "pct_7": -0.053640369135625976,
-      "pct_30": -0.07456858327417881,
-      "sma20": 72.25599899291993,
-      "vol_30": 33408.57999576357
+      "last_price": 66.77999877929688,
+      "pct_7": -0.0850801379123639,
+      "pct_30": -0.08720618594114149,
+      "sma20": 71.87649879455566,
+      "vol_30": 34212.510776568
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.7,
-      "rationale": "The stock price is relatively stable with a slight decline in the last 7 and 30 days. The upcoming Board Meeting may lead to market volatility.",
-      "action": "Hold the stock until the market reaction to the Board Meeting is clear.",
+      "rationale": "The company is announcing a Board Meeting to discuss valuation and AGM, which may impact stock price. However, the sentiment score is neutral and the stock has shown moderate price fluctuations.",
+      "action": "Hold the stock until the Board Meeting outcome is clear.",
       "features_used": [
         "sentiment_score",
+        "days_to_event",
         "pct_7",
         "pct_30",
         "sma20",
-        "vol_30",
-        "days_to_event"
+        "vol_30"
       ]
     }
   },
@@ -615,14 +809,14 @@
       "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and Fund Raising",
       "date": "20-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 6,
+      "days_to_event": 5,
       "sentiment_score": -0.25,
       "sentiment_reason": "dilution-related terms",
-      "last_price": 2.4100000858306885,
-      "pct_7": 0.11059907884732856,
-      "pct_30": 0.4876543695907405,
-      "sma20": 2.033500003814697,
-      "vol_30": 401517.345356808
+      "last_price": 2.369999885559082,
+      "pct_7": 0.0723981197512853,
+      "pct_30": 0.4363635877603991,
+      "sma20": 2.0664999961853026,
+      "vol_30": 401266.8060200826
     },
     "prediction": {
       "recommendation": "sell",
@@ -639,6 +833,37 @@
     }
   },
   {
+    "symbol": "FLEXITUFF",
+    "company": "Flexituff Ventures International Limited",
+    "input": {
+      "symbol": "FLEXITUFF",
+      "company": "Flexituff Ventures International Limited",
+      "purpose": "Financial Results",
+      "bm_desc": "The Company has informed the Exchange that a Board meeting to be held on August 14, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on August 21, 2026,  to consider and approve the financial results for the qaurter ended Jun 30, 2026",
+      "date": "21-Aug-2026",
+      "estimated_EPS": null,
+      "days_to_event": 6,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "",
+      "last_price": 3.2699999809265137,
+      "pct_7": -0.1439790476251106,
+      "pct_30": -0.35375493717293427,
+      "sma20": 4.253999972343445,
+      "vol_30": 55979.236018571995
+    },
+    "prediction": {
+      "recommendation": "hold",
+      "confidence": 0.5,
+      "rationale": "The stock has a negative sentiment score and recent price decline, but the company is about to release its financial results which may impact the stock price.",
+      "action": "Hold the stock until the financial results are released on August 21, 2026.",
+      "features_used": [
+        "sentiment_score",
+        "recent_price_decline",
+        "upcoming_financial_results"
+      ]
+    }
+  },
+  {
     "symbol": "GLOBE",
     "company": "GLOBE ENTERPRISES (INDIA) LIMITED",
     "input": {
@@ -648,14 +873,14 @@
       "bm_desc": "To consider other business matters",
       "date": "21-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 7,
+      "days_to_event": 6,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 2.0,
-      "pct_7": -0.03381639396149072,
-      "pct_30": -0.06976748312273762,
-      "sma20": 2.103000020980835,
-      "vol_30": 385726.7991136544
+      "last_price": 2.0299999713897705,
+      "pct_7": -0.009756088483765968,
+      "pct_30": -0.05581400867666164,
+      "sma20": 2.096000015735626,
+      "vol_30": 384163.6499524425
     },
     "prediction": {
       "recommendation": "hold",
@@ -666,7 +891,8 @@
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30"
       ]
     }
   },
@@ -680,26 +906,24 @@
       "bm_desc": "To consider other business matters",
       "date": "22-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 8,
+      "days_to_event": 7,
       "sentiment_score": 0.0,
       "sentiment_reason": "",
-      "last_price": 103.13999938964844,
-      "pct_7": 0.04003228087127586,
-      "pct_30": 0.15137304399889961,
-      "sma20": 99.08099975585938,
-      "vol_30": 75168.18018317707
+      "last_price": 99.41000366210938,
+      "pct_7": 0.005258411120137696,
+      "pct_30": 0.0843150450611112,
+      "sma20": 98.93849983215333,
+      "vol_30": 75107.2437105999
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.5,
-      "rationale": "Neutral sentiment and stable price movement over the past month.",
-      "action": "Maintain current investment position in Par Drugs and Chemicals Limited.",
+      "rationale": "Neutral sentiment and stable price movement over the past 7 days.",
+      "action": "Hold the stock until the upcoming event on 29-Aug-2026.",
       "features_used": [
         "sentiment_score",
         "pct_7",
-        "pct_30",
-        "sma20",
-        "vol_30"
+        "sma20"
       ]
     }
   },
@@ -713,25 +937,27 @@
       "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026",
       "date": "25-Aug-2026",
       "estimated_EPS": null,
-      "days_to_event": 11,
+      "days_to_event": 10,
       "sentiment_score": 0.05,
       "sentiment_reason": "",
-      "last_price": 116.33000183105469,
-      "pct_7": -0.027097080137483465,
-      "pct_30": -0.05422762738979925,
-      "sma20": 118.73499984741211,
-      "vol_30": 20094.01170864411
+      "last_price": 116.69999694824219,
+      "pct_7": -0.03370042070012658,
+      "pct_30": -0.03681088295693058,
+      "sma20": 118.52599983215332,
+      "vol_30": 20003.26149441118
     },
     "prediction": {
       "recommendation": "hold",
       "confidence": 0.6,
-      "rationale": "The stock has shown a slight decline in the last 7 and 30 days, but the SMA20 is still above the current price. The sentiment score is low, indicating a bearish market sentiment.",
-      "action": "Hold the stock until the financial results are announced and assess the impact on the stock price.",
+      "rationale": "The stock has a neutral sentiment score and recent price movements are slightly negative, but the event is approaching and may impact the stock price.",
+      "action": "Monitor the stock closely in the next 10 days as the financial results are announced.",
       "features_used": [
         "sentiment_score",
         "pct_7",
         "pct_30",
-        "sma20"
+        "sma20",
+        "vol_30",
+        "days_to_event"
       ]
     }
   }
